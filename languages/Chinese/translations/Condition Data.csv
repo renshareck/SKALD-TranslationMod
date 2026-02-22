@@ -1,0 +1,77 @@
+original,translate
+#Magical Conditions,#魔法状态
+Barkskinned,皮甲皮肤
+Fortified Strength,增强力量
+Blessed,神恩加护
+Blurred,模糊
+Clarity of Mind,明晰心灵
+Condemned,定罪
+Diamondskinned,玻璃皮肤
+Fell Light,恶灵之光
+The target emits a sinister glow,目标发出邪恶的光芒
+Fortified Awareness,增强感知
+Fortify Initiative,增强先攻
+Fortified Will,增强意志
+Heroic Inspiration,英雄鼓舞
+Illuminated,照明
+"The target glows softly, emitting lighting",目标柔和地发光，发出光芒
+Immunity,免疫
+Acid,酸
+Electricity,电击
+Fire,火焰
+Panic,恐慌
+Lesser Invisibility,轻型隐形
+Invisible,隐形
+Regeneration - Greater,复原 - 强化
+Regeneration - Lesser,复原 - 轻型
+Acid Resistance,酸抗性
+Electric Resistance,电抗性
+Fire Resistance,火抗性
+Fortified Agility,增强矫捷
+Slowed,速度减缓
+Stoneskinned,岩石之肤
+Thornclad,刺肤
+Weakened,虚弱
+#Natural Conditions,#自然状态
+Negative Condition,负面状态
+The conditions that currently affects this character,该角色当前受到的影响状态
+Fearful,恐惧
+Sleeping,睡眠中
+Bleeding,出血
+Bleeding causes the character to lose 10% of their max Vitality at the start of each turn,出血会使角色在每回合开始时损失其最大生命力的10%
+Lesser Blindness,暂盲
+Enthralled,被魅惑
+Confused,迷乱
+Deafened,失聪
+Moderately Diseased,中度疾病
+Severly Diseased,重度疾病
+Weakly Diseased,轻度疾病
+Disrupted,打乱
+Exhausted,疲惫
+Immobilized,无法动弹
+Injured Arm,受伤的胳膊
+Injured Head,受伤的头部
+Injured Leg,受伤的腿部
+Injured Torso,受伤的躯干
+Insane,疯狂
+Intoxicated,醉酒
+Nauseous,恶心
+Panicked,惊慌
+Paralyzed,麻痹
+Moderate Poison,中度中毒
+Strong Poison,强毒
+Poison causes the character to lose 10% of their max Vitality at the start of each turn,毒性会在每回合开始时使角色失去其最大生命力的10%
+Weak Poison,弱毒
+Mute,哑口无言
+Stunned,木讷
+#Tactical Conditions,#战术状态
+Defending,防御
+Greater Frenzy,强烈狂暴
+Lesser Frenzy,轻微狂暴
+Hamstrung,膝关节受创
+Greater Haste,强烈敏捷
+Lesser Haste,轻微敏捷
+Inspired,激励
+Marked,标记
+Motivated,激动
+Removes Conditions with Tag,移除带有特定标签的状态条件

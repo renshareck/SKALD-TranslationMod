@@ -1,0 +1,2725 @@
+original,translate
+#Weapons,#武器
+Crude Broadsword,粗制滥造阔剑
+Crude Club,粗制滥造战锤
+Crude Cutlass,粗制滥造刀剑
+Crude Dagger,粗制滥造匕首
+Crude Greataxe,粗制滥造巨斧
+Crude Greathammer,粗制滥造重锤
+Crude Handaxe,粗制滥造双手斧
+Crude Longsword,粗制滥造长剑
+Crude Mace,粗制滥造战锤
+Crude Rapier,粗制滥造长矛
+Crude Scimitar,粗制滥造短剑
+Crude Shortsword,粗制滥造双手剑
+Crude Two-Hander,粗制滥造战斧
+Crude Waraxe,阔剑
+Crude Warhammer,战锤
+Broadsword,刀剑
+Club,战锤
+Cutlass,刀剑
+Dagger,匕首
+Greataxe,大战斧
+Greathammer,大战锤
+Handaxe,手斧
+Light Club,轻拳棍
+Longsword,长剑
+Mace,长矛
+Rapier,轻剑
+Scimitar,弯刀
+Shortsword,短剑
+Two-Hander,双手武器
+Waraxe,战斧
+Warhammer,战锤
+Fine Broadsword,精致长剑
+Fine Club,精致拳棍
+Fine Cutlass,精致弯刀
+Fine Dagger,精致匕首
+Fine Greataxe,精致大战斧
+Fine Greathammer,精致大战锤
+Fine Handaxe,精致手斧
+Fine Longsword,精致长剑
+Fine Mace,精良战锤
+Fine Rapier,精良长矛
+Fine Scimitar,精良弯刀
+Fine Shortsword,精良短剑
+Fine Two-Hander,精良双手剑
+Fine Waraxe,精良战斧
+Fine Warhammer,精良战锤
+Masterwork Broadsword,精工阔剑
+Masterwork Club,精工棍棒
+Masterwork Cutlass,精工刀剑
+Masterwork Dagger,精工匕首
+Masterwork Greataxe,精工巨斧
+Masterwork Greathammer,精工巨锤
+Masterwork Handaxe,精工双手斧
+Masterwork Longsword,精工长柄武器
+Masterwork Mace,精工战锤
+Masterwork Rapier,精工长矛
+Masterwork Scimitar,精工弯刀
+Masterwork Shortsword,精工短剑
+Masterwork Two-Hander,精工双手剑
+Masterwork Waraxe,精工战斧
+Masterwork Warhammer,精工战锤
+The Sparrowhawk,燕隼
+A legendary rapier of unrivaled quality,一件无与伦比的传奇长剑
+It also adds +2 to the wielder’s initiative,它还能为使用者增加+2的先攻值
+Ancient Dagger,古老匕首
+"An ancient dagger, carved from a strange greenish stone",一把用一种奇异的绿石雕刻而成的古老匕首
+It looks almost ritual and you suspect it might be of some value to someone with the right interest,它看起来几乎像是一件仪式用品，你怀疑它对某些有特殊兴趣的人可能有价值
+Mathias's Sword,马蒂亚斯之剑
+A beautifully crafted bastard-sword,一把工艺精美的异形剑
+The Lake Blade,湖刃
+A stunningly wrought longsword of ancient design,一把古朴精美的长剑
+The bluish sheen of its metal never seems to lose its luster; giving it its name,它的蓝色光泽从未失去光彩，因此得名
+You recovered this sword from the crypt under Horryn,你从霍里恩的地穴下找回了这把剑
+Two-Hander,双手剑
+A large sword that must be wielded two-handed,一种必须双手使用的大型剑
+A cutlass is a curved sword favored by sailors and swordsmen of Yom-Baria,刀锋剑是尤姆-巴利亚的水手和剑士们偏爱的弯刀
+Crude Longbow,粗制长弓
+Crude Shortbow,粗制短弓
+Crude Composite Bow,粗制复合弓
+Composite Longbow,复合长弓
+Longbow,长弓
+Shortbow,短弓
+Fine Longbow,精良长弓
+Fine Shortbow,精良短弓
+Fine Composite Bow,精良复合弓
+Masterwork Longbow,精工长弓
+Masterwork Shortbow,精工短弓
+Masterwork Composite Bow,精工复合弓
+#Weapon Types,武器类型
+Light Axe,轻型战斧
+Medium Axe,中型战斧
+Heavy Axe,重型战斧
+Light Blade,轻型匕首
+Medium Blade,中型匕首
+Heavy Blade,重型匕首
+Light Club,轻型棍棒
+Medium Club,中型棍棒
+Heavy Club,重型棍棒
+Light Bow,轻型弓
+Medium Bow,中型弓
+Heavy Bow,重型弓
+#Weapons - Ammo,#武器 - 弹药
+Bodkin Arrow,普通箭矢
+Broadhead Arrow,宽头箭矢
+Fire Arrow,火箭矢
+Hunting Arrow,猎箭矢
+Poison Arrow,毒箭矢
+Poor Arrow,次级箭矢
+Ammo,弹药
+#Armor,#护甲
+Poor Breastplate,次级胸甲
+Poor Chainmail,次级环甲
+Poor Fullplate,次级全甲
+Poor Halfplate,次级半甲
+Poor Leather Armor,次级皮甲
+Poor Padded Armor,次级充气甲
+Poor Scalemail,次级鳞甲
+Poor Studded Leather,次级钉鳞甲
+Ancient Halfplate,古老的半甲
+Fine Breastplate,精良胸甲
+Fine Chainmail,精良环甲
+Fine Fullplate,精良全甲
+Fine Halfplate,精良半甲
+Fine Leather Armor,精良皮甲
+Fine Padded Armor,精良毛皮甲
+Fine Scalemail,精良鳞甲
+Fine Studded Leather,精良钉鳞甲
+Masterwork Breastplate,精工作品胸甲
+Masterwork Chainmail,精工作品环甲
+Masterwork Fullplate,精工作品全甲
+Masterwork Halfplate,精工作品半甲
+Masterwork Leather Armor,精工作品皮甲
+Masterwork Padded Armor,精工作品毛皮甲
+Masterwork Scalemail,精工作品鳞甲
+Masterwork Studded Leather,精工作品钉鳞甲
+The Rat Queen's Armor,老鼠女王的甲胄
+Breastplate,胸甲
+Chainmail,环甲
+Fullplate,全甲
+Half plate,皮半甲
+Leather Armor,皮甲
+Padded Armor,垫肩甲
+Scalemail,鳞甲
+Studded Leather,链甲
+The Second Chance,第二次机会
+Adds the following triggered ability,添加以下触发能力
+"The first time you take Wound Damage each combat, you automatically regain 30-40 Vitality Hit Points",每场战斗中，你第一次受到伤痕伤害时，会自动恢复 30-40 生命值
+#Armor - Shields,#盔甲 - 屏障
+Buckler,手盾
+A small rounded shield to be worn on the forearm,一种小型圆盾，佩戴在前臂上
+Large Shield,大型盾牌
+A large shield,一种大型盾牌
+Plank Shield,木板盾牌
+An improvised shield made from wooden planks,一种用木板制成的简易盾牌
+Tower Shield,塔盾
+Shield,屏障
+A medium sized shield,一种中型盾牌
+Tower Shield,Tower Shield
+#Clothing,#服装
+Dress,衣服
+Furs,毛皮
+Noble's Outfit,名门服饰
+Pants,裤子
+Tribal Sash,部落腰带
+Apron,围裙
+Bravo's Outfit,布拉沃的服饰
+Checkered Tunic,格子长袍
+Comfortable Outfit,舒适的服饰
+Commoner's Garb,平民服饰
+Rough but functional woolen clothing that serves the hard-working commoners of the empire well,粗糙但实用的羊毛服装，适合帝国辛勤的平民
+Doublet,背心
+Flashy Shirt,闪亮的衬衫
+Rags,破旧衣物
+Ranger's Outfit,游侠服饰
+Robes,长袍
+Short Pants,短裤
+Tabard,背心
+Toga,托加
+Traveler's Garb,旅者的服饰
+Rough but functional woolen clothing,粗糙但功能性的羊毛衣物
+Well suited for travel and adventuring if you can learn to live with the itching,适合旅行和冒险，如果你能习惯痒感的话
+#Armor Types,#盔甲类型
+Light Armor,轻型盔甲
+Medium Armor,中型盔甲
+Heavy Armor,重型盔甲
+Shield,盾牌
+Clothing,衣服
+#Accessories,#饰品
+Armored Boots,铠甲靴
+Masterwork Armored Boots,精工铠甲靴
+Noble's Boots,贵族靴
+Masterwork Noble's Boots,精工贵族靴
+Leather Boots,皮靴
+Masterwork Leather Boots,精工皮靴
+Travelers Boots,旅行者靴
+Masterwork Travelers Boots,精工旅行者靴
+The Farstriders,远行者
+These legendary boots increase the Carrying Capacity of the wearer by 30 lb as well as conferring a +1 bonus to their Fortitude,这些传奇靴子使穿戴者的负重能力增加30磅，并提供+1体质加成
+The Tyrant,专制者
+This helmet increases the user’s Awareness and Spell Aptitude by +1,这顶头盔使使用者的警觉和法术天赋提高1点
+Armored Gauntlets,铠甲手套
+Masterwork Armored Gauntlets,精工铠甲手套
+Noble's Gloves,贵族手套
+Masterwork Noble's Gloves,精工贵族手套
+Leather Gloves,皮手套
+Masterwork Leather Gloves,精工皮手套
+Mailed Gauntlets,邮差手套
+Masterwork Mailed Gauntlets,精工邮差手套
+Travelers Gloves,旅行手套
+Masterwork Travelers Gloves,精工旅行手套
+Headwear,头饰
+Hat,帽子
+Bonnet,帽兜
+Leather Coif,皮头巾
+Rag,碎布
+Hood,面罩
+Antlers,角
+Reaver Crown,残暴王冠
+"A wide-brimmed, felt hat",一顶宽边呢帽
+It is quite stylish but offers little protection,看起来很时尚，但提供的防护很少
+Wreath,花环
+Mail Coif,邮差帽
+Coif and Helmet,帽子和头盔
+Masterwork Mail Coif,精工邮差帽
+Full Helmet,完全头盔
+Masterwork Full Helmet,精工完全头盔
+Horned Helmet,角盔
+Masterwork Horned Helmet,精工角盔
+Steel Helmet,钢盔
+Masterwork Steel Helmet,精工钢盔
+Plumed Helmet,长羽盔
+Masterwork Plumed Helmet,精工长羽盔
+Tower Helmet,塔盔
+Soldier's Helmet,士兵盔
+Officer's Helmet,官兵盔
+Jester's Cap,小丑帽
+#Accessories Jewelry,#配饰 珠宝
+Amulet of Perfect Health,完美健康护符
+Grants the wearer immunity to Disease,使佩戴者对疾病免疫
+The Lunar Ring,月环
+The Lunar Ring increases the radius of Aura spells by,月环使光环法术的范围增加 {VALUE}。
+Skull Necklace,颅骨项链
+An exquisitely crafted necklace that could be quite valuable,一件工艺精美的项链，可能价值不菲
+Diamond Necklace,钻石项链
+Firegold Necklace,火金项链
+Coral Necklace,珊瑚项链
+Pagan Necklace,异教徒项链
+Beryl Necklace,翡翠项链
+Garnet Necklace,石榴石项链
+Profane Necklace,贬抑项链
+Arcane Necklace,超自然项链
+Ancient Necklace,古老项链
+Brass Necklace,青铜项链
+A necklace that can be sold for a few coins,一条可以卖几个铜板的项链
+Opal Necklace,水晶项链
+A necklace that will fetch a nice price,一条能卖个好价钱的项链
+Silver Necklace,银项链
+Gold Necklace,金项链
+Copper Necklace,铜项链
+Copper Locket,铜锁链
+Jade Necklace,翡翠项链
+Ruby Necklace,红宝石项链
+Ancient Gold Necklace,古老的金项链
+Ancient Jade Necklace,古老的翡翠项链
+The Guarded Heart,保护之心
+A beautifully crafted golden ring with a heart carved into it,一枚精美雕刻着心脏的金色戒指
+The wearer of this ring will find their resolve strengthened,戴上这枚戒指，意志力会得到加强
+Adds +1 to Will,增加+1意志
+Skull Ring,颅骨戒指
+An exquisitely crafted ring that could be quite valuable,一枚工艺精美的戒指，可能非常珍贵
+Topaz Ring,黄水晶戒指
+Lapis Ring,蓝宝石戒指
+Frater's Ring,弗拉特的戒指
+Sepulchite's Ring,葬礼石的戒指
+Flowgold Ring,流金戒指
+Wavestrider Ring,涛行者戒指
+Tempest Ring,暴风雨戒指
+Lupercal Ring,狼之季节戒指
+Arboreal Ring,林之戒指
+Primordial Ring,原始指环
+Ruby Ring,红宝石指环
+Genesis Ring,创世指环
+Fire Opal Ring,红碧玺指环
+Emerald Ring,翡翠指环
+Amethyst Ring,紫水晶指环
+Serpent Ring,蛇形指环
+Aquamarine Ring,海蓝宝石指环
+Sunstone Ring,太阳石指环
+Green Sapphire Ring,绿色翡翠指环
+Brass Ring,青铜指环
+"A modest, but well crafted ring",一件朴实但做工精良的指环
+Silver Ring,银指环
+Gold Ring,金指环
+"A modest, but well crafted golden ring",一件朴实但做工精良的金指环
+#Accessories - Types,#饰品 - 类型
+Footwear,鞋类
+Glove,手套
+Headwear,首饰
+Necklace,项链
+Ring,戒指
+#Enchantments - Weapons,#法术 - 武器
+Accurate Fine Broadsword,精致细长剑
+Fine Broadsword of Greater Accuracy,更加精准的精致细长剑
+Fine Broadsword of Defence,防御型精致细长剑
+Keen Fine Broadsword,锐利的精致细长剑
+Savage Fine Broadsword,残酷的精致细长剑
+Accurate Fine Club,精致细棒
+Fine Club of Greater Accuracy,更加精准的精致细棒
+Fine Club of Defence,防御型精致细棒
+Keen Fine Club,锐利的精致细棒
+Savage Fine Club,残酷的精致细棒
+Fine Cutlass of Celerity,速度型精致匕首
+Accurate Fine Cutlass,精准的精致匕首
+Fine Cutlass of Greater Accuracy,更加精准的速度型精致匕首
+Fine Cutlass of Defence,防御型精致匕首
+Keen Fine Cutlass,锐利的速度型精致匕首
+Savage Fine Cutlass,残酷的速度型精致匕首
+Fine Dagger of Celerity,速度型精致匕首
+Accurate Fine Dagger,精准的精致匕首
+Fine Dagger of Greater Accuracy,精妙准确细匕首
+Fine Dagger of Defence,防御精妙细匕首
+Keen Fine Dagger,锐利精妙细匕首
+Savage Fine Dagger,残酷精妙细匕首
+Fine Greataxe of Celerity,精妙迅捷巨斧
+Accurate Fine Greataxe,精确精妙迅捷巨斧
+Fine Greataxe of Greater Accuracy,精妙迅捷巨斧
+Fine Greataxe of Defence,防御精妙迅捷巨斧
+Keen Fine Greataxe,锐利精妙迅捷巨斧
+Savage Fine Greataxe,残酷精妙迅捷巨斧
+Fine Greathammer of Celerity,精妙迅捷巨锤
+Accurate Fine Greathammer,精确精妙迅捷巨锤
+Fine Greathammer of Greater Accuracy,精妙迅捷巨锤
+Fine Greathammer of Defence,防御精妙迅捷巨锤
+Keen Fine Greathammer,锐利精妙迅捷巨锤
+Savage Fine Greathammer,残酷精妙迅捷巨锤
+Fine Handaxe of Celerity,精妙迅捷双手斧
+Accurate Fine Handaxe,精确精妙迅捷双手斧
+Fine Handaxe of Greater Accuracy,精妙迅捷双手斧
+Fine Handaxe of Defence,防御精妙迅捷双手斧
+Keen Fine Handaxe,精细轻型战斧
+Savage Fine Handaxe,粗糙轻型战斧
+Fine longsword of Celerity,精细长剑·迅捷
+Accurate Fine longsword,精确精细长剑
+Fine longsword of Greater Accuracy,精细长剑·更精确
+Fine longsword of Defence,精细长剑·防御
+Keen Fine longsword,精细轻型战斧·锋利
+Savage Fine longsword,粗糙轻型战斧
+Fine Mace of Celerity,精细重锤·迅捷
+Accurate Fine Mace,精确精细重锤
+Fine Mace of Greater Accuracy,精细重锤·更精确
+Fine Mace of Defence,精细重锤·防御
+Keen Fine Mace,精细轻型战斧·锋利
+Savage Fine Mace,粗糙轻型战斧
+Fine Rapier of Celerity,精细长匕首·迅捷
+Accurate Fine Rapier,精确精细长匕首
+Fine Rapier of Greater Accuracy,精细长匕首·更精确
+Fine Rapier of Defence,精细长匕首·防御
+Keen Fine Rapier,精细轻型战斧·锋利
+Savage Fine Rapier,粗糙轻型战斧
+Fine Scimitar of Celerity,精妙的迅捷弯刀
+Accurate Fine Scimitar,精妙准确的弯刀
+Fine Scimitar of Greater Accuracy,更加精妙准确的弯刀
+Fine Scimitar of Defence,精妙防护弯刀
+Keen Fine Scimitar,锐利的精妙弯刀
+Savage Fine Scimitar,残酷的精妙弯刀
+Fine Shortsword of Celerity,精妙迅捷短剑
+Accurate Fine Shortsword,精妙准确的短剑
+Fine Shortsword of Greater Accuracy,更加精妙准确的短剑
+Fine Shortsword of Defence,精妙防护短剑
+Keen Fine Shortsword,锐利的精妙短剑
+Savage Fine Shortsword,残酷的精妙短剑
+Fine Two-hander of Celerity,精妙双手战斧
+Accurate Fine Two-hander,精妙的双手战斧
+Fine Two-hander of Greater Accuracy,更加精妙准确的双手战斧
+Fine Two-hander of Defence,精妙防护双手战斧
+Keen Fine Two-hander,锐利的精妙双手战斧
+Savage Fine Two-hander,残酷的精妙双手战斧
+Fine Waraxe of Celerity,精妙迅捷巨斧
+Accurate Fine Waraxe,精妙的巨斧
+Fine Waraxe of Greater Accuracy,精妙准确的重型战斧
+Fine Waraxe of Defence,精妙防御的重型战斧
+Keen Fine Waraxe,锐利的精妙重型战斧
+Savage Fine Waraxe,猛烈的精妙重型战斧
+Fine Warhammer of Celerity,精妙迅捷的重型战锤
+Accurate Fine Warhammer,精准的精妙重型战锤
+Fine Warhammer of Greater Accuracy,精妙更精准的重型战锤
+Fine Warhammer of Defence,精妙防御的重型战锤
+Keen Fine Warhammer,锐利的精妙重型战锤
+Savage Fine Warhammer,猛烈的精妙重型战锤
+Accurate Masterwork Broadsword,精妙大师级阔剑
+Masterwork Broadsword of Greater Accuracy,更精准的大师级阔剑
+Masterwork Broadsword of the Master,大师级阔剑之大师
+Masterwork Broadsword of Acid,产生酸液的大师级阔剑
+Masterwork Broadsword of Defence,防御的大师级阔剑
+Masterwork Broadsword of Fire,产生火焰的大师级阔剑
+Masterwork Broadsword of Frost,产生寒冰的大师级阔剑
+Masterwork Broadsword of the Grand-master,大师级阔剑之大师
+Keen Masterwork Broadsword,锐利的大师级阔剑
+Savage Masterwork Broadsword,猛烈的大师级阔剑
+Masterwork Broadsword of Lightning,雷电精工阔剑
+Accurate Masterwork Club,精工准确战棍
+Masterwork Club of Greater Accuracy,更高精度精工战棍
+Masterwork Club of the Master,精工大师战棍
+Masterwork Club of Acid,精工酸液战棍
+Masterwork Club of Defence,精工防御战棍
+Masterwork Club of Fire,精工火焰战棍
+Masterwork Club of Frost,精工寒冰战棍
+Masterwork Club of the Grand-master,大师级精工战棍
+Keen Masterwork Club,锐利精工战棍
+Savage Masterwork Club,残酷精工战棍
+Masterwork Club of Lightning,精工雷电战棍
+Masterwork Cutlass of Celerity,精工迅捷匕首
+Masterwork Cutlass of Speed,精工快速匕首
+Accurate Masterwork Cutlass,准确精工匕首
+Masterwork Cutlass of Greater Accuracy,更高精度精工匕首
+Masterwork Cutlass of the Master,精工大师匕首
+Masterwork Cutlass of Acid,精工酸液匕首
+Masterwork Cutlass of Defence,精工防御匕首
+Masterwork Cutlass of Fire,精工火焰匕首
+Masterwork Cutlass of Frost,寒冰精工短剑
+Masterwork Cutlass of the Grand-master,大师级精工短剑
+Keen Masterwork Cutlass,精准精工短剑
+Savage Masterwork Cutlass,残酷精工短剑
+Masterwork Cutlass of Lightning,闪电精工短剑
+Masterwork Dagger of Celerity,精工迅捷匕首
+Masterwork Dagger of Speed,精工迅捷匕首
+Accurate Masterwork Dagger,精准精工匕首
+Masterwork Dagger of Greater Accuracy,更高精准精工匕首
+Masterwork Dagger of the Master,大师级精工匕首
+Masterwork Dagger of Acid,酸液精工匕首
+Masterwork Dagger of Defence,防御精工匕首
+Masterwork Dagger of Fire,火焰精工匕首
+Masterwork Dagger of Frost,寒冰精工匕首
+Masterwork Dagger of the Grand-master,大师级精工匕首
+Keen Masterwork Dagger,精准精工匕首
+Savage Masterwork Dagger,残酷精工匕首
+Masterwork Dagger of Lightning,闪电精工匕首
+Masterwork Greataxe of Celerity,精工迅捷大斧
+Masterwork Greataxe of Speed,精工迅捷大斧
+Accurate Masterwork Greataxe,精工巨战斧
+Masterwork Greataxe of Greater Accuracy,更高精度的精工巨战斧
+Masterwork Greataxe of the Master,大师级精工巨战斧
+Masterwork Greataxe of Acid,酸液巨战斧
+Masterwork Greataxe of Defence,防御巨战斧
+Masterwork Greataxe of Fire,火焰巨战斧
+Masterwork Greataxe of Frost,冰霜巨战斧
+Masterwork Greataxe of the Grand-master,大师中的大师级精工巨战斧
+Keen Masterwork Greataxe,锐利的精工巨战斧
+Savage Masterwork Greataxe,残酷的精工巨战斧
+Masterwork Greataxe of Lightning,闪电巨战斧
+Masterwork Greathammer of Celerity,神速精工巨锤
+Masterwork Greathammer of Speed,速度快的精工巨锤
+Accurate Masterwork Greathammer,更高精度的精工巨锤
+Masterwork Greathammer of Greater Accuracy,大师级精工巨锤
+Masterwork Greathammer of the Master,酸液精工巨锤
+Masterwork Greathammer of Acid,防御精工巨锤
+Masterwork Greathammer of Defence,火焰精工巨锤
+Masterwork Greathammer of Fire,冰霜精工巨锤
+Masterwork Greathammer of Frost,冰霜精工巨锤
+Masterwork Greathammer of the Grand-master,大师级巨锤
+Keen Masterwork Greathammer,锐利大师级巨锤
+Savage Masterwork Greathammer,猛烈大师级巨锤
+Masterwork Greathammer of Lightning,雷电大师级巨锤
+Masterwork Handaxe of Celerity,速度大师级短斧
+Masterwork Handaxe of Speed,速度大师级短斧
+Accurate Masterwork Handaxe,精确大师级短斧
+Masterwork Handaxe of Greater Accuracy,更高精度大师级短斧
+Masterwork Handaxe of the Master,大师级短斧
+Masterwork Handaxe of Acid,酸液大师级短斧
+Masterwork Handaxe of Defence,防御大师级短斧
+Masterwork Handaxe of Fire,火焰大师级短斧
+Masterwork Handaxe of Frost,寒霜大师级短斧
+Masterwork Handaxe of the Grand-master,大师级短斧
+Keen Masterwork Handaxe,锐利大师级短斧
+Savage Masterwork Handaxe,猛烈大师级短斧
+Masterwork Handaxe of Lightning,雷电大师级短斧
+Masterwork Longsword of Celerity,速度大师级长剑
+Masterwork Longsword of Speed,速度大师级长剑
+Accurate Masterwork Longsword,精确大师级长剑
+Masterwork Longsword of Greater Accuracy,精工巨剑·更精准
+Masterwork Longsword of the Master,精工巨剑·大师
+Masterwork Longsword of Acid,精工巨剑·酸液
+Masterwork Longsword of Defence,精工巨剑·防御
+Masterwork Longsword of Fire,精工巨剑·火焰
+Masterwork Longsword of Frost,精工巨剑·寒冰
+Masterwork Longsword of the Grand-master,精工巨剑·大师级
+Keen Masterwork Longsword,锋利精工巨剑
+Savage Masterwork Longsword,残酷精工巨剑
+Masterwork Longsword of Lightning,精工巨剑·闪电
+Masterwork Mace of Celerity,精工战锤·迅捷
+Masterwork Mace of Speed,精工战锤·快速
+Accurate Masterwork Mace,精工战锤·精准
+Masterwork Mace of Greater Accuracy,精工战锤·更精准
+Masterwork Mace of the Master,精工战锤·大师
+Masterwork Mace of Acid,精工战锤·酸液
+Masterwork Mace of Defence,精工战锤·防御
+Masterwork Mace of Fire,精工战锤·火焰
+Masterwork Mace of Frost,精工战锤·寒冰
+Masterwork Mace of the Grand-Master,精工战锤·大师级
+Keen Masterwork Mace,精湛 keen 精工长柄锤
+Savage Masterwork Mace,残酷 savage 精工长柄锤
+Masterwork Mace of Lightning,精工长柄闪电之锤
+Masterwork Rapier of Celerity,精湛快速精工轻剑
+Masterwork Rapier of Speed,精湛迅捷精工轻剑
+Accurate Masterwork Rapier,精确精工轻剑
+Masterwork Rapier of Greater Accuracy,更加精确精工轻剑
+Masterwork Rapier of the Master,精工大师轻剑
+Masterwork Rapier of Acid,精工酸液轻剑
+Masterwork Rapier of Defence,精工防御轻剑
+Masterwork Rapier of Fire,精工烈焰轻剑
+Masterwork Rapier of Frost,精工寒冰轻剑
+Masterwork Rapier of the Grand-master,精工大师级轻剑
+Keen Masterwork Rapier,精湛 keen 精工轻剑
+Savage Masterwork Rapier,残酷 savage 精工轻剑
+Masterwork Rapier of Lightning,精工闪电轻剑
+Masterwork Scimitar of Celerity,精湛快速精工弯刀
+Masterwork Scimitar of Speed,精湛迅捷精工弯刀
+Accurate Masterwork Scimitar,精确精工弯刀
+Masterwork Scimitar of Greater Accuracy,更加精确精工弯刀
+Masterwork Scimitar of the Master,大师级精金弯刀
+Masterwork Scimitar of Acid,大师级酸液弯刀
+Masterwork Scimitar of Defence,大师级防御弯刀
+Masterwork Scimitar of Fire,大师级火焰弯刀
+Masterwork Scimitar of Frost,大师级寒冰弯刀
+Masterwork Scimitar of the Grand-master,大师级巨匠弯刀
+Keen Masterwork Scimitar,锐利大师级精金弯刀
+Savage Masterwork Scimitar,残酷大师级精金弯刀
+Masterwork Scimitar of Lightning,大师级闪电弯刀
+Masterwork Shortsword of Celerity,大师级迅捷短剑
+Masterwork Shortsword of Speed,大师级快速短剑
+Accurate Masterwork Shortsword,精准大师级精金短剑
+Masterwork Shortsword of Greater Accuracy,大师级更精准短剑
+Masterwork Shortsword of the Master,大师级精金短剑
+Masterwork Shortsword of Acid,大师级酸液短剑
+Masterwork Shortsword of Defence,大师级防御短剑
+Masterwork Shortsword of Fire,大师级火焰短剑
+Masterwork Shortsword of Frost,大师级寒冰短剑
+Masterwork Shortsword of the Grand-master,大师级巨匠短剑
+Keen Masterwork Shortsword,锐利大师级精金短剑
+Savage Masterwork Shortsword,粗糙大师级短剑
+Masterwork Shortsword of Lightning,雷电大师级短剑
+Masterwork Two-Hander of Celerity,神速大师级双手剑
+Masterwork Two-Hander of Speed,速攻大师级双手剑
+Accurate Masterwork Two-Hander,精确大师级双手剑
+Masterwork Two-Hander of Greater Accuracy,更高精度大师级双手剑
+Masterwork Two-Hander of the Master,大师级双手剑之巅
+Masterwork Two-Hander of Acid,腐蚀大师级双手剑
+Masterwork Two-Hander of Defence,防御大师级双手剑
+Masterwork Two-Hander of Fire,火焰大师级双手剑
+Masterwork Two-Hander of Frost,寒冰大师级双手剑
+Masterwork Two-Hander of the Grand-master,大师级双手剑之王
+Keen Masterwork Two-Hander,锐利大师级双手剑
+Savage Masterwork Two-Hander,粗糙大师级双手剑
+Masterwork Two-Hander of Lightning,神速大师级战斧
+Masterwork Waraxe of Celerity,速攻大师级战斧
+Masterwork Waraxe of Speed,精确大师级战斧
+Accurate Masterwork Waraxe,更高精度大师级战斧
+Masterwork Waraxe of Greater Accuracy,大师级战斧之巅
+Masterwork Waraxe of the Master,大师级战斧
+Masterwork Waraxe of Acid,酸液巨匠战斧
+Masterwork Waraxe of Defence,防御巨匠战斧
+Masterwork Waraxe of Fire,火焰巨匠战斧
+Masterwork Waraxe of Frost,寒冰巨匠战斧
+Masterwork Waraxe of the Grand-master,大师巨匠战斧
+Keen Masterwork Waraxe,锐利巨匠战斧
+Savage Masterwork Waraxe,残酷巨匠战斧
+Masterwork Waraxe of Lightning,闪电巨匠战斧
+Masterwork Warhammer of Celerity,速度巨匠战锤
+Masterwork Warhammer of Speed,速度巨匠战锤
+Accurate Masterwork Warhammer,精确巨匠战锤
+Masterwork Warhammer of Greater Accuracy,更高精度巨匠战锤
+Masterwork Warhammer of the Master,大师巨匠战锤
+Masterwork Warhammer of Acid,酸液巨匠战锤
+Masterwork Warhammer of Defence,防御巨匠战锤
+Masterwork Warhammer of Fire,火焰巨匠战锤
+Masterwork Warhammer of Frost,寒冰巨匠战锤
+Masterwork Warhammer of the Grand-master,大师巨匠战锤
+Keen Masterwork Warhammer,锐利巨匠战锤
+Savage Masterwork Warhammer,残酷巨匠战锤
+Masterwork Warhammer of Lightning,精工雷电战锤
+Fine Composite Bow of Celerity,精致复合弓·迅捷
+Accurate Fine Composite Bow,精致复合弓
+Fine Composite Bow of Greater Accuracy,更加精准的精致复合弓
+Fine Composite Bow of Defence,防御型精致复合弓
+Keen Fine Composite Bow,锐利的精致复合弓
+Savage Fine Composite Bow,残酷的精致复合弓
+Fine Longbow of Celerity,精致长弓·迅捷
+Fine Longbow of Speed,精致长弓·快速
+Accurate Fine Longbow,精准的精致长弓
+Fine Longbow of Greater Accuracy,更加精准的精致长弓
+Fine Longbow of Defence,防御型精致长弓
+Keen Fine Longbow,锐利的精致长弓
+Savage Fine Longbow,残酷的精致长弓
+Fine Shortbow of Celerity,精致短弓·迅捷
+Accurate Fine Shortbow,精致短弓
+Fine Shortbow of Greater Accuracy,更加精准的精致短弓
+Fine Shortbow of Defence,防御型精致短弓
+Keen Fine Shortbow,锐利的精致短弓
+Savage Fine Shortbow,残酷的精致短弓
+Masterwork Composite Bow of Celerity,精工复合弓·迅捷
+Masterwork Composite Bow of Speed,精工复合弓·速度
+Accurate Masterwork Composite Bow,精工复合弓·精准
+Masterwork Composite Bow of Greater Accuracy,精工复合弓·更精准
+Masterwork Composite Bow of the Master,精工复合弓·大师
+Masterwork Composite Bow of Acid,精工复合弓·酸液
+Masterwork Composite Bow of Defence,精工复合弓·防御
+Masterwork Composite Bow of Fire,精工复合弓·火焰
+Masterwork Composite Bow of Frost,精工复合弓·寒霜
+Masterwork Composite Bow of the Grand-master,精工复合弓·大师级
+Keen Masterwork Composite Bow,锐利精工复合弓
+Savage Masterwork Composite Bow,残酷精工复合弓
+Masterwork Composite Bow of Lightning,精工复合弓·雷电
+Masterwork Longbow of Celerity,精工长弓·迅捷
+Masterwork Longbow of Speed,精工长弓·速度
+Accurate Masterwork Longbow,精工长弓·精准
+Masterwork Longbow of Greater Accuracy,精工长弓·更精准
+Masterwork Longbow of the Master,精工长弓·大师
+Masterwork Longbow of Acid,精工长弓·酸液
+Masterwork Longbow of Defence,精工长弓·防御
+Masterwork Longbow of Fire,炽焰大师级长弓
+Masterwork Longbow of Frost,寒霜大师级长弓
+Masterwork Longbow of the Grand-master,大师级长弓
+Keen Masterwork Longbow,锐利大师级长弓
+Savage Masterwork Longbow,残酷大师级长弓
+Masterwork Longbow of Lightning,闪电大师级长弓
+Masterwork Shortbow of Celerity,速度大师级短弓
+Masterwork Shortbow of Speed,速度大师级短弓
+Accurate Masterwork Shortbow,精确大师级短弓
+Masterwork Shortbow of Greater Accuracy,更高精度大师级短弓
+Masterwork Shortbow of the Master,大师级短弓
+Masterwork Shortbow of Acid,酸液大师级短弓
+Masterwork Shortbow of Defence,防御大师级短弓
+Masterwork Shortbow of Fire,炽焰大师级短弓
+Masterwork Shortbow of Frost,寒霜大师级短弓
+Masterwork Shortbow of the Grand-master,大师级短弓
+Keen Masterwork Shortbow,锐利大师级短弓
+Savage Masterwork Shortbow,残酷大师级短弓
+Masterwork Shortbow of Lightning,闪电大师级短弓
+#Enchantments - Armor,#法术 - 防具
+Fine Breastplate of Athletics,精致的运动胸甲
+Fine Breastplate of Awareness,精致的警觉胸甲
+Fine Breastplate of Crafting,精致的制作胸甲
+Fine Breastplate of Defence,精致的防御胸甲
+Fine Breastplate of Diplomacy,精致的外交胸甲
+Fine Breastplate of Healing,精致的治疗胸甲
+Fine Breastplate of Celerity,精致的迅捷胸甲
+Fine Breastplate of Lore,精致的知识胸甲
+Fine Breastplate of Speed,精致的速度胸甲
+Fine Breastplate of Stealth,精致的潜行胸甲
+Fine Breastplate of Survival,精致的生存胸甲
+Fine Breastplate of Thievery,精致的偷盗胸甲
+Fine Breastplate of Toughness,精致的坚韧胸甲
+Fine Breastplate of Willpower,精致的意志胸甲
+Fine Chainmail of Athletics,精致的连锁甲胄（运动）
+Fine Chainmail of Awareness,精致的连锁甲胄（警觉）
+Fine Chainmail of Crafting,精致的连锁甲胄（制作）
+Fine Chainmail of Defence,精致的连锁甲胄（防御）
+Fine Chainmail of Diplomacy,精致的连锁甲胄（外交）
+Fine Chainmail of Healing,精致的连锁甲胄（治疗）
+Fine Chainmail of Celerity,精致迅捷环甲
+Fine Chainmail of Lore,精致博学环甲
+Fine Chainmail of Speed,精致敏捷环甲
+Fine Chainmail of Stealth,精致潜行环甲
+Fine Chainmail of Survival,精致生存环甲
+Fine Chainmail of Thievery,精致偷盗环甲
+Fine Chainmail of Toughness,精致坚韧环甲
+Fine Chainmail of Willpower,精致意志环甲
+Fine Fullplate of Athletics,精致体能全甲
+Fine Fullplate of Awareness,精致感知全甲
+Fine Fullplate of Crafting,精致工艺全甲
+Fine Fullplate of Defence,精致防御全甲
+Fine Fullplate of Diplomacy,精致外交全甲
+Fine Fullplate of Healing,精致治疗全甲
+Fine Fullplate of Celerity,精致迅捷全甲
+Fine Fullplate of Lore,精致博学全甲
+Fine Fullplate of Speed,精致敏捷全甲
+Fine Fullplate of Stealth,精致潜行全甲
+Fine Fullplate of Survival,精致生存全甲
+Fine Fullplate of Thievery,精致偷盗全甲
+Fine Fullplate of Toughness,精致坚甲
+Fine Fullplate of Willpower,精致意志坚甲
+Fine Leather Armor of Athletics,精致皮甲（体能）
+Fine Leather Armor of Awareness,精致皮甲（洞察）
+Fine Leather Armor of Crafting,精致皮甲（制作物品）
+Fine Leather Armor of Defence,精致皮甲（防御）
+Fine Leather Armor of Diplomacy,精致皮甲（外交）
+Fine Leather Armor of Healing,精致皮甲（治疗）
+Fine Leather Armor of Celerity,精致皮甲（敏捷）
+Fine Leather Armor of Lore,精致皮甲（知识）
+Fine Leather Armor of Speed,精致皮甲（速度）
+Fine Leather Armor of Stealth,精致皮甲（潜行）
+Fine Leather Armor of Survival,精致皮甲（生存）
+Fine Leather Armor of Thievery,精致皮甲（偷盗）
+Fine Leather Armor of Toughness,精致皮甲（坚甲）
+Fine Leather Armor of Willpower,精致皮甲（意志）
+Fine Padded Armor of Athletics,精致填充皮甲（体能）
+Fine Padded Armor of Awareness,精致填充皮甲（洞察）
+Fine Padded Armor of Crafting,精致填充皮甲（制作物品）
+Fine Padded Armor of Defence,精致填充皮甲（防御）
+Fine Padded Armor of Diplomacy,细布防具·外交
+Fine Padded Armor of Healing,细布防具·疗愈
+Fine Padded Armor of Celerity,细布防具·敏捷
+Fine Padded Armor of Lore,细布防具·博学
+Fine Padded Armor of Speed,细布防具·速度
+Fine Padded Armor of Stealth,细布防具·潜行
+Fine Padded Armor of Survival,细布防具·生存
+Fine Padded Armor of Thievery,细布防具·盗贼
+Fine Padded Armor of Toughness,细布防具·坚韧
+Fine Padded Armor of Willpower,细布防具·意志
+Fine Scalemail of Athletics,细鳞甲·体能
+Fine Scalemail of Awareness,细鳞甲·意识
+Fine Scalemail of Crafting,细鳞甲·工艺
+Fine Scalemail of Defence,细鳞甲·防御
+Fine Scalemail of Diplomacy,细鳞甲·外交
+Fine Scalemail of Healing,细鳞甲·疗愈
+Fine Scalemail of Celerity,细鳞甲·敏捷
+Fine Scalemail of Lore,细鳞甲·博学
+Fine Scalemail of Speed,细鳞甲·速度
+Fine Scalemail of Stealth,细鳞甲·潜行
+Fine Scalemail of Survival,精细鳞甲·生存
+Fine Scalemail of Thievery,精细鳞甲·盗贼
+Fine Scalemail of Toughness,精细鳞甲·坚韧
+Fine Scalemail of Willpower,精细鳞甲·意志力
+Fine Studded Leather of Agility,精细环甲·敏捷
+Fine Studded Leather of Athletics,精细环甲·体能
+Fine Studded Leather of Awareness,精细环甲·感知
+Fine Studded Leather of Crafting,精细环甲·制作工艺
+Fine Studded Leather of Defence,精细环甲·防御
+Fine Studded Leather of Diplomacy,精细环甲·外交
+Fine Studded Leather of Healing,精细环甲·治疗
+Fine Studded Leather of Celerity,精细环甲·敏捷
+Fine Studded Leather of Lore,精细环甲·知识
+Fine Studded Leather of Speed,精细环甲·速度
+Fine Studded Leather of Stealth,精细环甲·潜行
+Fine Studded Leather of Survival,精细环甲·生存
+Fine Studded Leather of Thievery,精细环甲·盗贼
+Fine Studded Leather of Toughness,精细环甲·坚韧
+Fine Studded Leather of Willpower,精细环甲·意志力
+Fine Halfplate of Athletics,精细半板甲·体能
+Fine Halfplate of Awareness,精细防意识半板甲
+Fine Halfplate of Crafting,精细防工艺半板甲
+Fine Halfplate of Defence,精细防防御半板甲
+Fine Halfplate of Diplomacy,精细防外交半板甲
+Fine Halfplate of Healing,精细防治疗半板甲
+Fine Halfplate of Celerity,精细防敏捷半板甲
+Fine Halfplate of Lore,精细防知识半板甲
+Fine Halfplate of Speed,精细防速度半板甲
+Fine Halfplate of Stealth,精细防潜行半板甲
+Fine Halfplate of Survival,精细防生存半板甲
+Fine Halfplate of Thievery,精细防偷盗半板甲
+Fine Halfplate of Toughness,精细防坚韧半板甲
+Fine Halfplate of Willpower,精细防意志半板甲
+Masterwork Breastplate of Agility,精工敏捷胸甲
+Masterwork Breastplate of Athletics,精工体能胸甲
+Masterwork Breastplate of Awareness,精工防意识胸甲
+Masterwork Breastplate of Crafting,精工防工艺胸甲
+Masterwork Breastplate of Defence,精工防防御胸甲
+Masterwork Breastplate of Diplomacy,精工防外交胸甲
+Masterwork Breastplate of Fortitude,精工防坚韧胸甲
+Masterwork Breastplate of Healing,疗愈精工胸甲
+Masterwork Breastplate of Celerity,敏捷精工胸甲
+Masterwork Breastplate of Intellect,智力精工胸甲
+Masterwork Breastplate of Lore,学识精工胸甲
+Masterwork Breastplate of Presence,威严精工胸甲
+Masterwork Breastplate of Speed,速度精工胸甲
+Masterwork Breastplate of Stealth,潜行精工胸甲
+Masterwork Breastplate of Strength,力量精工胸甲
+Masterwork Breastplate of Survival,生存精工胸甲
+Masterwork Breastplate of Thievery,盗贼精工胸甲
+Masterwork Breastplate of Toughness,坚韧精工胸甲
+Masterwork Breastplate of Willpower,意志力精工胸甲
+Masterwork Chainmail of Agility,敏捷精工锁链甲
+Masterwork Chainmail of Athletics,运动精工锁链甲
+Masterwork Chainmail of Awareness,觉醒精工锁链甲
+Masterwork Chainmail of Crafting,制作精工锁链甲
+Masterwork Chainmail of Defence,防御精工锁链甲
+Masterwork Chainmail of Diplomacy,交际精工锁链甲
+Masterwork Chainmail of Fortitude,坚韧精工锁链甲
+Masterwork Chainmail of Healing,疗愈精工锁链甲
+Masterwork Chainmail of Celerity,精工迅捷环甲
+Masterwork Chainmail of Intellect,精工智慧环甲
+Masterwork Chainmail of Lore,精工博学环甲
+Masterwork Chainmail of Presence,精工威严环甲
+Masterwork Chainmail of Speed,精工迅捷环甲
+Masterwork Chainmail of Stealth,精工潜行环甲
+Masterwork Chainmail of Strength,精工强健环甲
+Masterwork Chainmail of Survival,精工生存环甲
+Masterwork Chainmail of Thievery,精工窃盗环甲
+Masterwork Chainmail of Toughness,精工坚韧环甲
+Masterwork Chainmail of Willpower,精工意志环甲
+Masterwork Fullplate of Agility,精工敏捷全甲
+Masterwork Fullplate of Athletics,精工体能全甲
+Masterwork Fullplate of Awareness,精工感知全甲
+Masterwork Fullplate of Crafting,精工制作全甲
+Masterwork Fullplate of Defence,精工防御全甲
+Masterwork Fullplate of Diplomacy,精工外交全甲
+Masterwork Fullplate of Fortitude,精工坚毅全甲
+Masterwork Fullplate of Healing,精工疗愈全甲
+Masterwork Fullplate of Celerity,精工迅捷全甲
+Masterwork Fullplate of Intellect,智慧精工全甲
+Masterwork Fullplate of Lore,知识精工全甲
+Masterwork Fullplate of Presence,威严精工全甲
+Masterwork Fullplate of Speed,速度精工全甲
+Masterwork Fullplate of Stealth,潜行精工全甲
+Masterwork Fullplate of Strength,力量精工全甲
+Masterwork Fullplate of Survival,生存精工全甲
+Masterwork Fullplate of Thievery,盗贼精工全甲
+Masterwork Fullplate of Toughness,坚韧精工全甲
+Masterwork Fullplate of Willpower,意志力精工全甲
+Masterwork Halfplate of Agility,敏捷半甲
+Masterwork Halfplate of Athletics,运动半甲
+Masterwork Halfplate of Awareness,觉醒半甲
+Masterwork Halfplate of Crafting,制作半甲
+Masterwork Halfplate of Defence,防御半甲
+Masterwork Halfplate of Diplomacy,交际半甲
+Masterwork Halfplate of Fortitude,坚韧半甲
+Masterwork Halfplate of Healing,治疗半甲
+Masterwork Halfplate of Celerity,速捷半甲
+Masterwork Halfplate of Intellect,智慧半甲
+Masterwork Halfplate of Lore,背景知识精工半板甲
+Masterwork Halfplate of Presence,彰显精工半板甲
+Masterwork Halfplate of Speed,速度精工半板甲
+Masterwork Halfplate of Stealth,潜行精工半板甲
+Masterwork Halfplate of Strength,力量精工半板甲
+Masterwork Halfplate of Survival,生存精工半板甲
+Masterwork Halfplate of Thievery,盗贼精工半板甲
+Masterwork Halfplate of Toughness,坚韧精工半板甲
+Masterwork Halfplate of Willpower,意志力精工半板甲
+Masterwork Leather Armor of Agility,敏捷精工皮甲
+Masterwork Leather Armor of Athletics,运动精工皮甲
+Masterwork Leather Armor of Awareness,觉知精工皮甲
+Masterwork Leather Armor of Crafting,制作精工皮甲
+Masterwork Leather Armor of Defence,防御精工皮甲
+Masterwork Leather Armor of Diplomacy,辩论精工皮甲
+Masterwork Leather Armor of Fortitude,坚韧精工皮甲
+Masterwork Leather Armor of Healing,治疗精工皮甲
+Masterwork Leather Armor of Celerity,速捷精工皮甲
+Masterwork Leather Armor of Intellect,知识精工皮甲
+Masterwork Leather Armor of Lore,背景知识精工皮甲
+Masterwork Leather Armor of Presence,精工皮甲·存在
+Masterwork Leather Armor of Speed,精工皮甲·速度
+Masterwork Leather Armor of Stealth,精工皮甲·潜行
+Masterwork Leather Armor of Strength,精工皮甲·力量
+Masterwork Leather Armor of Survival,精工皮甲·生存
+Masterwork Leather Armor of Thievery,精工皮甲·偷盗
+Masterwork Leather Armor of Toughness,精工皮甲·坚韧
+Masterwork Leather Armor of Willpower,精工皮甲·意志
+Masterwork Padded Armor of Agility,精工棉甲·敏捷
+Masterwork Padded Armor of Athletics,精工棉甲·体能
+Masterwork Padded Armor of Awareness,精工棉甲·感知
+Masterwork Padded Armor of Crafting,精工棉甲·工艺
+Masterwork Padded Armor of Defence,精工棉甲·防御
+Masterwork Padded Armor of Diplomacy,精工棉甲·外交
+Masterwork Padded Armor of Fortitude,精工棉甲·坚毅
+Masterwork Padded Armor of Healing,精工棉甲·治疗
+Masterwork Padded Armor of Celerity,精工棉甲·迅捷
+Masterwork Padded Armor of Intellect,精工棉甲·智力
+Masterwork Padded Armor of Lore,精工棉甲·知识
+Masterwork Padded Armor of Presence,精工棉甲·存在
+Masterwork Padded Armor of Speed,精工填充式迅捷盔甲
+Masterwork Padded Armor of Stealth,精工填充式潜行盔甲
+Masterwork Padded Armor of Strength,精工填充式力量盔甲
+Masterwork Padded Armor of Survival,精工填充式生存盔甲
+Masterwork Padded Armor of Thievery,精工填充式窃盗盔甲
+Masterwork Padded Armor of Toughness,精工填充式坚韧盔甲
+Masterwork Padded Armor of Willpower,精工填充式意志盔甲
+Masterwork Scalemail of Agility,精工鳞甲敏捷
+Masterwork Scalemail of Athletics,精工鳞甲体能
+Masterwork Scalemail of Awareness,精工鳞甲警觉
+Masterwork Scalemail of Crafting,精工鳞甲工艺
+Masterwork Scalemail of Defence,精工鳞甲防御
+Masterwork Scalemail of Diplomacy,精工鳞甲外交
+Masterwork Scalemail of Fortitude,精工鳞甲坚毅
+Masterwork Scalemail of Healing,精工鳞甲治疗
+Masterwork Scalemail of Celerity,精工鳞甲迅捷
+Masterwork Scalemail of Intellect,精工鳞甲智力
+Masterwork Scalemail of Lore,精工鳞甲知识
+Masterwork Scalemail of Presence,精工鳞甲气场
+Masterwork Scalemail of Speed,精工鳞甲迅捷
+Masterwork Scalemail of Stealth,精工隐匿锁甲
+Masterwork Scalemail of Strength,精工强健锁甲
+Masterwork Scalemail of Survival,精工生存锁甲
+Masterwork Scalemail of Thievery,精工偷盗锁甲
+Masterwork Scalemail of Toughness,精工坚韧锁甲
+Masterwork Scalemail of Willpower,精工意志锁甲
+Masterwork Studded Leather of Agility,精工钉鳞皮敏捷
+Masterwork Studded Leather of Athletics,精工钉鳞皮力量
+Masterwork Studded Leather of Awareness,精工钉鳞皮警觉
+Masterwork Studded Leather of Crafting,精工钉鳞皮制作
+Masterwork Studded Leather of Defence,精工钉鳞皮防御
+Masterwork Studded Leather of Diplomacy,精工钉鳞皮外交
+Masterwork Studded Leather of Fortitude,精工钉鳞皮耐力
+Masterwork Studded Leather of Healing,精工钉鳞皮治疗
+Masterwork Studded Leather of Celerity,精工钉鳞皮迅捷
+Masterwork Studded Leather of Intellect,精工钉鳞皮智力
+Masterwork Studded Leather of Lore,精工钉鳞皮学识
+Masterwork Studded Leather of Presence,精工钉鳞皮魅力
+Masterwork Studded Leather of Speed,精工钉鳞皮速度
+Masterwork Studded Leather of Stealth,精工钉鳞皮隐匿
+Masterwork Studded Leather of Strength,精工镶嵌皮甲（力量）
+Masterwork Studded Leather of Survival,精工镶嵌皮甲（生存）
+Masterwork Studded Leather of Thievery,精工镶嵌皮甲（盗贼）
+Masterwork Studded Leather of Toughness,精工镶嵌皮甲（坚韧）
+Masterwork Studded Leather of Willpower,精工镶嵌皮甲（意志）
+The Rat Queen's Armor of Strength,鼠后之甲（力量）
+Buckler of Athletics,运动盾牌
+Buckler of Awareness,觉知盾牌
+Buckler of Crafting,制作盾牌
+Buckler of Defence,防御盾牌
+Buckler of Diplomacy,交际盾牌
+Buckler of Healing,治疗盾牌
+Buckler of Celerity,敏捷盾牌
+Buckler of Lore,知识盾牌
+Buckler of Speed,速度盾牌
+Buckler of Stealth,暗影盾牌
+Buckler of Survival,生存盾牌
+Buckler of Thievery,盗贼盾牌
+Buckler of Toughness,坚韧盾牌
+Buckler of Willpower,意志盾牌
+Large Shield of Athletics,大力士大型盾牌
+Large Shield of Awareness,觉知大型盾牌
+Large Shield of Crafting,制作大型盾牌
+Large Shield of Defence,防御大型盾牌
+Large Shield of Diplomacy,辩论大型盾牌
+Large Shield of Healing,治疗大型盾牌
+Large Shield of Celerity,敏捷大型盾牌
+Large Shield of Lore,知识大型盾牌
+Large Shield of Speed,速度大型盾牌
+Large Shield of Stealth,潜行大型盾牌
+Large Shield of Survival,生存大型盾牌
+Large Shield of Thievery,盗窃大型盾牌
+Large Shield of Toughness,坚韧大型盾牌
+Large Shield of Willpower,意志力大型盾牌
+Round Shield of Athletics,圆形盾牌，力量专精
+Round Shield of Awareness,圆形盾牌，觉知专精
+Round Shield of Crafting,圆形盾牌，制作专精
+Round Shield of Defence,圆形盾牌，防御专精
+Round Shield of Diplomacy,圆形盾牌，外交专精
+Round Shield of Healing,圆形盾牌，治疗专精
+Round Shield of Celerity,迅捷圆盾
+Round Shield of Lore,博学圆盾
+Round Shield of Speed,速度圆盾
+Round Shield of Stealth,暗影圆盾
+Round Shield of Survival,生存圆盾
+Round Shield of Thievery,盗贼圆盾
+Round Shield of Toughness,坚韧圆盾
+Round Shield of Willpower,意志圆盾
+Shield of Athletics,运动圆盾
+Shield of Awareness,觉醒圆盾
+Shield of Crafting,制作圆盾
+Shield of Defence,防御圆盾
+Shield of Diplomacy,交际圆盾
+Shield of Healing,治疗圆盾
+Shield of Celerity,迅捷圆盾
+Shield of Lore,博学圆盾
+Shield of Speed,速度圆盾
+Shield of Stealth,暗影圆盾
+Shield of Survival,生存圆盾
+Shield of Thievery,盗贼圆盾
+Shield of Toughness,坚韧盾牌
+Shield of Willpower,意志盾牌
+Tower Shield of Athletics,力量塔盾
+Tower Shield of Awareness,觉悟塔盾
+Tower Shield of Crafting,工匠塔盾
+Tower Shield of Defence,防御塔盾
+Tower Shield of Diplomacy,交际塔盾
+Tower Shield of Healing,治疗塔盾
+Tower Shield of Celerity,敏捷塔盾
+Tower Shield of Lore,知识塔盾
+Tower Shield of Speed,速度塔盾
+Tower Shield of Stealth,暗影塔盾
+Tower Shield of Survival,生存塔盾
+Tower Shield of Thievery,盗窃塔盾
+Tower Shield of Toughness,坚韧塔盾
+Tower Shield of Willpower,意志塔盾
+Masterwork Armored Boots of Agility,灵巧护甲靴
+Masterwork Armored Boots of Athletics,力量护甲靴
+Masterwork Armored Boots of Awareness,觉悟护甲靴
+Masterwork Armored Boots of Crafting,工匠护甲靴
+Masterwork Armored Boots of Defence,精工护甲靴（防御）
+Masterwork Armored Boots of Diplomacy,精工护甲靴（外交）
+Masterwork Armored Boots of Fortitude,精工护甲靴（坚毅）
+Masterwork Armored Boots of Healing,精工护甲靴（治疗）
+Masterwork Armored Boots of Celerity,精工护甲靴（敏捷）
+Masterwork Armored Boots of Intellect,精工护甲靴（智力）
+Masterwork Armored Boots of Lore,精工护甲靴（知识）
+Masterwork Armored Boots of Presence,精工护甲靴（威望）
+Masterwork Armored Boots of Speed,精工护甲靴（速度）
+Masterwork Armored Boots of Stealth,精工护甲靴（潜行）
+Masterwork Armored Boots of Strength,精工护甲靴（力量）
+Masterwork Armored Boots of Survival,精工护甲靴（生存）
+Masterwork Armored Boots of Thievery,精工护甲靴（偷盗）
+Masterwork Armored Boots of Toughness,精工护甲靴（坚韧）
+Masterwork Armored Boots of Willpower,精工护甲靴（意志）
+Masterwork Leather Boots of Agility,精工皮靴（敏捷）
+Masterwork Leather Boots of Athletics,精工皮靴（体能）
+Masterwork Leather Boots of Awareness,精工皮靴（感知）
+Masterwork Leather Boots of Crafting,精工皮靴（制作）
+Masterwork Leather Boots of Defence,精工皮靴（防御）
+Masterwork Leather Boots of Diplomacy,精工皮靴·外交
+Masterwork Leather Boots of Fortitude,精工皮靴·坚毅
+Masterwork Leather Boots of Healing,精工皮靴·治疗
+Masterwork Leather Boots of Celerity,精工皮靴·敏捷
+Masterwork Leather Boots of Intellect,精工皮靴·智力
+Masterwork Leather Boots of Lore,精工皮靴·知识
+Masterwork Leather Boots of Presence,精工皮靴·威严
+Masterwork Leather Boots of Speed,精工皮靴·速度
+Masterwork Leather Boots of Stealth,精工皮靴·潜行
+Masterwork Leather Boots of Strength,精工皮靴·力量
+Masterwork Leather Boots of Survival,精工皮靴·生存
+Masterwork Leather Boots of Thievery,精工皮靴·偷盗
+Masterwork Leather Boots of Toughness,精工皮靴·坚韧
+Masterwork Leather Boots of Willpower,精工皮靴·意志
+Masterwork Noble's Boots of Agility,贵族精工皮靴·敏捷
+Masterwork Noble's Boots of Athletics,贵族精工皮靴·体能
+Masterwork Noble's Boots of Awareness,贵族精工皮靴·感知
+Masterwork Noble's Boots of Crafting,贵族精工皮靴·制作
+Masterwork Noble's Boots of Defence,贵族精工皮靴·防御
+Masterwork Noble's Boots of Diplomacy,贵族精工皮靴·外交
+Masterwork Noble's Boots of Fortitude,贵族坚毅大师级靴子
+Masterwork Noble's Boots of Healing,贵族治愈大师级靴子
+Masterwork Noble's Boots of Celerity,贵族迅捷大师级靴子
+Masterwork Noble's Boots of Intellect,贵族智识大师级靴子
+Masterwork Noble's Boots of Lore,贵族知识大师级靴子
+Masterwork Noble's Boots of Presence,贵族风度大师级靴子
+Masterwork Noble's Boots of Speed,贵族速度大师级靴子
+Masterwork Noble's Boots of Stealth,贵族潜行大师级靴子
+Masterwork Noble's Boots of Strength,贵族力量大师级靴子
+Masterwork Noble's Boots of Survival,贵族生存大师级靴子
+Masterwork Noble's Boots of Thievery,贵族偷盗大师级靴子
+Masterwork Noble's Boots of Toughness,贵族坚韧大师级靴子
+Masterwork Noble's Boots of Willpower,贵族意志大师级靴子
+Masterwork Travelers Boots of Agility,旅行者敏捷大师级靴子
+Masterwork Travelers Boots of Athletics,旅行者体能大师级靴子
+Masterwork Travelers Boots of Awareness,旅行者意识大师级靴子
+Masterwork Travelers Boots of Crafting,旅行者制作大师级靴子
+Masterwork Travelers Boots of Defence,旅行者防御大师级靴子
+Masterwork Travelers Boots of Diplomacy,旅行者外交大师级靴子
+Masterwork Travelers Boots of Fortitude,旅行者坚毅大师级靴子
+Masterwork Travelers Boots of Healing,精工旅行靴（治愈）
+Masterwork Travelers Boots of Celerity,精工旅行靴（迅捷）
+Masterwork Travelers Boots of Intellect,精工旅行靴（智者）
+Masterwork Travelers Boots of Lore,精工旅行靴（博学）
+Masterwork Travelers Boots of Presence,精工旅行靴（魅力）
+Masterwork Travelers Boots of Speed,精工旅行靴（迅跑）
+Masterwork Travelers Boots of Stealth,精工旅行靴（潜行）
+Masterwork Travelers Boots of Strength,精工旅行靴（力量）
+Masterwork Travelers Boots of Survival,精工旅行靴（生存）
+Masterwork Travelers Boots of Thievery,精工旅行靴（盗贼）
+Masterwork Travelers Boots of Toughness,精工旅行靴（坚韧）
+Masterwork Travelers Boots of Willpower,精工旅行靴（意志）
+Masterwork Armored Gauntlets of Agility,精工护手（敏捷）
+Masterwork Armored Gauntlets of Athletics,精工护手（体能）
+Masterwork Armored Gauntlets of Awareness,精工护手（感知）
+Masterwork Armored Gauntlets of Crafting,精工护手（制作）
+Masterwork Armored Gauntlets of Defence,精工护手（防御）
+Masterwork Armored Gauntlets of Diplomacy,精工护手（外交）
+Masterwork Armored Gauntlets of Fortitude,精工护手（坚毅）
+Masterwork Armored Gauntlets of Healing,精工护手（治愈）
+Masterwork Armored Gauntlets of Celerity,精工护甲拳套·敏捷
+Masterwork Armored Gauntlets of Intellect,精工护甲拳套·智力
+Masterwork Armored Gauntlets of Lore,精工护甲拳套·知识
+Masterwork Armored Gauntlets of Presence,精工护甲拳套·威严
+Masterwork Armored Gauntlets of Speed,精工护甲拳套·速度
+Masterwork Armored Gauntlets of Stealth,精工护甲拳套·潜行
+Masterwork Armored Gauntlets of Strength,精工护甲拳套·力量
+Masterwork Armored Gauntlets of Survival,精工护甲拳套·生存
+Masterwork Armored Gauntlets of Thievery,精工护甲拳套·盗贼技巧
+Masterwork Armored Gauntlets of Toughness,精工护甲拳套·坚韧
+Masterwork Armored Gauntlets of Willpower,精工护甲拳套·意志力
+Masterwork Leather Gloves of Agility,精工皮手套·敏捷
+Masterwork Leather Gloves of Athletics,精工皮手套·体能
+Masterwork Leather Gloves of Awareness,精工皮手套·警觉
+Masterwork Leather Gloves of Crafting,精工皮手套·制作
+Masterwork Leather Gloves of Defence,精工皮手套·防御
+Masterwork Leather Gloves of Diplomacy,精工皮手套·外交
+Masterwork Leather Gloves of Fortitude,精工皮手套·坚毅
+Masterwork Leather Gloves of Healing,精工皮手套·治疗
+Masterwork Leather Gloves of Celerity,精工皮手套·敏捷
+Masterwork Leather Gloves of Intellect,精工皮质智力手套
+Masterwork Leather Gloves of Lore,精工皮质学识手套
+Masterwork Leather Gloves of Presence,精工皮质威严手套
+Masterwork Leather Gloves of Speed,精工皮质速度手套
+Masterwork Leather Gloves of Stealth,精工皮质潜行手套
+Masterwork Leather Gloves of Strength,精工皮质力量手套
+Masterwork Leather Gloves of Survival,精工皮质生存手套
+Masterwork Leather Gloves of Thievery,精工皮质盗贼手套
+Masterwork Leather Gloves of Toughness,精工皮质坚韧手套
+Masterwork Leather Gloves of Willpower,精工皮质意志手套
+Masterwork Mailed Gauntlets of Agility,精工锁甲手套敏捷
+Masterwork Mailed Gauntlets of Athletics,精工锁甲手套体能
+Masterwork Mailed Gauntlets of Awareness,精工锁甲手套警觉
+Masterwork Mailed Gauntlets of Crafting,精工锁甲手套制作
+Masterwork Mailed Gauntlets of Defence,精工锁甲手套防御
+Masterwork Mailed Gauntlets of Diplomacy,精工锁甲手套外交
+Masterwork Mailed Gauntlets of Fortitude,精工锁甲手套坚韧
+Masterwork Mailed Gauntlets of Healing,精工锁甲手套治疗
+Masterwork Mailed Gauntlets of Celerity,精工锁甲手套迅捷
+Masterwork Mailed Gauntlets of Intellect,精工锁甲手套智力
+Masterwork Mailed Gauntlets of Lore,精工锁甲手套·知识
+Masterwork Mailed Gauntlets of Presence,精工锁甲手套·威严
+Masterwork Mailed Gauntlets of Speed,精工锁甲手套·速度
+Masterwork Mailed Gauntlets of Stealth,精工锁甲手套·潜行
+Masterwork Mailed Gauntlets of Strength,精工锁甲手套·力量
+Masterwork Mailed Gauntlets of Survival,精工锁甲手套·生存
+Masterwork Mailed Gauntlets of Thievery,精工锁甲手套·偷盗
+Masterwork Mailed Gauntlets of Toughness,精工锁甲手套·坚韧
+Masterwork Mailed Gauntlets of Willpower,精工锁甲手套·意志力
+Masterwork Noble's Gloves of Agility,精工贵族手套·敏捷
+Masterwork Noble's Gloves of Athletics,精工贵族手套·体能
+Masterwork Noble's Gloves of Awareness,精工贵族手套·警觉
+Masterwork Noble's Gloves of Crafting,精工贵族手套·工艺
+Masterwork Noble's Gloves of Defence,精工贵族手套·防御
+Masterwork Noble's Gloves of Diplomacy,精工贵族手套·外交
+Masterwork Noble's Gloves of Fortitude,精工贵族手套·坚毅
+Masterwork Noble's Gloves of Healing,精工贵族手套·治疗
+Masterwork Noble's Gloves of Celerity,精工贵族手套·迅捷
+Masterwork Noble's Gloves of Intellect,精工贵族手套·智力
+Masterwork Noble's Gloves of Lore,精工贵族手套·知识
+Masterwork Noble's Gloves of Presence,名门大师级手套：存在
+Masterwork Noble's Gloves of Speed,名门大师级手套：速度
+Masterwork Noble's Gloves of Stealth,名门大师级手套：潜行
+Masterwork Noble's Gloves of Strength,名门大师级手套：力量
+Masterwork Noble's Gloves of Survival,名门大师级手套：生存
+Masterwork Noble's Gloves of Thievery,名门大师级手套：盗贼技巧
+Masterwork Noble's Gloves of Toughness,名门大师级手套：坚韧
+Masterwork Noble's Gloves of Willpower,名门大师级手套：意志
+Masterwork Travelers Gloves of Agility,名人旅行大师级手套：敏捷
+Masterwork Travelers Gloves of Athletics,名人旅行大师级手套：体能
+Masterwork Travelers Gloves of Awareness,名人旅行大师级手套：感知
+Masterwork Travelers Gloves of Crafting,名人旅行大师级手套：制作
+Masterwork Travelers Gloves of Defence,名人旅行大师级手套：防御
+Masterwork Travelers Gloves of Diplomacy,名人旅行大师级手套：外交
+Masterwork Travelers Gloves of Fortitude,名人旅行大师级手套：坚毅
+Masterwork Travelers Gloves of Healing,名人旅行大师级手套：治疗
+Masterwork Travelers Gloves of Celerity,名人旅行大师级手套：迅捷
+Masterwork Travelers Gloves of Intellect,名人旅行大师级手套：智力
+Masterwork Travelers Gloves of Lore,名人旅行大师级手套：知识
+Masterwork Travelers Gloves of Presence,名人旅行大师级手套：存在
+Masterwork Travelers Gloves of Speed,精工旅行者敏捷手套
+Masterwork Travelers Gloves of Stealth,精工旅行者潜行手套
+Masterwork Travelers Gloves of Strength,精工旅行者力量手套
+Masterwork Travelers Gloves of Survival,精工旅行者生存手套
+Masterwork Travelers Gloves of Thievery,精工旅行者盗贼手套
+Masterwork Travelers Gloves of Toughness,精工旅行者坚韧手套
+Masterwork Travelers Gloves of Willpower,精工旅行者意志手套
+Hat of Athletics,运动帽
+Hat of Awareness,感知帽
+Hat of Crafting,制作帽
+Hat of Defence,防御帽
+Hat of Diplomacy,交际帽
+Hat of Healing,治疗帽
+Hat of Celerity,速效帽
+Hat of Lore,知识帽
+Hat of Speed,敏捷帽
+Hat of Stealth,潜行帽
+Hat of Survival,生存帽
+Hat of Thievery,盗贼帽
+Hat of Toughness,坚韧帽
+Hat of Willpower,意志帽
+Masterwork Full Helmet of Agility,精工敏捷全盔
+Masterwork Full Helmet of Athletics,精工体能全盔
+Masterwork Full Helmet of Awareness,精工警觉全盔
+Masterwork Full Helmet of Crafting,精工工艺全盔
+Masterwork Full Helmet of Defence,精工防御全盔
+Masterwork Full Helmet of Diplomacy,精工外交全盔
+Masterwork Full Helmet of Fortitude,精工坚毅全盔
+Masterwork Full Helmet of Healing,精工治疗全盔
+Masterwork Full Helmet of Celerity,精工迅捷全盔
+Masterwork Full Helmet of Intellect,精工智力全盔
+Masterwork Full Helmet of Lore,精工知识全盔
+Masterwork Full Helmet of Presence,精工威望全盔
+Masterwork Full Helmet of Speed,精工速度全盔
+Masterwork Full Helmet of Stealth,精工潜行全盔
+Masterwork Full Helmet of Strength,精工力量全盔
+Masterwork Full Helmet of Survival,精工生存全盔
+Masterwork Full Helmet of Thievery,精工偷盗全盔
+Masterwork Full Helmet of Toughness,精工坚韧全盔
+Masterwork Full Helmet of Willpower,精工意志全盔
+Masterwork Horned Helmet of Agility,精工角盔（敏捷）
+Masterwork Horned Helmet of Athletics,精工角盔（体能）
+Masterwork Horned Helmet of Awareness,精工角盔（警觉）
+Masterwork Horned Helmet of Crafting,精工角盔（工艺）
+Masterwork Horned Helmet of Defence,精工角盔（防御）
+Masterwork Horned Helmet of Diplomacy,精工角盔（外交）
+Masterwork Horned Helmet of Fortitude,精工角盔（坚韧）
+Masterwork Horned Helmet of Healing,精工角盔（治疗）
+Masterwork Horned Helmet of Celerity,精工角盔（迅捷）
+Masterwork Horned Helmet of Intellect,精工角盔（智力）
+Masterwork Horned Helmet of Lore,精工角盔（知识）
+Masterwork Horned Helmet of Presence,精工角盔（魅力）
+Masterwork Horned Helmet of Speed,精工角盔（速度）
+Masterwork Horned Helmet of Stealth,精工角盔（潜行）
+Masterwork Horned Helmet of Strength,精工角盔（力量）
+Masterwork Horned Helmet of Survival,精工角盔（生存）
+Masterwork Horned Helmet of Thievery,精工角盔（偷盗）
+Masterwork Horned Helmet of Toughness,精工角盔（坚韧）
+Masterwork Horned Helmet of Willpower,精工角盔（意志）
+Masterwork Mail Coif of Agility,精工锁甲护颈（敏捷）
+Masterwork Mail Coif of Athletics,精工锁甲护颈· athleticism
+Masterwork Mail Coif of Awareness,精工锁甲护颈· awareness
+Masterwork Mail Coif of Crafting,精工锁甲护颈· craftsmanship
+Masterwork Mail Coif of Defence,精工锁甲护颈· defence
+Masterwork Mail Coif of Diplomacy,精工锁甲护颈· diplomacy
+Masterwork Mail Coif of Fortitude,精工锁甲护颈· fortitude
+Masterwork Mail Coif of Healing,精工锁甲护颈· healing
+Masterwork Mail Coif of Celerity,精工锁甲护颈· celerity
+Masterwork Mail Coif of Intellect,精工锁甲护颈· intellect
+Masterwork Mail Coif of Lore,精工锁甲护颈· lore
+Masterwork Mail Coif of Presence,精工锁甲护颈· presence
+Masterwork Mail Coif of Speed,精工锁甲护颈· speed
+Masterwork Mail Coif of Stealth,精工锁甲护颈· stealth
+Masterwork Mail Coif of Strength,精工锁甲护颈· strength
+Masterwork Mail Coif of Survival,精工锁甲护颈· survival
+Masterwork Mail Coif of Thievery,精工锁甲护颈· thievery
+Masterwork Mail Coif of Toughness,精工锁甲护颈· toughness
+Masterwork Mail Coif of Willpower,精工锁甲护颈· willpower
+Masterwork Plumed Helmet of Agility,精工羽盔· agility
+Masterwork Plumed Helmet of Athletics,精工羽盔· athleticism
+Masterwork Plumed Helmet of Awareness,精工羽冠·警觉
+Masterwork Plumed Helmet of Crafting,精工羽冠·工艺
+Masterwork Plumed Helmet of Defence,精工羽冠·防御
+Masterwork Plumed Helmet of Diplomacy,精工羽冠·外交
+Masterwork Plumed Helmet of Fortitude,精工羽冠·坚韧
+Masterwork Plumed Helmet of Healing,精工羽冠·治疗
+Masterwork Plumed Helmet of Celerity,精工羽冠·迅捷
+Masterwork Plumed Helmet of Intellect,精工羽冠·智识
+Masterwork Plumed Helmet of Lore,精工羽冠·学识
+Masterwork Plumed Helmet of Presence,精工羽冠·魅力
+Masterwork Plumed Helmet of Speed,精工羽冠·速度
+Masterwork Plumed Helmet of Stealth,精工羽冠·潜行
+Masterwork Plumed Helmet of Strength,精工羽冠·力量
+Masterwork Plumed Helmet of Survival,精工羽冠·生存
+Masterwork Plumed Helmet of Thievery,精工羽冠·偷盗
+Masterwork Plumed Helmet of Toughness,精工羽冠·坚韧
+Masterwork Plumed Helmet of Willpower,精工羽冠·意志
+Officer's Helmet of Agility,高级军官羽冠·敏捷
+Officer's Helmet of Athletics,高级军官羽冠·体能
+Officer's Helmet of Awareness,高级军官羽冠·警觉
+Officer's Helmet of Crafting,长官之制帽
+Officer's Helmet of Defence,长官之防御帽
+Officer's Helmet of Diplomacy,长官之外交帽
+Officer's Helmet of Fortitude,长官之坚毅帽
+Officer's Helmet of Healing,长官之治愈帽
+Officer's Helmet of Celerity,长官之迅捷帽
+Officer's Helmet of Intellect,长官之智识帽
+Officer's Helmet of Lore,长官之学识帽
+Officer's Helmet of Presence,长官之气场帽
+Officer's Helmet of Speed,长官之速度帽
+Officer's Helmet of Stealth,长官之潜行帽
+Officer's Helmet of Strength,长官之力壮帽
+Officer's Helmet of Survival,长官之生存帽
+Officer's Helmet of Thievery,长官之偷盗帽
+Officer's Helmet of Toughness,长官之坚韧帽
+Officer's Helmet of Willpower,长官之意志帽
+#Enchantments - Jewellery,#法术 - 配饰
+Ancient Gold Necklace of Athletics,古代金运动项圈
+Ancient Gold Necklace of Awareness,古代金意识项圈
+Ancient Gold Necklace of Crafting,古代金制帽项圈
+Ancient Gold Necklace of Defence,古代防具金项链
+Ancient Gold Necklace of Diplomacy,古代外交金项链
+Ancient Gold Necklace of Fortitude,古代坚毅金项链
+Ancient Gold Necklace of Healing,古代治疗金项链
+Ancient Gold Necklace of Celerity,古代敏捷金项链
+Ancient Gold Necklace of Lore,古代知识金项链
+Ancient Gold Necklace of Stealth,古代潜行金项链
+Ancient Gold Necklace of Survival,古代生存金项链
+Ancient Gold Necklace of Thievery,古代偷盗金项链
+Ancient Gold Necklace of Toughness,古代坚韧金项链
+Ancient Gold Necklace of Willpower,古代体能翡翠项链
+Ancient Jade Necklace of Athletics,古代感知翡翠项链
+Ancient Jade Necklace of Awareness,古代制作翡翠项链
+Ancient Jade Necklace of Crafting,古代防具翡翠项链
+Ancient Jade Necklace of Defence,古代外交翡翠项链
+Ancient Jade Necklace of Diplomacy,古代坚毅翡翠项链
+Ancient Jade Necklace of Fortitude,古代治疗翡翠项链
+Ancient Jade Necklace of Healing,古代敏捷翡翠项链
+Ancient Jade Necklace of Celerity,古代知识翡翠项链
+Ancient Jade Necklace of Lore,古代防具翡翠项链
+Ancient Jade Necklace of Stealth,古代碧玉隐匿项炼
+Ancient Jade Necklace of Survival,古代碧玉生存项炼
+Ancient Jade Necklace of Thievery,古代碧玉窃盗项炼
+Ancient Jade Necklace of Toughness,古代碧玉坚韧项炼
+Ancient Jade Necklace of Willpower,古代碧玉意志项炼
+Arcane Necklace of Athletics,魔法项炼·体能
+Arcane Necklace of Agility,魔法项炼·敏捷
+Arcane Necklace of Awareness,魔法项炼·感知
+Arcane Necklace of Crafting,魔法项炼·制作
+Arcane Necklace of Defence,魔法项炼·防御
+Arcane Necklace of Diplomacy,魔法项炼·外交
+Arcane Necklace of Fortitude,魔法项炼·坚毅
+Arcane Necklace of Healing,魔法项炼·治疗
+Arcane Necklace of the Hero,魔法项炼·英雄
+Arcane Necklace of Celerity,魔法项炼·迅捷
+Arcane Necklace of Intellect,魔法项炼·智力
+Arcane Necklace of Lore,魔法项炼·知识
+Arcane Necklace of Presence,魔法项炼·存在
+Arcane Necklace of Protection,魔法项炼·防护
+Arcane Necklace of Speed,魔法项炼·速度
+Arcane Necklace of Stealth,神秘项链·潜行
+Arcane Necklace of Strength,神秘项链·力量
+Arcane Necklace of Survival,神秘项链·生存
+Arcane Necklace of Thievery,神秘项链·盗贼技巧
+Arcane Necklace of Toughness,神秘项链·坚韧
+Arcane Necklace of Willpower,神秘项链·意志
+Beryl Necklace of Agility,翡翠项链·敏捷
+Beryl Necklace of Athletics,翡翠项链·体能
+Beryl Necklace of Awareness,翡翠项链·感知
+Beryl Necklace of Crafting,翡翠项链·制作
+Beryl Necklace of Defence,翡翠项链·防御
+Beryl Necklace of Diplomacy,翡翠项链·外交
+Beryl Necklace of Fortitude,翡翠项链·坚韧
+Beryl Necklace of Healing,翡翠项链·治疗
+Beryl Necklace of Celerity,翡翠项链·迅捷
+Beryl Necklace of Intellect,翡翠项链·智力
+Beryl Necklace of Lore,翡翠项链·知识
+Beryl Necklace of Presence,翡翠项链·存在感
+Beryl Necklace of Stealth,翡翠项链·潜行
+Beryl Necklace of Strength,翡翠项链·力量
+Beryl Necklace of Survival,碧玉生存项链
+Beryl Necklace of Thievery,碧玉盗贼项链
+Beryl Necklace of Toughness,碧玉坚韧项链
+Beryl Necklace of Willpower,碧玉意志项链
+Copper Locket of Athletics,铜制运动锁链
+Copper Locket of Awareness,铜制警觉锁链
+Copper Locket of Crafting,铜制制作锁链
+Copper Locket of Defence,铜制防御锁链
+Copper Locket of Diplomacy,铜制外交锁链
+Copper Locket of Fortitude,铜制坚毅锁链
+Copper Locket of Healing,铜制治疗锁链
+Copper Locket of Celerity,铜制迅捷锁链
+Copper Locket of Lore,铜制知识锁链
+Copper Locket of Stealth,铜制潜行锁链
+Copper Locket of Survival,铜制生存锁链
+Copper Locket of Thievery,铜制盗贼锁链
+Copper Locket of Toughness,铜制坚韧锁链
+Copper Locket of Willpower,铜制意志锁链
+Coral Necklace of Agility,珊瑚敏捷项链
+Coral Necklace of Athletics,珊瑚运动项链
+Coral Necklace of Awareness,珊瑚意识项链
+Coral Necklace of Crafting,珊瑚工艺项链
+Coral Necklace of Defence,珊瑚防御项链
+Coral Necklace of Diplomacy,珊瑚外交项链
+Coral Necklace of Fortitude,珊瑚坚韧项链
+Coral Necklace of Healing,珊瑚治疗项链
+Coral Necklace of Celerity,珊瑚迅捷项链
+Coral Necklace of Intellect,珊瑚智力项链
+Coral Necklace of Lore,珊瑚知识项链
+Coral Necklace of Presence,珊瑚威严项链
+Coral Necklace of Stealth,珊瑚潜行项链
+Coral Necklace of Strength,珊瑚力量项链
+Coral Necklace of Survival,珊瑚生存项链
+Coral Necklace of Thievery,珊瑚偷盗项链
+Coral Necklace of Toughness,珊瑚坚韧项链
+Coral Necklace of Willpower,珊瑚意志项链
+Diamond Necklace of Athletics,钻石体能项链
+Diamond Necklace of Agility,钻石敏捷项链
+Diamond Necklace of Awareness,钻石意识项链
+Diamond Necklace of Crafting,钻石工艺项链
+Diamond Necklace of Defence,防御钻颈饰
+Diamond Necklace of Diplomacy,交际钻颈饰
+Diamond Necklace of Fortitude,坚韧钻颈饰
+Diamond Necklace of Healing,治疗钻颈饰
+Diamond Necklace of the Hero,英雄钻颈饰
+Diamond Necklace of Celerity,敏捷钻颈饰
+Diamond Necklace of Intellect,智慧钻颈饰
+Diamond Necklace of Lore,学识钻颈饰
+Diamond Necklace of Presence,威严钻颈饰
+Diamond Necklace of Protection,保护钻颈饰
+Diamond Necklace of Speed,速度钻颈饰
+Diamond Necklace of Stealth,暗杀钻颈饰
+Diamond Necklace of Strength,力量钻颈饰
+Diamond Necklace of Survival,生存钻颈饰
+Diamond Necklace of Thievery,盗窃钻颈饰
+Diamond Necklace of Toughness,坚固钻颈饰
+Diamond Necklace of Willpower,意志钻颈饰
+Firegold Necklace of Agility,火金敏捷颈饰
+Firegold Necklace of Athletics,火金体能颈饰
+Firegold Necklace of Awareness,火金感知颈饰
+Firegold Necklace of Crafting,燃金工艺项链
+Firegold Necklace of Defence,燃金防御项链
+Firegold Necklace of Diplomacy,燃金外交项链
+Firegold Necklace of Fortitude,燃金坚毅项链
+Firegold Necklace of Healing,燃金治疗项链
+Firegold Necklace of Celerity,燃金迅捷项链
+Firegold Necklace of Intellect,燃金智谋项链
+Firegold Necklace of Lore,燃金学识项链
+Firegold Necklace of Presence,燃金气场项链
+Firegold Necklace of Stealth,燃金潜行项链
+Firegold Necklace of Strength,燃金力量项链
+Firegold Necklace of Survival,燃金生存项链
+Firegold Necklace of Thievery,燃金偷盗项链
+Firegold Necklace of Toughness,燃金坚韧项链
+Firegold Necklace of Willpower,燃金意志项链
+Garnet Necklace of Athletics,红宝石运动项链
+Garnet Necklace of Agility,红宝石敏捷项链
+Garnet Necklace of Awareness,红宝石警觉项链
+Garnet Necklace of Crafting,红宝石工艺项链
+Garnet Necklace of Defence,红宝石防御项链
+Garnet Necklace of Diplomacy,砗磲外交项炼
+Garnet Necklace of Fortitude,砗磲坚毅项炼
+Garnet Necklace of Healing,砗磲治愈项炼
+Garnet Necklace of the Hero,砗磲英雄项炼
+Garnet Necklace of Celerity,砗磲迅捷项炼
+Garnet Necklace of Intellect,砗磲智巧项炼
+Garnet Necklace of Lore,砗磲学识项炼
+Garnet Necklace of Presence,砗磲威严项炼
+Garnet Necklace of Protection,砗磲防护项炼
+Garnet Necklace of Speed,砗磲速度项炼
+Garnet Necklace of Stealth,砗磲潜行项炼
+Garnet Necklace of Strength,砗磲力量项炼
+Garnet Necklace of Survival,砗磲生存项炼
+Garnet Necklace of Thievery,砗磲偷盗项炼
+Garnet Necklace of Toughness,砗磲坚韧项炼
+Garnet Necklace of Willpower,砗磲意志项炼
+Jade Necklace of Athletics,翡翠运动项炼
+Jade Necklace of Awareness,翡翠意识项炼
+Jade Necklace of Crafting,翡翠制作项炼
+Jade Necklace of Defence,翡翠防御项炼
+Jade Necklace of Diplomacy,翡翠外交项链
+Jade Necklace of Fortitude,翡翠坚毅项链
+Jade Necklace of Healing,翡翠治疗项链
+Jade Necklace of Celerity,翡翠迅捷项链
+Jade Necklace of Lore,翡翠学识项链
+Jade Necklace of Stealth,翡翠潜行项链
+Jade Necklace of Survival,翡翠生存项链
+Jade Necklace of Thievery,翡翠盗贼项链
+Jade Necklace of Toughness,翡翠坚韧项链
+Jade Necklace of Willpower,翡翠意志项链
+Pagan Necklace of Agility,原始敏捷项链
+Pagan Necklace of Athletics,原始体能项链
+Pagan Necklace of Awareness,原始感知项链
+Pagan Necklace of Crafting,原始制作项链
+Pagan Necklace of Defence,原始防御项链
+Pagan Necklace of Diplomacy,原始外交项链
+Pagan Necklace of Fortitude,原始坚毅项链
+Pagan Necklace of Healing,原始治疗项链
+Pagan Necklace of Celerity,原始迅捷项链
+Pagan Necklace of Intellect,原始智力项链
+Pagan Necklace of Lore,异教徒知识项链
+Pagan Necklace of Presence,异教徒存在项链
+Pagan Necklace of Stealth,异教徒潜行项链
+Pagan Necklace of Strength,异教徒力量项链
+Pagan Necklace of Survival,异教徒生存项链
+Pagan Necklace of Thievery,异教徒偷盗项链
+Pagan Necklace of Toughness,异教徒坚韧项链
+Pagan Necklace of Willpower,异教徒意志项链
+Profane Necklace of Athletics,贬抑运动场项链
+Profane Necklace of Agility,贬抑敏捷项链
+Profane Necklace of Awareness,贬抑感知项链
+Profane Necklace of Crafting,贬抑工艺项链
+Profane Necklace of Defence,贬抑防御项链
+Profane Necklace of Diplomacy,贬抑外交项链
+Profane Necklace of Fortitude,贬抑坚韧项链
+Profane Necklace of Healing,贬抑治疗项链
+Profane Necklace of the Hero,贬抑英雄项链
+Profane Necklace of Celerity,贬抑迅捷项链
+Profane Necklace of Intellect,贬抑智力项链
+Profane Necklace of Lore,贬抑知识项链
+Profane Necklace of Presence,荒圣项炼·存在
+Profane Necklace of Protection,荒圣项炼·防护
+Profane Necklace of Speed,荒圣项炼·速度
+Profane Necklace of Stealth,荒圣项炼·潜行
+Profane Necklace of Strength,荒圣项炼·力量
+Profane Necklace of Survival,荒圣项炼·生存
+Profane Necklace of Thievery,荒圣项炼·窃盗
+Profane Necklace of Toughness,荒圣项炼·坚韧
+Profane Necklace of Willpower,荒圣项炼·意志
+Ruby Necklace of Athletics,红宝石项炼·体育
+Ruby Necklace of Awareness,红宝石项炼·意识
+Ruby Necklace of Crafting,红宝石项炼·制作
+Ruby Necklace of Defence,红宝石项炼·防御
+Ruby Necklace of Diplomacy,红宝石项炼·外交
+Ruby Necklace of Fortitude,红宝石项炼·坚毅
+Ruby Necklace of Healing,红宝石项炼·治疗
+Ruby Necklace of Celerity,红宝石项炼·迅捷
+Ruby Necklace of Lore,红宝石项炼·学识
+Ruby Necklace of Stealth,红宝石项炼·潜行
+Ruby Necklace of Survival,红宝石项炼·生存
+Ruby Necklace of Thievery,窃贼红宝石项链
+Ruby Necklace of Toughness,坚韧红宝石项链
+Ruby Necklace of Willpower,意志红宝石项链
+Skull Necklace of Agility,敏捷头骨项链
+Skull Necklace of Athletics,体能头骨项链
+Skull Necklace of Awareness,觉知头骨项链
+Skull Necklace of Crafting,制作头骨项链
+Skull Necklace of Defence,防御头骨项链
+Skull Necklace of Diplomacy,交际头骨项链
+Skull Necklace of Fortitude,坚毅头骨项链
+Skull Necklace of Healing,治疗头骨项链
+Skull Necklace of Celerity,瞬捷头骨项链
+Skull Necklace of Intellect,智慧头骨项链
+Skull Necklace of Lore,知识头骨项链
+Skull Necklace of Presence,威严头骨项链
+Skull Necklace of Stealth,暗杀头骨项链
+Skull Necklace of Strength,力量头骨项链
+Skull Necklace of Survival,生存头骨项链
+Skull Necklace of Thievery,窃贼头骨项链
+Skull Necklace of Toughness,坚韧头骨项链
+Skull Necklace of Willpower,骷髅力量项链
+Amethyst Ring of Agility,紫水晶敏捷戒指
+Amethyst Ring of Athletics,紫水晶运动戒指
+Amethyst Ring of Awareness,紫水晶感知戒指
+Amethyst Ring of Crafting,紫水晶工艺戒指
+Amethyst Ring of Defence,紫水晶防御戒指
+Amethyst Ring of Diplomacy,紫水晶外交戒指
+Amethyst Ring of Fortitude,紫水晶坚毅戒指
+Amethyst Ring of Healing,紫水晶治疗戒指
+Amethyst Ring of Celerity,紫水晶迅捷戒指
+Amethyst Ring of Lore,紫水晶学识戒指
+Amethyst Ring of Presence,紫水晶威严戒指
+Amethyst Ring of Stealth,紫水晶潜行戒指
+Amethyst Ring of Strength,紫水晶力量戒指
+Amethyst Ring of Survival,紫水晶生存戒指
+Amethyst Ring of Thievery,紫水晶偷盗戒指
+Amethyst Ring of Toughness,紫水晶坚韧戒指
+Amethyst Ring of Willpower,骷髅力量戒指
+Aquamarine Ring of Agility,海蓝宝石敏捷戒指
+Aquamarine Ring of Athletics,海蓝宝石运动戒指
+Aquamarine Ring of Awareness,水晶戒指·警觉
+Aquamarine Ring of Crafting,水晶戒指·工艺
+Aquamarine Ring of Defence,水晶戒指·防御
+Aquamarine Ring of Diplomacy,水晶戒指·外交
+Aquamarine Ring of Fortitude,水晶戒指·坚韧
+Aquamarine Ring of Healing,水晶戒指·治疗
+Aquamarine Ring of Celerity,水晶戒指·迅捷
+Aquamarine Ring of Lore,水晶戒指·知识
+Aquamarine Ring of Presence,水晶戒指·魅力
+Aquamarine Ring of Speed,水晶戒指·速度
+Aquamarine Ring of Stealth,水晶戒指·潜行
+Aquamarine Ring of Strength,水晶戒指·力量
+Aquamarine Ring of Survival,水晶戒指·生存
+Aquamarine Ring of Thievery,水晶戒指·偷盗
+Aquamarine Ring of Toughness,水晶戒指·坚韧
+Aquamarine Ring of Willpower,水晶戒指·意志
+Arboreal Ring of Athletics,林地戒指·体育
+Arboreal Ring of Agility,林地戒指·敏捷
+Arboreal Ring of Awareness,林地戒指·警觉
+Arboreal Ring of Crafting,林地戒指·工艺
+Arboreal Ring of Defence,树木之环·防御
+Arboreal Ring of Diplomacy,树木之环·外交
+Arboreal Ring of Fortitude,树木之环·坚韧
+Arboreal Ring of Healing,树木之环·治疗
+Arboreal Ring of the Hero,树木之环·英雄
+Arboreal Ring of Celerity,树木之环·敏捷
+Arboreal Ring of Intellect,树木之环·智力
+Arboreal Ring of Lore,树木之环·知识
+Arboreal Ring of Presence,树木之环·存在感
+Arboreal Ring of Protection,树木之环·保护
+Arboreal Ring of Speed,树木之环·速度
+Arboreal Ring of Stealth,树木之环·潜行
+Arboreal Ring of Strength,树木之环·力量
+Arboreal Ring of Survival,树木之环·生存
+Arboreal Ring of Thievery,树木之环·偷盗
+Arboreal Ring of Toughness,树木之环·坚韧
+Arboreal Ring of Willpower,树木之环·意志力
+Emerald Ring of Agility,翡翠之环·敏捷
+Emerald Ring of Athletics,翡翠之环·体能
+Emerald Ring of Awareness,翡翠之环·意识
+Emerald Ring of Crafting,翡翠工艺戒
+Emerald Ring of Defence,翡翠防御戒
+Emerald Ring of Diplomacy,翡翠外交戒
+Emerald Ring of Fortitude,翡翠坚毅戒
+Emerald Ring of Healing,翡翠治疗戒
+Emerald Ring of Celerity,翡翠迅捷戒
+Emerald Ring of Lore,翡翠知识戒
+Emerald Ring of Presence,翡翠威望戒
+Emerald Ring of Stealth,翡翠潜行戒
+Emerald Ring of Strength,翡翠力量戒
+Emerald Ring of Survival,翡翠生存戒
+Emerald Ring of Thievery,翡翠偷盗戒
+Emerald Ring of Toughness,翡翠坚韧戒
+Emerald Ring of Willpower,翡翠意志戒
+Fire Opal Ring of Agility,火宝石敏捷戒
+Fire Opal Ring of Athletics,火宝石体能戒
+Fire Opal Ring of Awareness,火宝石意识戒
+Fire Opal Ring of Crafting,火宝石工艺戒
+Fire Opal Ring of Defence,火宝石防御戒
+Fire Opal Ring of Diplomacy,火宝石外交戒
+Fire Opal Ring of Fortitude,火宝石戒指·坚定
+Fire Opal Ring of Healing,火宝石戒指·治疗
+Fire Opal Ring of Celerity,火宝石戒指·敏捷
+Fire Opal Ring of Lore,火宝石戒指·学识
+Fire Opal Ring of Presence,火宝石戒指·魅力
+Fire Opal Ring of Stealth,火宝石戒指·潜行
+Fire Opal Ring of Strength,火宝石戒指·力量
+Fire Opal Ring of Survival,火宝石戒指·生存
+Fire Opal Ring of Thievery,火宝石戒指·偷盗
+Fire Opal Ring of Toughness,火宝石戒指·坚韧
+Fire Opal Ring of Willpower,火宝石戒指·意志
+Flowgold Ring of Agility,涌金戒指·敏捷
+Flowgold Ring of Athletics,涌金戒指·体能
+Flowgold Ring of Awareness,涌金戒指·感知
+Flowgold Ring of Crafting,涌金戒指·制作
+Flowgold Ring of Defence,涌金戒指·防御
+Flowgold Ring of Diplomacy,涌金戒指·外交
+Flowgold Ring of Fortitude,涌金戒指·坚定
+Flowgold Ring of Healing,涌金戒指·治疗
+Flowgold Ring of Celerity,涌金戒指·敏捷
+Flowgold Ring of Lore,流金智慧指环
+Flowgold Ring of Presence,流金存在指环
+Flowgold Ring of Speed,流金迅捷指环
+Flowgold Ring of Stealth,流金潜行指环
+Flowgold Ring of Strength,流金力量指环
+Flowgold Ring of Survival,流金生存指环
+Flowgold Ring of Thievery,流金偷盗指环
+Flowgold Ring of Toughness,流金坚韧指环
+Flowgold Ring of Willpower,流金意志指环
+Frater's Ring of Agility,弗雷特敏捷指环
+Frater's Ring of Athletics,弗雷特体能指环
+Frater's Ring of Awareness,弗雷特感知指环
+Frater's Ring of Crafting,弗雷特制作指环
+Frater's Ring of Defence,弗雷特防御指环
+Frater's Ring of Diplomacy,弗雷特外交指环
+Frater's Ring of Fortitude,弗雷特坚毅指环
+Frater's Ring of Healing,弗雷特治疗指环
+Frater's Ring of Celerity,弗雷特迅捷指环
+Frater's Ring of Lore,弗雷特智慧指环
+Frater's Ring of Presence,弗雷特存在指环
+Frater's Ring of Speed,弗雷特速度戒指
+Frater's Ring of Stealth,弗雷特潜行戒指
+Frater's Ring of Strength,弗雷特力量戒指
+Frater's Ring of Survival,弗雷特生存戒指
+Frater's Ring of Thievery,弗雷特盗贼戒指
+Frater's Ring of Toughness,弗雷特坚韧戒指
+Frater's Ring of Willpower,弗雷特意志戒指
+Genesis Ring of Athletics,本源运动戒
+Genesis Ring of Agility,本源敏捷戒
+Genesis Ring of Awareness,本源警觉戒
+Genesis Ring of Crafting,本源工艺戒
+Genesis Ring of Defence,本源防御戒
+Genesis Ring of Diplomacy,本源外交戒
+Genesis Ring of Fortitude,本源坚毅戒
+Genesis Ring of Healing,本源治愈戒
+Genesis Ring of the Hero,本源英雄戒
+Genesis Ring of Celerity,本源迅捷戒
+Genesis Ring of Intellect,本源智力戒
+Genesis Ring of Lore,本源学识戒
+Genesis Ring of Presence,本源威望戒
+Genesis Ring of Protection,创世护腕
+Genesis Ring of Speed,创世迅捷戒
+Genesis Ring of Stealth,创世潜行戒
+Genesis Ring of Strength,创力戒
+Genesis Ring of Survival,创生戒
+Genesis Ring of Thievery,创盗戒
+Genesis Ring of Toughness,创韧戒
+Genesis Ring of Willpower,创志戒
+Green Sapphire Ring of Agility,翡翠敏捷戒
+Green Sapphire Ring of Athletics,翡翠体能戒
+Green Sapphire Ring of Awareness,翡翠意识戒
+Green Sapphire Ring of Crafting,翡翠工艺戒
+Green Sapphire Ring of Defence,翡翠防御戒
+Green Sapphire Ring of Diplomacy,翡翠外交戒
+Green Sapphire Ring of Fortitude,翡翠坚韧戒
+Green Sapphire Ring of Healing,翡翠治疗戒
+Green Sapphire Ring of Celerity,翡翠迅捷戒
+Green Sapphire Ring of Lore,翡翠学识戒
+Green Sapphire Ring of Presence,翡翠威严戒
+Green Sapphire Ring of Speed,翡翠迅捷戒
+Green Sapphire Ring of Stealth,绿翡翠戒指·潜行
+Green Sapphire Ring of Strength,绿翡翠戒指·力量
+Green Sapphire Ring of Survival,绿翡翠戒指·生存
+Green Sapphire Ring of Thievery,绿翡翠戒指·盗贼技艺
+Green Sapphire Ring of Toughness,绿翡翠戒指·坚韧
+Green Sapphire Ring of Willpower,绿翡翠戒指·意志
+Lapis Ring of Agility,蓝宝石戒指·敏捷
+Lapis Ring of Athletics,蓝宝石戒指·体能
+Lapis Ring of Awareness,蓝宝石戒指·感知
+Lapis Ring of Crafting,蓝宝石戒指·制作
+Lapis Ring of Defence,蓝宝石戒指·防御
+Lapis Ring of Diplomacy,蓝宝石戒指·外交
+Lapis Ring of Fortitude,蓝宝石戒指·坚毅
+Lapis Ring of Healing,蓝宝石戒指·治疗
+Lapis Ring of Celerity,蓝宝石戒指·迅捷
+Lapis Ring of Lore,蓝宝石戒指·学识
+Lapis Ring of Presence,蓝宝石戒指·魅力
+Lapis Ring of Speed,蓝宝石戒指·速度
+Lapis Ring of Stealth,蓝宝石戒指·潜行
+Lapis Ring of Strength,蓝宝石戒指·力量
+Lapis Ring of Survival,蓝宝石生存指环
+Lapis Ring of Thievery,蓝宝石盗贼指环
+Lapis Ring of Toughness,蓝宝石坚韧指环
+Lapis Ring of Willpower,蓝宝石意志力指环
+Lupercal Ring of Athletics,卢珀卡尔运动指环
+Lupercal Ring of Agility,卢珀卡尔敏捷指环
+Lupercal Ring of Awareness,卢珀卡尔警觉指环
+Lupercal Ring of Crafting,卢珀卡尔制作指环
+Lupercal Ring of Defence,卢珀卡尔防御指环
+Lupercal Ring of Diplomacy,卢珀卡尔外交指环
+Lupercal Ring of Fortitude,卢珀卡尔坚韧指环
+Lupercal Ring of Healing,卢珀卡尔治疗指环
+Lupercal Ring of the Hero,卢珀卡尔英雄指环
+Lupercal Ring of Celerity,卢珀卡尔迅捷指环
+Lupercal Ring of Intellect,卢珀卡尔智力指环
+Lupercal Ring of Lore,卢珀卡尔知识指环
+Lupercal Ring of Presence,卢珀卡尔魅力指环
+Lupercal Ring of Protection,卢珀卡尔保护指环
+Lupercal Ring of Speed,卢珀卡尔速度指环
+Lupercal Ring of Stealth,卢珀卡尔潜行指环
+Lupercal Ring of Strength,狼节之力戒
+Lupercal Ring of Survival,狼节之生存戒
+Lupercal Ring of Thievery,狼节之盗贼戒
+Lupercal Ring of Toughness,狼节之坚韧戒
+Lupercal Ring of Willpower,狼节之意志戒
+Primordial Ring of Athletics,原始之力戒
+Primordial Ring of Agility,原始之敏捷戒
+Primordial Ring of Awareness,原始之警觉戒
+Primordial Ring of Crafting,原始之制作戒
+Primordial Ring of Defence,原始之防御戒
+Primordial Ring of Diplomacy,原始之外交戒
+Primordial Ring of Fortitude,原始之坚韧戒
+Primordial Ring of Healing,原始之治疗戒
+Primordial Ring of the Hero,原始之英雄戒
+Primordial Ring of Celerity,原始之迅捷戒
+Primordial Ring of Intellect,原始之智力戒
+Primordial Ring of Lore,原始之知识戒
+Primordial Ring of Presence,原始之气场戒
+Primordial Ring of Protection,原始之保护戒
+Primordial Ring of Speed,原始之速度戒
+Primordial Ring of Stealth,原始敏捷戒指
+Primordial Ring of Strength,原始力量戒指
+Primordial Ring of Survival,原始生存戒指
+Primordial Ring of Thievery,原始偷盗戒指
+Primordial Ring of Toughness,原始坚韧戒指
+Primordial Ring of Willpower,原始意志戒指
+Ruby Ring of Agility,红宝石敏捷戒指
+Ruby Ring of Athletics,红宝石体育戒指
+Ruby Ring of Awareness,红宝石意识戒指
+Ruby Ring of Crafting,红宝石制作戒指
+Ruby Ring of Defence,红宝石防御戒指
+Ruby Ring of Diplomacy,红宝石外交戒指
+Ruby Ring of Fortitude,红宝石坚毅戒指
+Ruby Ring of Healing,红宝石治疗戒指
+Ruby Ring of Celerity,红宝石迅捷戒指
+Ruby Ring of Lore,红宝石知识戒指
+Ruby Ring of Presence,红宝石存在戒指
+Ruby Ring of Stealth,红宝石偷盗戒指
+Ruby Ring of Strength,红宝石力量戒指
+Ruby Ring of Survival,红宝石生存戒指
+Ruby Ring of Thievery,红宝石窃贼之戒
+Ruby Ring of Toughness,红宝石坚毅之戒
+Ruby Ring of Willpower,红宝石意志之戒
+Sepulchite's Ring of Agility,西普西特敏捷之戒
+Sepulchite's Ring of Athletics,西普西特体能之戒
+Sepulchite's Ring of Awareness,西普西特警觉之戒
+Sepulchite's Ring of Crafting,西普西特制作之戒
+Sepulchite's Ring of Defence,西普西特防御之戒
+Sepulchite's Ring of Diplomacy,西普西特外交之戒
+Sepulchite's Ring of Fortitude,西普西特坚韧之戒
+Sepulchite's Ring of Healing,西普西特治疗之戒
+Sepulchite's Ring of Celerity,西普西特迅捷之戒
+Sepulchite's Ring of Lore,西普西特学识之戒
+Sepulchite's Ring of Presence,西普西特威严之戒
+Sepulchite's Ring of Speed,西普西特速度之戒
+Sepulchite's Ring of Stealth,西普西特潜行之戒
+Sepulchite's Ring of Strength,西普西特力量之戒
+Sepulchite's Ring of Survival,西普西特生存之戒
+Sepulchite's Ring of Thievery,西普西特窃贼之戒
+Sepulchite's Ring of Toughness,西普西特坚毅之戒
+Sepulchite's Ring of Willpower,西普契特的力量指环
+Serpent Ring of Agility,蛇形敏捷指环
+Serpent Ring of Athletics,蛇形体能指环
+Serpent Ring of Awareness,蛇形感知指环
+Serpent Ring of Crafting,蛇形工艺指环
+Serpent Ring of Defence,蛇形防御指环
+Serpent Ring of Diplomacy,蛇形外交指环
+Serpent Ring of Fortitude,蛇形坚毅指环
+Serpent Ring of Healing,蛇形治疗指环
+Serpent Ring of Celerity,蛇形迅捷指环
+Serpent Ring of Lore,蛇形学识指环
+Serpent Ring of Presence,蛇形威望指环
+Serpent Ring of Stealth,蛇形潜行指环
+Serpent Ring of Strength,蛇形力量指环
+Serpent Ring of Survival,蛇形生存指环
+Serpent Ring of Thievery,蛇形偷盗指环
+Serpent Ring of Toughness,蛇形坚韧指环
+Serpent Ring of Willpower,蛇形力量指环
+Skull Ring of Agility,颅骨敏捷指环
+Skull Ring of Athletics,颅骨体能指环
+Skull Ring of Awareness,颅骨戒指·警觉
+Skull Ring of Crafting,颅骨戒指·制作
+Skull Ring of Defence,颅骨戒指·防御
+Skull Ring of Diplomacy,颅骨戒指·外交
+Skull Ring of Fortitude,颅骨戒指·坚韧
+Skull Ring of Healing,颅骨戒指·治疗
+Skull Ring of Celerity,颅骨戒指·敏捷
+Skull Ring of Lore,颅骨戒指·知识
+Skull Ring of Presence,颅骨戒指·威望
+Skull Ring of Stealth,颅骨戒指·潜行
+Skull Ring of Strength,颅骨戒指·力量
+Skull Ring of Survival,颅骨戒指·生存
+Skull Ring of Thievery,颅骨戒指·偷盗
+Skull Ring of Toughness,颅骨戒指·坚韧
+Skull Ring of Willpower,额石戒指·敏捷
+Sunstone Ring of Agility,额石戒指·体能
+Sunstone Ring of Athletics,额石戒指·警觉
+Sunstone Ring of Awareness,额石戒指·制作
+Sunstone Ring of Crafting,额石戒指·防御
+Sunstone Ring of Defence,额石戒指·防御
+Sunstone Ring of Diplomacy,日光石戒指·外交
+Sunstone Ring of Fortitude,日光石戒指·坚毅
+Sunstone Ring of Healing,日光石戒指·治疗
+Sunstone Ring of Celerity,日光石戒指·敏捷
+Sunstone Ring of Lore,日光石戒指·知识
+Sunstone Ring of Presence,日光石戒指·威严
+Sunstone Ring of Speed,日光石戒指·速度
+Sunstone Ring of Stealth,日光石戒指·潜行
+Sunstone Ring of Strength,日光石戒指·力量
+Sunstone Ring of Survival,日光石戒指·生存
+Sunstone Ring of Thievery,日光石戒指·偷盗
+Sunstone Ring of Toughness,日光石戒指·坚韧
+Sunstone Ring of Willpower,日光石戒指·意志
+Tempest Ring of Athletics,暴风雨戒指·体育
+Tempest Ring of Agility,暴风雨戒指·敏捷
+Tempest Ring of Awareness,暴风雨戒指·意识
+Tempest Ring of Crafting,暴风雨戒指·制作
+Tempest Ring of Defence,暴风雨戒指·防御
+Tempest Ring of Diplomacy,暴风雨戒指·外交
+Tempest Ring of Fortitude,暴风雨戒指·坚毅
+Tempest Ring of Healing,暴风雨治疗指环
+Tempest Ring of the Hero,暴风雨英雄指环
+Tempest Ring of Celerity,暴风雨敏捷指环
+Tempest Ring of Intellect,暴风雨智力指环
+Tempest Ring of Lore,暴风雨知识指环
+Tempest Ring of Presence,暴风雨威严指环
+Tempest Ring of Protection,暴风雨防护指环
+Tempest Ring of Speed,暴风雨速度指环
+Tempest Ring of Stealth,暴风雨潜行指环
+Tempest Ring of Strength,暴风雨力量指环
+Tempest Ring of Survival,暴风雨生存指环
+Tempest Ring of Thievery,暴风雨偷盗指环
+Tempest Ring of Toughness,暴风雨坚韧指环
+Tempest Ring of Willpower,暴风雨意志力指环
+Topaz Ring of Agility,黄水晶敏捷指环
+Topaz Ring of Athletics,黄水晶体能指环
+Topaz Ring of Awareness,黄水晶感知指环
+Topaz Ring of Crafting,黄水晶工艺指环
+Topaz Ring of Defence,黄水晶防御指环
+Topaz Ring of Diplomacy,黄水晶外交指环
+Topaz Ring of Fortitude,拯救顶宝石指环
+Topaz Ring of Healing,治疗顶宝石指环
+Topaz Ring of Celerity,敏捷顶宝石指环
+Topaz Ring of Lore,知识顶宝石指环
+Topaz Ring of Presence,威严顶宝石指环
+Topaz Ring of Stealth,暗中行动顶宝石指环
+Topaz Ring of Strength,力量顶宝石指环
+Topaz Ring of Survival,生存顶宝石指环
+Topaz Ring of Thievery,盗贼顶宝石指环
+Topaz Ring of Toughness,坚韧顶宝石指环
+Topaz Ring of Willpower,意志顶宝石指环
+Wavestrider Ring of Athletics,水行者运动指环
+Wavestrider Ring of Agility,水行者敏捷指环
+Wavestrider Ring of Awareness,水行者意识指环
+Wavestrider Ring of Crafting,水行者工艺指环
+Wavestrider Ring of Defence,水行者防御指环
+Wavestrider Ring of Diplomacy,水行者外交指环
+Wavestrider Ring of Fortitude,水行者坚韧指环
+Wavestrider Ring of Healing,水行者治疗指环
+Wavestrider Ring of the Hero,水行者英雄指环
+Wavestrider Ring of Celerity,涛行者戒指（敏捷）
+Wavestrider Ring of Intellect,涛行者戒指（智力）
+Wavestrider Ring of Lore,涛行者戒指（知识）
+Wavestrider Ring of Presence,涛行者戒指（存在）
+Wavestrider Ring of Protection,涛行者戒指（防护）
+Wavestrider Ring of Speed,涛行者戒指（速度）
+Wavestrider Ring of Stealth,涛行者戒指（潜行）
+Wavestrider Ring of Strength,涛行者戒指（力量）
+Wavestrider Ring of Survival,涛行者戒指（生存）
+Wavestrider Ring of Thievery,涛行者戒指（偷盗）
+Wavestrider Ring of Toughness,涛行者戒指（坚韧）
+Wavestrider Ring of Willpower,涛行者戒指（意志）
+#Consumeables,#消耗品
+Consume,消耗
+Consumable,消耗品
+Brandy,威士忌
+A bottle of strong Gorremian brandy,一瓶强劲的哥雷米威士忌
+The tired old mercenary's best friend,退役佣兵的最佳伙伴
+Potion of Cure Disease,治疗疾病药剂
+Potion of Cure Poison,治疗毒药药剂
+Firgol Cider,菲戈尔 cider
+"Sparkling and sweet, this cider comes from the slow-growing orchards of Firgol",闪耀而甜美，这种 cider 来自菲戈尔缓慢生长的果园
+Many claim it’s the best in all of the Northern Empire whilst a handful of bad apples will complain it’s too sweet,很多人声称这是北方帝国最好的 cider，而少数挑剔的顾客则抱怨它太甜了
+Potion of Greater Restoration,大型回复药水
+Greater Tonic of Vitality,大型活力药剂
+Lesser Tonic of Vitality,小型活力药剂
+Moderate Tonic of Vitality,中型活力药剂
+Potion of Acid Immunity,大型酸液免疫药水
+Potion of Electric Immunity,大型电击免疫药水
+Potion of Fire Immunity,大型火焰免疫药水
+Potion of Panic Immunity,大型恐慌免疫药水
+Greater Attunement Tonic,大型共鸣药剂
+Lesser Attunement Tonic,小型共鸣药剂
+Moderate Attunement Tonic,中型共鸣药剂
+Mead,蜜酒
+A sweet alcoholic brew made from honey,一种由蜂蜜制成的甜酒
+Widely enjoyed in all of the Northern Empire and the Outer Isles,在整个北方帝国和外岛广受欢迎
+Potion of Agility,敏捷药水
+Potion of Bless,祝福药水
+Potion of Diamond Form,玻璃形态药水
+Potion of Fortify Will,增强意志药剂
+Potion of Frenzy,狂暴药剂
+Potion of Heroism,英雄气概药剂
+Potion of Regeneration,重生药剂
+Potion of Speed,速度药剂
+Potion of Stone Skin,硬皮药剂
+Potion of Strength,力量药剂
+Potion of Acid Resistance,酸性抗性药剂
+Potion of Electric Resistance,电性抗性药剂
+Potion of Fire Resistance,火焰抗性药剂
+#Consumables - Tomes,#消耗品 - 法典
+Tome,法典
+TOME,法典
+Read to learn the spell,阅读以学习法术
+Requires ranks in one of the following schools,需要在以下学派之一中有等级
+Tier,级别
+#Foods,#食物
+Apple,苹果
+"Whilst its ability to keep the medicae away has yet to be proven, this common fruit can be found growing on trees in the summer months and is a staple in the pantry of peasants and noblemen alike",尽管其驱赶医者的效果尚未得到证实，这种常见的水果在夏季月份可以生长在树上，并且是平民和贵族 alike 的主食之一
+Bacon,咸肉
+There is truly no better way to start the day than with a fresh chunk of this salted pork,没有什么比用新鲜的咸猪肉开始一天更美妙的了
+Dark Bread,黑面包
+A piece of the traditional dark and heavy full-grain bread that is eaten throughout the region by farmers and laborers,这是该地区农民和劳工的传统深色且厚重的全麦面包，被广泛食用
+Butter,黄油
+"Due to its affordability, the rich and creamy, salted butter from Heartlander cows is a popular source of nourishment amongst the lower classes of the Empire",由于价格低廉，帝国下层阶级中流行着Heartlander奶牛生产的丰富而奶油般的咸黄油作为营养来源
+There’s nothing butter,黄油
+Carrot,胡萝卜
+"Abundant and healthy, carrots are a staple in the soups and stews of the north",富含营养且产量丰富，胡萝卜是北部汤和炖菜中的主食
+"Also, Hospitallers claim they improve your night-sight",此外，疗伤者声称它们能改善你的夜视能力
+Cheddar,起司
+"Made from cow's milk, this cheese is common and beloved throughout the Imperial heartlands",用牛奶制成，这种奶酪在帝国的心脏地带非常普遍且深受喜爱
+Perfect for eating with bread and ham,与面包和火腿一起食用正合适
+Sheep's Milk Cheese,山羊奶起司
+As inexpensive and filling as it is smelly,既便宜又填饱肚子，但味道很臭
+Sheep's milk cheese is a staple in the northern Hinterlands,山羊奶起司是北部 hinterlands 的主食
+Crab,螃蟹
+"Many of the Empire’s citizens will pay a pretty penny to get their hands on this soft, sweet meat",很多帝国的市民愿意花一大笔钱来获得这种柔软而甜美的肉
+"Boiled in salted water and served on white bread with melted butter and squeezed lemon, crab-meat is truly a feast",用盐水煮熟后，搭配融化的黄油和挤好的柠檬汁，螃蟹肉确实是一顿盛宴
+Cream,酪乳
+Rich and creamy,富含奶油
+Don’t let the cat have it,别让猫得到它
+Dried Meat,干肉
+"A favorite amongst adventures, this smoky, preserved meat can last longer than most people’s lives",这种烟熏保存的肉在冒险者中备受欢迎，其保存时间比大多数人的寿命还要长
+Eel,鳝鱼
+"Due to their abundance in both rivers and oceans, eels are one of the most popular seafoods in the Empire",由于河流和海洋中都十分丰富，鳝鱼是帝国最受欢迎的海鲜之一
+"So popular, in fact, that some citizens have even been known to accept them as payment",实际上，它如此受欢迎，以至于有些市民甚至用它作为支付手段
+Eggs,鸡蛋
+Don't put them all in one basket,不要将所有鸡蛋放在一个篮子里
+Perklin,贝克林
+The humble perklin makes up for its meager size with its abundance,这种谦逊的贝克林以其丰富的数量弥补了其微小的体型
+It's often perserved with salt and eaten year round,它通常用盐腌制，全年食用
+The smell is an acquired taste,这种味道需要慢慢适应
+Redman,红人
+The tongue and eyes of the redman swells grotesquely once it's pulled from the depth in which it dwells,红人被拉出它栖息的深处后，舌头和眼睛会异常肿胀
+"Despite its apperance, however, its flesh is considered a delicacy when served baked with lemons and vegetables",尽管如此，它的肉在烤制并搭配柠檬和蔬菜时被视为一种佳肴
+Steel-Fin,钢鳍
+Dead fish eyes stare up at you,死鱼的眼睛瞪着你
+Steel-Fin is a staple on dinner tables throughout the Outer Isles,钢鳍是外岛餐桌上不可或缺的食材
+It's commonly eaten in hearthy stews with vegetables,它通常与蔬菜一起炖煮成暖胃的汤
+Flour,面粉
+One of the greatest of the Gallian Miracles was the turning of deserts into the great rolling wheat fields that now constitute a large portion of the Heartland,加利安奇迹中最伟大的之一就是将沙漠变成了如今心腹之地中大片的滚滚麦田。
+From these flows countless tons of grain and rich white flour,这里流淌着无数吨的谷物和丰富的白面粉。
+Garlic,大蒜
+"Pungent and full of flavor, this herb is most frequently used to enhance a variety of meals",带有辛辣风味的香草，常被用来提升各种菜肴的味道。
+Cured Ham,风味火腿
+"Tender, savory and long lasting",细腻、美味且持久。
+Cured ham is found in the cellar of every well-to-do merchant and petty noble in the Empire,风味火腿是帝国中每一个富裕商人和小贵族的地窖里都能找到的美食。
+Honey,蜂蜜
+"Sticky and sweet, this ingredient is often used by cooks to sweeten or preserve food, and is a staple in every mead-makers arsenal",黏稠而甜美，厨师常用它来调味或保存食物，是酿造蜂蜜酒者不可或缺的原料。
+It is even said to have curative properties when applied to infected wounds,据说它还能治疗感染伤口。
+Leeks,韭葱
+"Beyond just the taste, leeks go a long way towards adding some color to the drab cuisine of the poor",不仅味道好，还能为贫民单调的饮食增添一些色彩。
+Lemons,柠檬
+"In the north, lemons are almost exclusively found on ships where they serve to protect the sailors from the terrible scurvy that prolonged idleness and sexual abstinence is known to cause",在北方，柠檬几乎只在船上找到，它们能保护水手免受长时间无所事事和禁欲导致的可怕坏血病。
+Baked Crab,烤蟹
+The crab flesh is coated in spiced butter before baking in the oven to perfection,蟹肉先裹上香料黄油，然后在烤箱中烤至完美。
+Baked Mushrooms,烤蘑菇
+The nutty flavor of the wyrdloaf mixes wonderfully with the aromas of garlic to produce a meal fit for an emperor,畏尔德洛夫的坚果风味与大蒜的香气完美融合，堪比皇帝的盛宴。
+Baked Onions,烤洋葱
+"Onions are easily grow, keep for long and go a long ways towards covering up the taste of half-spoiled fish or meat",洋葱易于种植，保存时间长，还能掩盖半腐鱼类或肉类的异味。
+Baked Oysters,烤扇贝
+Tender oysters coated in bread-crumbs and baked until just right,软嫩的扇贝裹上面包屑，烤至恰到好处
+You just hope the oysters were fresh,只希望扇贝新鲜
+Baked Potato,烤土豆
+It is said that potatoes alone can nourish a man's body indefinitely,据说单靠土豆就能让人身体永葆活力
+The same cannot be said for his soul,但对灵魂来说却不是如此
+Beef Stew,牛肉炖菜
+"A thick, hearty stew of beef cooked in rich, Ombarian wine",用浓郁的奥巴里安葡萄酒烹制的浓稠、丰盛的牛肉炖菜
+Cheese Plate,奶酪拼盘
+"Ah, the understated elegance of a cheese and fruit plate",哦，奶酪和水果拼盘的低调优雅
+Eggs and Bacon,鸡蛋和培根
+The breakfast of titans,额外的早餐
+Baked Fish,烤鱼
+"A delicious-looking plate of baked, white fish on a bed of vegetables seasoned with freshly squeezed lemon",一盘看起来很美味的烤白鱼，铺在蔬菜上，用新鲜挤出的柠檬调味
+Salted Fish,盐渍鱼
+The fisherman's best friend,鱼夫的最好朋友
+Preferably eaten with a mug of ale on the side,最好配着一杯艾尔啤酒一起吃
+Fish Stew,鱼炖菜
+A steaming bowl of fish and vegetable stew,一碗热腾腾的鱼和蔬菜炖菜
+This type of dish is eaten more or less daily by the coast-dwellers of the north,这种菜肴在北岸的居民中几乎每天都会食用
+It could do with some salt,还需要加点盐
+Grilled Leeks,烤蒜苗
+Mashed Potatoes,炸土豆泥
+Just the way mothers all over the Empire would make it!,就像帝国各地的母亲们做的那样！
+Meat Skewers,烤肉串
+Richly spiced meat roasted on skewers,香料浓郁的烤肉串
+A popular dish that the Empire imported from its overseas colonies,这道菜是帝国从海外殖民地引进的流行菜肴
+Farmer's Omelette,农家煎蛋
+"A nice farmer's omelette brings to mind the simple comforts of a quaint, rural life",一份美味的农家煎蛋让人想起简朴而宁静的乡村生活
+Mushroom Omelette,蘑菇煎蛋
+The mushroom omelette tastes of the forest,蘑菇煎蛋的味道就像森林
+Apple Pie,苹果派
+Sweet and comforting,甜蜜而温馨
+Pumpkin Pie,南瓜派
+Nothing says autumn like a nice old slice of pumpkin pie,没有什么比一份老南瓜派更能代表秋天了
+Roasted Eel,烤鳗鱼
+Crispy skin and tender meat,酥脆的皮和嫩滑的肉质
+The roasted eel is seasoned with garlic and served with potato chips,烤鳗鱼用大蒜调味，搭配薯条上桌
+Cheese Sandwich,奶酪三明治
+"For a few short moments, whilst eating a melted cheese sandwich, all is well in the world",吃着融化了的奶酪三明治的那几秒钟，世界都是美好的
+Mushroom Soup,蘑菇汤
+Fried Steak,炸牛排
+A meal to put hair on your chest!,让你胸毛浓密的一顿美餐！
+Vegetable Soup,蔬菜汤
+"A farmer’s feast, often eaten in the fall when root vegetables are abundant",农民的盛宴，通常在秋季食用，此时根菜类蔬菜丰富
+Morel,梅洛
+Morels are mushrooms that make for excellent eating,梅洛是美味的食用蘑菇
+Penny Buns,碱蓬饼
+Penny Buns are mushrooms that make for excellent eating,碱蓬饼是美味的食用蘑菇
+Wyrdloaf,奇异面包
+Wyrdloaf are mushrooms that make for excellent eating,奇异面包是美味的食用蘑菇
+Nuts,核桃
+"Often added to meat dishes to boost nutrition, these tasty treats can be found growing on various trees and bushes throughout the Empire",通常加入肉菜以提升营养，这些美味的坚果可以在帝国各地的树木和灌木上找到
+Onions,洋葱
+Oysters,海鲜
+This earthy flavored molluscs has been known to increase a person’s desire and sexual stamina,这种带有泥土风味的软体动物据说能增加人的欲望和性耐力
+No wonder then that the courtiers and lay nobility of the Heartlands gorge themselves on this delicacy,因此，心腹之地的宫廷贵族们沉迷于这种美食也就不足为奇了
+Just remember to smell them before you eat them,只记得在吃之前闻一闻
+Pear,梨
+"A freshly picked, juicy pear",一颗新鲜采摘的多汁梨
+"Eat it fresh, bake it in a pie or make brandy from it!",新鲜食用，烤成馅饼，或者酿成白兰地！
+Potatoes,土豆
+Pumpkin,南瓜
+A bit watery and tasteless but might work well in a soup or a pie,有点水，味道寡淡，但可能适合做汤或馅饼
+Ration,补给
+"A trail ration of dried meats, fruits and grains",一种干肉、水果和谷物制成的行军补给
+As sure to filling as it is boring,虽然单调，但却是饱腹的好选择
+Salt,盐
+An empire runs on salt,盐是帝国的命脉
+"As the Gallian Empire's preservative and seasoning of choice, it is no wonder that the Salt Merchant's Guild is both rich and very powerful",作为加拉尼亚帝国首选的防腐剂和调味品，难怪盐商公会既富有又非常强大
+Snails,田螺
+"Despite their slimy appearance, these small creatures are a delicacy amongst nobles and commoners alike and are often eaten with garlic butter or as part of hearty casseroles",尽管外表黏滑，这些小生物却是贵族和平民都喜爱的佳肴，常配蒜黄酱或作为丰盛炖菜的一部分食用
+Spices,调味品
+"Imported from far away lands at great cost and risk, spices are worth their weight in gold",这些昂贵且风险巨大的进口香料价值连城
+"Aromatic and delicious, they are a precious commodity used by the upper classes to enhance their meals",香气扑鼻，味道美妙，是上流社会用来提升菜肴品质的珍贵商品
+Squid,墨鱼
+"If they’re not filling the bellies of the upper-class, these slippery sea-creatures are being harvested for their ebony coloured ink",如果不是填饱上流社会的肚子，这些滑溜的海生生物就会被采集用于提取深黑色的墨水
+Sugar,糖
+"Due to its rarity, this sweet ingredient is usually only found in the kitchens of noble and middle-class households where it is typically used to make glorious pastries and confections",由于稀有，这种甜味成分通常只能在贵族和中产阶级的厨房里找到，通常用来制作华丽的糕点和糖果
+Beef,牛肉
+"A favorite on many a noble’s table, this thick cut of meat is as rich in iron as it is in flavor",这块厚切肉是许多贵族餐桌上的一道佳肴，其铁质含量与美味程度同样丰富
+Warberries,战果浆果
+Rich harvests from the warberry bush is said to portend war,战果浆果丛的丰收据说预示着战争的到来
+These tart berries are often used to make jams or other preserves in case food should become scarce,这些酸甜可口的浆果常被用来制作果酱或其他保存食品，以防食物短缺
+Ombarian Wine,奥姆巴里安葡萄酒
+Fine wine imported from the vinyards of the Ombaria,从奥姆巴里安酒庄进口的优质葡萄酒
+Rumors abound of grape harvests failing due to drought in the Heartlands and wine is currently hard to come by,由于心土地区干旱导致葡萄收成失败，目前葡萄酒供应紧张
+#Adventuring Items,#冒险物品
+Crowbar,开山撬棍
+An iron crowbar,一根铁制的开山撬棍
+Perfect for breaking and entering,专用于破门而入
+Lantern,手电筒
+A small lantern,一个小手电筒
+Press 'T' to equip it whilst exploring,探索时按 'T' 键装备它
+Thieves' Tools,盗贼工具
+Tools used for lockpicking,用于开锁的工具
+You lose a few each time you pick a lock so take care to gather a supply,每次开锁都会损耗一些，所以要小心收集足够的工具
+Pickaxe,锄头
+A pickeaxe used for mining,用于采矿的锄头
+In the right hands it could be used as a weapon,在正确的人手中，它也可以作为武器使用
+Rope,绳索
+A 20-foot coil of hemp rope,20尺长的亚麻绳
+Indispensable for spelunkers and mountaineers,探险者和登山者不可或缺的工具
+Sewer Map,下水道图
+A hand-drawn map depicting the sewers underneath Horryn,一张手工绘制的下水道图，描绘了霍里恩城下的下水道
+Shovel,锄头
+Used for digging in the ground!,用于挖掘地面！
+#Adventuring - Books,#冒险 - 书籍
+Astronomer's Journal,天文学家日志
+"A small, well-used journal",一本小巧且使用痕迹明显的日志
+The journal contains a large amount of tabulated data that appears to be astrological in nature interspersed with notes,日志中包含大量表格数据，看起来像是占星学性质的内容，夹杂着一些笔记
+The final entries appear to have been made only days before your arrival,最后几条记录似乎是在你到达之前几天才写的
+Observed strange dancing lights in the sky,天空中出现了奇怪的舞动光芒
+Not unlike those sailors to the far south describe near polar regions yet somehow different,类似于南方海员在极地区域描述的那种，但又有所不同
+Colors indescribable - Mesmerizing,颜色无法形容 - 迷人
+For a fleeting moment I even thought I heard a sound,稍纵即逝的一刻，我还以为听到了声音
+Somewhere between a deep wail and singing,介于深吟和歌唱之间
+Could not perform observations tonight,今晚无法进行观测
+Charts or instruments are off and I cannot make sense of the sky,图表或仪器出现了偏差，我无法理解天空中的情况
+There are bodies there,那里有尸体
+Bodies that are alien to me,身份与我相异的生物
+It must be some form of comet storm or some other extraordinary astronomical event that has not been predicted in the Imperial Charts,必定是某种彗星风暴，或是其他未曾被帝国星图预测的非凡天文事件
+They are wrong!,他们错了！
+I have done the calculations over and over and I come to the same conclusion,我已经反复计算过，得出的结论始终如一
+The stars are wrong - in so many ways!,星辰错了——错得太多！
+"As I observed an alien cluster in the southeastern quadrant, it dawned on me with absolute certainty",当我在东南象限观察到一个陌生的星团时，我确信无疑
+I am not watching them - they are watching me,我不是在观察它们——它们在观察我
+I dread to look again yet I feel compelled to do so,我害怕再次凝视，但又感到不得不这么做
+They beckon me,它们召唤着我
+I am certain that if I look again into that dreadful cluster in the southeastern quadrant I shall be undone,我确信，如果再次凝视东南象限的那个可怕星团，我将无法自持
+Yet there are answers there,但答案就在那里
+Deeper and more profound than any mortal mind can comprehend,深远得超越任何凡人所能理解
+I believe I shall look again,我相信我将再次凝视
+I must,我必须
+Origins of the Legionnaire’s Rest,《军团休息》的起源
+"A small, generic book of lore",一本小型、通用的法术典籍
+Fawlon’s Treatise on the Origins of Imperial Fauna Excerpt,法尔隆关于帝国动植物起源的论文摘录
+Legionnaire’s Rest,《军团休息》
+Colours indescribable - Mesmerising,无法形容的颜色——令人着迷
+"It was a time of great sorrow, but from this calamity, new life blossomed",那是一个巨大的悲痛时期，但在这场灾难中，新的生命得以绽放
+For from the soil beneath which the lost legions lay an abundance of crimson red flowers sprouted forth,从那些失落军团埋骨之地的土壤中，长出了大量的深红色花朵
+"Flowers that, it is said, will only grow upon the graves of those fallen in battle",据说，这些花朵只会在阵亡战士的坟墓上生长
+Folk Poetry of the North,北方民谣
+Volume,第一卷
+THE RIVEMAN'S RHYME,河人之歌
+"To the river I will go,",我将前往河边，
+"To soothe a heart that’s full of woe,",安慰那颗充满忧伤的心，
+For in the water’s cool embrace,因为在水的凉爽怀抱中
+My true self I will face,我将面对真实的自我
+FOLK LITANY OF THE DEAD,死者的民谣哀歌
+"Bathe the flesh,",洗净肉体，
+Mend the bone,修复骨骼
+"Then lay the body,",然后安放身躯，
+Beneath the stone,于石下长眠
+AN ODE TO THE POTATO,马铃薯颂歌
+"Oh, how blessed we’ll be,",哦，我们将多么幸运，
+"To taste your earthy bliss,",品尝你泥土的甜美，
+When we have sown our fields,当我们播种田野
+And planted your seeds,并种下你的种子
+And awaited rain’s gentle kiss,等待温柔的雨吻
+Postscript,后记
+"For context and comaprison, I have taken the opportunity of adding the transcript of a fruit farmer's tirade to the local magistrate on the issue of the potatoe-related agricultural reforms",为了提供背景和对比，我有机会添加了一位水果农民对当地法官关于马铃薯相关农业改革的怒斥的转录
+If I receive one more decree commanding me to re-sow my fruit orchards into bloody potato fields!,如果再收到一份命令我重新播种果园成该死的马铃薯田的命令！
+I’m going to send him a bag full of my ripest manure!,我要把一袋我最成熟的粪肥送给他！
+"Bloody Magi, making a mess of the world and leaving it to us lot to clean it up!",该死的术士，把世界弄得一团糟，然后让我们来清理！
+Not on my farm!,不在我的农场！
+They can shove their bloody seed-potatoes up their sacred arses for all I bleeding care!,他们可以把该死的马铃薯种子塞到他们神圣的屁眼里！我根本不在乎！
+Origins of the Sorroweater,悲伤吞噬者的起源
+Sorrow-Eater,悲伤吞噬者
+"In the year of 641 GA, after the lay-Countess of Vaul lost her firstborn to dry lung, it is rumored that she locked herself up in her chambers to wallow in her grief",在641年GA，瓦尔领地的世俗女伯爵失去她的长子后得了干肺病，据说她把自己关在房间里沉浸在悲痛中
+"One of the lay-Countess's most important offices was as head of the High Forum, and thus, fearing her absence would cause much unrest amongst nobility, the countess’ majordomo sought help from a wise old crone",世俗女伯爵最重要的职务之一是高论坛的负责人，因此，担心她的缺席会引起贵族们的不安，女伯爵的管家向一位智老巫婆求助
+"After hearing her plea, the crone handed the countess’ majordomo a single, violet coloured flower",听完她的恳求后，巫婆递给女伯爵的管家一朵紫色的花
+"Place this beside her bed, and to it all her sorrow shall be fed",把这朵花放在她的床边，所有的悲伤都会被它吞噬
+"Desperate, the countess’ majordomo did as the crone advised, and less than a tide later, the lay-Countess of Vaul left her chambers for the first time since the loss of her child",痛苦不堪的女伯爵的管家照着巫婆的建议做了，不到一个潮汐，瓦尔领地的世俗女伯爵自失去孩子后第一次离开了房间
+"The tale was quickly passed between courtiers, and ever since, the fauna - aptly named ‘Sorroweater’ - has been given as a gift in times of great sorrow",这个故事很快在宫廷中流传开来，从那以后，这种被称为“悲伤吞噬者”的生物在遭遇巨大悲痛时就被作为礼物赠送
+The High Forum of 641 was indeed a great success,641年的高论坛确实取得了巨大成功
+"As so often when the lay-nobility conveens, much was discussed, little was decided and nothing was accomplished save gluttony, fornication and a stabbing or two",就像世俗贵族们聚会时经常发生的那样，讨论了很多，但决定很少，唯一的结果就是暴饮暴食、放纵和几起刺杀事件
+Origins of the Starspawn,星生者的起源
+Starspawn,星生者
+"Despite its beautiful appearance, the legend on the origin of the Starflower is a grim one",尽管它外观美丽，但星花的起源传说却相当凄惨
+"Many centuries ago, before Gallina came from the south, a fatally wounded warrior lay dying",在加利娜从南方到来之前，许多世纪前，一名重伤的战士奄奄一息
+He pleaded to the Gods for help just as a shooting star passed through the sky,他恳求诸神给予帮助，就在这时，一颗流星划过天空
+"Hearing his cries and taking pity on the young man, the star descended to earth to answer his prayers",听到他的呼喊并怜悯这位年轻人，流星降落到地面，回应了他的祷告
+For such was her nature,这就是她的本性
+"At first the soldier was grateful, but he became smitten by her beauty and soon grew lustful",开始时，这名士兵心存感激，但很快他被她的美貌所吸引，变得淫欲横生
+Then possessive and finally cruel towards the stellar being,接着变得占有欲强，最后对这位天体生物变得残忍
+For such was his nature,这就是他的本性
+"She refused him, claiming that stars belong to all who love them and the soldier went mad with rage",她拒绝了他，声称星星属于所有爱他们的人，士兵因此怒火中烧
+"He strangled her then and there for if he could not have her, no one would",他当场掐死了她，因为他不能拥有她，就不会有其他人能拥有她
+"As the star’s last breath left her, her Sisters began to weep",当星星的最后一口气离开她时，她的姐妹们开始哭泣
+"In a shower of burning light, their tears fell to the earth where the star lay, immolating the man who had killed her",在一场燃烧的光芒中，她们的眼泪落在了地上，将那名杀死她的士兵焚毁
+"When dawn finally broke and the stars withdrew, all that was left in their wake was a field of star-shaped flowers",当黎明终于来临，星辰退去，留下的只是一片由星星形状的花朵组成的田野
+Origins of the Sunmouth,太阳之口的起源
+Sunmouth,太阳之口
+This bright fauna was first discovered in the province of Gorremia following one of the worst winters in the region’s history,这种明亮的生物是在戈雷米亚省首次被发现的，那里的历史记载着有史以来最严酷的冬天之一
+"It is reported that after months of unrelenting snow and ice, the land in this region had become so barren the locals worried new life would never grow from it again",据报道，在连续几个月的暴风雪和严寒之后，这片土地变得如此荒芜，当地人担心新的生命将永远不会在这片土地上生长
+"Fearing the worst, a handful of villagers decided to seek out new homes, and set out with heavy hearts to begin the long journey to the temperate Heartlands",担心最坏的情况，一群村民决定寻找新的家园，怀着沉重的心情踏上了前往温暖心腹地的漫长旅程
+"It was at this moment, as the villagers braced themselves to leave their lives behind, that a single ray of sunlight broke through the clouds to light the barren area before them",就在这一刻，当村民们准备告别他们的生活时，一道阳光穿透云层，照亮了这片荒芜的土地
+"Breaths held, the villagers watched as that sliver of sunlight thawed the icy ground, unveiling the beginnings of a single, yellow bud",人们屏住呼吸，看着那道阳光融化了冰冻的地面，揭示了第一个黄色花蕾的开始
+"A bud that, to this day, has only ever been found to grow in areas of direct sunlight",一个花蕾，直到今天，它只在直接阳光照射的地方被发现过
+Monk's Journal,武僧的日志
+We’re working long hours into the night to deal with the recent influx of corpses,我们整夜工作以应对最近涌入的尸体
+What compels these people to act so cruelly?,什么驱使这些人如此残忍地行事？
+Yesterday we had the corpse of a young boy of no more than 12 years come in,昨天我们收到了一个不到12岁男孩的尸体
+He had been beaten to death by the looks of it,看起来是被人殴打致死的
+"Sacred dead preserve me - were it not for the calling, I’m not sure I would have persevered",圣灵保佑我 - 要不是使命感，我真不一定能坚持下去
+A glimmer of light,一丝光芒
+"Brother Aruun came running up from the crypt, so frightened he had pissed his robes",哥哥阿鲁恩从墓穴中冲出来，吓得裤子都湿了
+He claimed he saw something move down in the crypt,他说他在墓穴里看到什么东西在动
+Something “unnatural,什么“不自然的”
+"We laughed till we fell over and by the end, so did he",我们笑得东倒西歪，最后他也笑了
+No doubt he saw one of the rats but it’s funny where the mind wanders when sleep becomes scarce,毫无疑问，他看到的只是一只老鼠，但当睡眠变得稀缺时，思绪会飘向奇怪的地方
+Something is wrong in the village!,村庄里出了问题！
+They say some kind of riot has broken out,有人说发生了某种暴动
+Hierophant Leios said Driina has gone to investigate and that we monks should stay in the crypt for our own safety,神职人员里奥斯说，德里娜已经去调查了，让我们这些僧侣留在墓穴里以确保安全
+We try to pass the time with work but I wish we knew what was happening,我们试图通过工作打发时间，但我们都想知道发生了什么
+They came from the lower crypts!,他们来自下层墓穴！
+All are dead save me and brother Aruun!,只剩下我和哥哥阿鲁恩还活着！
+We have locked ourselves in the storage room,我们把自己锁在储藏室里
+How can this be?,这怎么可能？
+How can such abominations walk?,这些怪物为何还能行走？
+There is no light in the afterlife!,来世没有光明！
+Only black stars,只有黑星
+No water,没有水源
+Aruun did not wake today,阿鲁恩今天没有醒来
+I dare not leave this room - I hear them outside,我不敢离开这间房 - 我听到外面有动静
+I too shall pass,我也将逝去
+Black stars beckon,黑星召唤
+A Ragged Note,一份破烂的笔记
+A ragged letter that seems to contain direction of some sort,一份破烂的信件，似乎包含某种方向
+Enter the sewers from the harbor through the westernmost outlet,从港口通过最西端的出口进入下水道
+Follow the chalk arrows on the wall and make your way east past the central cistern and then south,沿着墙上的白垩箭头前进，向东经过中央蓄水池，然后向南
+From there you’ll find a stairs going down and into the Rat-Maze,从那里你会找到通往地下的阶梯，进入鼠穴迷宫
+"In the maze, go W, S, S, W, W and you’ll find yourself in the Underhalls",在迷宫中，向西，向南，向南，再向西，向西，你会发现自己在地下大厅
+Mind your manners while you’re there and be sure to peruse the Black Market,在那里注意礼貌，并务必浏览黑市
+Surgeon's Journal,手术日志
+A journal that was kept by the ship surgeon of the Zephyr,这是海风号船上的外科医生所记的日记
+Written on the day of departure from the mainland,写于离开大陆的那一天
+Left Adler's Helm today with a full complement of passengers,今天离开了阿德勒的舵轮，满载乘客
+Mercenaries by the looks of it,看起来是雇佣兵
+Paid well,薪酬丰厚
+Ship was dispatched by Guild before we could fully restock medical supplies,船只在我们完全补充医疗物资之前就被公会派遣了
+Hopefully we won't need them,希望我们不需要它们
+"Then again, our passengers make me uneasy",再说，我们的乘客让我感到不安
+Written 5 days ago,写于五天前
+Brawl in mess - had to set nose,在厨房里打斗 - 我不得不处理了一下鼻子
+Men seem on edge,人们似乎紧张兮兮
+Can't say I blame them,说真的，我也不怪他们
+Have been sleeping poorly and dreams are... unsound,睡眠一直不好，梦境……很不真实
+Written 4 days ago,写于四天前
+Igan came to me today with a bite-wound that he sustained whilst working in the hold,伊甘今天来找我，身上有咬伤，是在货舱工作时受的
+Didn't see creature and I would say it was a rat's bite if it weren't for the size and some aspect of the dentition that I find hard to explain properly,没看到那东西，如果不是伤口的大小和一些难以解释的齿痕，我会说那是一只老鼠的咬伤
+Written two days ago,写于两天前
+Was visited today by navigator Aslam,今天来访的是领航员阿斯拉姆
+He asked for Whitefern - a sedative,他要了白蕨——一种镇静剂
+Claimed he had trouble sleeping,声称自己睡眠不好
+"Suspected he was not fully forthcoming and when pushed, he mumbled something about the stars being 'odd'",我怀疑他没有完全坦白，被追问后，他咕哝着说星星“很奇怪”
+Not sure what he meant and he left before I could push him further,我不确定他指的是什么，他离开前没有给我更多解释的机会
+Written today,今天写
+Men are about to break,人们即将崩溃
+We cannot maintain our course for Idra,我们无法继续前往伊德拉
+Captain advised me today to make ready the surgery and to expect casualties,船长今天建议我准备好手术，并预期会有伤亡
+I suspect he intends to inform our passengers that he refuses to land on the island,我怀疑他打算告知我们的乘客，他拒绝在岛上降落
+If this is my last,如果这是我的最后一程
+The entry trails off,这段记录到此结束
+Caspar's Journal,卡斯帕的日记
+"A small, leather-bound journal filled with neat handwritten notes",一本小皮册，里面记录着整洁的手写笔记
+Noted on the inside cover is the name “Caspar of Loral,内页上标注的名字是“卡斯帕·洛拉尔”
+About a year ago,大约一年前
+Arrived today and was met by the man who is to be my overseer,今天抵达，并被那位将要成为我的监工的人迎接
+Mathias,马修斯
+He seemed nice enough albeit eccentric,他看起来还算不错，尽管有些古怪
+Is this to be my fate as well?,这也会是我的命运吗？
+"Woe to me that my wretched life and poor choices has landed me, Caspar of Loral, on this barren rock as the keeper of lights",我的悲惨生活和糟糕的选择将卡斯帕·洛拉尔带到了这荒凉的岩石上，成为了灯塔的守护者
+About six months ago,大约半年前
+Saw lights on the shore near the cave entrance,在洞口附近看到了岸边的灯光
+Smugglers Mathias say,马修斯说的走私者
+"He insists we leave them alone and I am forced to abide, though my mind wanders often to that cave and what may lay within",他坚持让我们不要去管他们，我虽然不得不遵守，但我的思绪常常飘向那个洞穴及其内部的秘密
+About a month ago,大约一个月前
+I cannot take it any more!,我再也无法忍受了！
+The old bastard is driving me mad!,这老家伙简直让我抓狂！
+He spies on me and gives me strange looks,他一直窥视我，还用奇怪的眼神看着我
+And I’m sure he goes through my things!,而且我肯定他在翻我的东西！
+I went for a walk to clear my head and I ended up by the entrance to the sea-cave,我去散步想放松一下，结果到了海边洞穴的入口
+Something is calling me there,有什么东西在召唤我
+I hear it even in my sleep,即使在梦里我也能听到它
+About a week before your arrival in Idra,在你抵达伊德拉之前大约一周
+Dreams driving me mad!,梦魇让我抓狂！
+Always it calls me to the caves,每次它都在召唤我去洞穴
+To the deeper dark that lies beneath where no man has tread for eons,去那片深邃的黑暗，那里已经数千年无人涉足
+The looking stone and the ancient sleepers,观察石和古老的沉睡者
+The blade calls me,刀剑在召唤我
+I can take no more,我再也忍受不了了
+Smuggler's Journal,漏斗手日志
+A small leather-bound book,一本小的皮质封面书
+I hate these jobs,我讨厌这种工作
+Dropped off and told to guard the cargo until it can be collected,被扔在这里，直到货物被取走，还得看守货物
+And whilst the bastards up in the northern cave are living the good life I’m stuck in this hole,而那些混蛋在北方洞穴里过着好日子，我却困在这个破地方
+I sometimes think the Imperial dungeons would be preferable,有时我甚至觉得帝国的地牢更好一些
+We explored the cave today and found what appears to be an underwater tunnel in one of the dead-ends,今天我们探索了洞穴，发现其中一个死胡同里似乎有一个通往水下的隧道
+Bryn insisted we try to swim it but I can think of no worse nightmare than being lost in the dark underwater,布林坚持让我们尝试游泳过去，但我想没有什么比在黑暗的水下迷路更可怕的噩梦了
+I told him as much and he got agitated,我这么告诉他，他变得激动起来
+Yelled something about dreaming of an ancient relic,他喊着自己曾经梦见了一件古代遗迹
+I have no idea what he’s on about,我不知道他在说什么
+Golden dead!,金色的亡者！
+Bryn got attacked by a crab the size of a warhound today!,布林今天被一只比战犬还要大的螃蟹攻击了！
+Nearly took his leg off!,差点把他的腿都咬掉了！
+Neither of us have seen anything like it before and we can only pray it was alone!,我们俩之前从未见过这样的东西，只能祈祷它只是单独出现的！
+Hope the ship won't be delayed much longer,希望船不会延误太久
+Bryn is gone,布林不见了
+I know in my heart he’s gone to the underwater tunnel,我知道他一定是去了水下的隧道
+Madness!,疯狂！
+Shapes are moving in the dark now,黑暗中有些东西在移动
+No way out and no one is coming for me!,没有出路，也没有人来救我！
+Light is failing,光线正在消逝
+Mother,母亲
+Marita's Cookbook,马丽塔的食谱集
+A humble cookbook,一本谦逊的食谱集
+Potatoes - Carrots - Leeks,土豆 - 胡萝卜 - 韭菜
+All of the above can be found growing in our field,以上所有都可以在我们的田地里找到
+x Eggs - Potatoes - Onions,x 鸡蛋 - 土豆 - 洋葱
+Sea bird eggs will do just fine,海鸟蛋完全足够
+Onions grow wild in abundance,洋葱在野外生长丰富
+Cabal Journal,典礼记事本
+A journal that appears to have been written by one of the members of the Cabal expedition,一本看起来像是某个典礼探险队成员写的日记
+This one was found in the base-camp,这本是在基地营地找到的
+ENTRY,入口
+We’ve finally arrived at the Priory and found it in shockingly good condition,我们终于到达了修道院，并发现它状况出奇的好
+It’s as if time has stood still here,就好像时间在这里停滞了一样
+The initial survey does not reveal a clear means of accessing the lower level but I’m confident we’ll find a way given enough time,初步调查并未发现通往地下层的明显途径，但给足够的时间，我相信我们会找到方法的
+This place boggles the mind,这地方真是令人难以置信
+It appears to stand as it was left millennia ago,它似乎就像几千年前留下的那样站立着
+How it could have slipped so well out of time and history is truly a mystery to me,它是如何如此完美地脱离了时间和历史，对我来说真是一个谜
+As is the fate of the Priory’s original occupants,同样，修道院原始居民的命运也是一个谜
+Still no success in finding the door to the catacombs,仍然没有找到通往墓穴的门
+I can only conclude it’s somehow concealed,我只能得出结论，它可能是某种方式隐藏的
+"We did, however, make an interesting discovery",然而，我们确实有一个有趣的发现
+The four statues on the “pilgrim’s road” can be rotated,“朝圣者之路”上的四座雕像可以旋转
+I’m certain this is somehow significant!,我肯定这背后有某种意义！
+Some form of disease is spreading amongst the men,一种形式的疾病正在士兵中蔓延
+Abdominal pain and swelling combined with fevers,腹痛、肿胀伴随高烧
+Our apothecary is so far at a loss at curing it but suggests that proximity to the fungal growths that started sprouting is a potential vector of infection,我们的药剂师对此束手无策，但建议这种感染可能是由那些开始生长的菌类造成的
+I’ve ordered that masks be worn near the growths,我已经下令在菌类附近佩戴口罩
+A breakthrough,突破了
+We found a document in the scriptorium with a verse on it!,在修道院的图书馆里，我们发现了一份手稿，上面有段诗句！
+It’s so clear now,现在一切都清晰了
+The portal had been hidden in plain sight all along - all it took to open it was the correct configuration of the statues!,通往梦境的门户一直都在我们眼前，只是需要正确的雕像排列就能开启它！
+The dreaming halls await!,梦境殿堂在等待着我们！
+A journal that appears to have been written by one of the members of the Cabal expedition that was dispatched to the Priory,一本似乎是某个派遣到修道院的密谋者探险队成员所写的日记
+This one was found on a cocooned corpse in the catacombs,这个是在地窖中茧中包裹的尸体身上发现的
+We entered the ‘Dreaming Hall’ today,今天我们进入了‘梦境殿堂’
+I’m awestruck by the mystery of it all,我被这一切的神秘所震撼
+What secrets did the Sleeper whisper to the monks as they dreamed?,沉睡者在梦中向僧侣们诉说了什么秘密？
+We must push on and soon enough we too shall stand before his timeless glory,我们必须继续前进，不久我们也会站在他的永恒荣耀之前
+"By the Maiden’s, we found it!",天之少女啊，我们找到了！
+The tomb in all its glory,这座陵墓的辉煌
+We lost two members to traps trying to enter the room but it’s only a matter of time now,我们在尝试进入房间时有两名成员触发了陷阱，但现在已经只是时间问题了
+This is a disaster!,这是一场灾难！
+I know there is something here - calling for us!,我知道这里有某些东西在召唤我们！
+There must be some other way?,是否还有其他方法？
+Several pages are ruined from the fungal infection,几页纸因霉菌感染而毁坏了
+to move in and out of the caves and continue excavating the Eternity Gate,进出洞穴并继续挖掘永恒之门
+My greatest concern at this point is the rate at which we are losing crew to suicides and infection,目前我最担心的是船员因自杀和感染而不断减少
+I saw them change before my very eyes!,我亲眼目睹了他们的变化！
+"Oh, blessed Maidens I may have escaped for now but I cannot escape the images that now haunt me",啊，蒙福的女祭司们，我暂时逃过了这一劫，但那些画面却如影随形
+"What’s worse, the entire complex is somehow resealing itself and I’m trapped between the false tomb and the surface level",更糟糕的是，整个建筑群似乎在自行修复，我被困在假墓和地表之间
+I can only pray someone is left alive topside to open the gate,只能祈祷上面还有幸存者能打开大门
+This one was found on a corpse in the catacombs,这个是在地窖的尸体上找到的
+They’ve found the secret passage to some kind of cave below the false tomb,他们发现了一条通往假墓下方洞穴的秘密通道
+Something far older than the Priory itself,比修道院本身还要古老的存在
+Older than the Empire even is the talk around camp,比帝国还要古老的传说在营地中流传
+I just wish my insides didn’t hurt as much,我只是希望我的内脏不那么痛
+They’re sending me down with the next shipment of tools,下一次货物运输时我会和工具一起下去
+That means passing the ‘night-maze’,这意味着要穿过“夜之迷宫”
+They say it can’t be lit even by magical lighting,据说即使使用魔法照明也无法照亮它
+I hate the dark,我讨厌黑暗
+Apparently it’s easy enough to navigate if you know how,似乎只要知道方法就能轻易导航
+South until you hit the first wall and then west until wall - north until wall - west until wall - north until wall - west until wall - then north and you’re there,向南走直到碰到第一面墙，然后向西走直到碰到墙 - 向北走直到碰到墙 - 向西走直到碰到墙 - 向北走直到碰到墙 - 向西走直到碰到墙 - 然后向北走，你就到了
+I went all the way to the sanctum this time,这次我直接去了圣所
+By the Golden how I wish I had not,金龙啊，我多么希望我没有去过
+How can such a thing be?,这怎么可能？
+The writing becomes rushed,字迹变得潦草
+Hear screams below,听到下面传来尖叫声
+Something is wrong,有些不对劲
+Save us!,救救我们！
+#Adventuring - Recipes,#冒险 - 食谱
+This recipe requires the following ingredients,这个食谱需要以下食材
+You have now learned how to make this recipe,你现在学会了如何制作这个食谱
+APPLE PIE,苹果派
+BAKED CRAB,烤螃蟹
+BAKED FISH,烤鱼
+BAKED MUSHROOMS,烤蘑菇
+BAKED ONIONS,烤洋葱
+BAKED OYSTERS,烤牡蛎
+BAKED POTATO,烤土豆
+BEEF STEW,牛肉炖菜
+CHEESE PLATE,奶酪盘
+CHEESE SANDWICH,奶酪三明治
+EGGS AND BACON,鸡蛋和培根
+FARMER'S OMELETTE,农夫的煎蛋卷
+FISH STEW,渔夫炖鱼
+FRIED STEAK,炸牛排
+GRILLED LEEKS,烤蒜
+MASHED POTATOES,蒸土豆
+MEAT SKEWERS,烤肉串
+MUSHROOM OMELETTE,蘑菇煎蛋
+MUSHROOM SOUP,蘑菇汤
+PUMPKIN PIE,南瓜派
+RATION,补给包
+ROASTED EEL,烤鳗鱼
+SALTED FISH,盐渍鱼
+VEGETABLE SOUP,蔬菜汤
+x Apple,x 苹果
+x Bacon,x 培根
+x Beef,x 牛肉
+x Butter,x 黄油
+x Carrot,x 胡萝卜
+x Cheddar,x 芝士
+x Cream,x 奶油
+x Cured Ham,x 熟火腿
+x Dark Bread,黑面包
+x Dried Meat,干肉
+x Eel,鳄鱼
+x Eggs,鸡蛋
+x Flour,面粉
+x Garlic,大蒜
+x Honey,蜂蜜
+x Leeks,韭菜
+x Lemons,柠檬
+x Morel,灵芝
+x Nuts,坚果
+x Ombarian Wine,野蛮人葡萄酒
+x Onions,洋葱
+x Oysters,海胆
+x Penny Buns,扇形面包
+x Perklin,普尔金
+x Potatoes,土豆
+x Pumpkin,南瓜
+x Redman,红民
+x Salt,盐
+x Snails,x 蜗牛
+x Spices,x 调香料
+x Steel-Fin,x 钢鳍
+x Sugar,x 糖
+x Wyrdloaf,x 奇缘面包
+LESSER ATTUNEMENT TONIC,小幅附魔药剂
+LESSER TONIC OF VITALITY,小幅活力药剂
+POTION OF ACID RESISTANCE,抗酸液剂
+POTION OF AGILITY,敏捷液剂
+POTION OF BLESS,祈福液剂
+POTION OF CURE DISEASE,治疗疾病液剂
+POTION OF CURE POISON,治疗毒液剂
+POTION OF ELECTRIC RESISTANCE,抗电液剂
+POTION OF FIRE RESISTANCE,抗火液剂
+POTION OF FORTIFY WILL,增强意志液剂
+POTION OF FRENZY,狂热液剂
+POTION OF REGENERATION,重生液剂
+POTION OF SPEED,加速液剂
+POTION OF STONE SKIN,石肤液剂
+POTION OF STRENGTH,增强力量液剂
+x Cavechild,x 洞穴幼崽
+x Chitin,x 角质
+x Cruel Fang,x 残酷獠牙
+x Egg Cluster,x 蛋群
+x Emerald King (insect,x 翡翠之王（昆虫
+x Fellbell,x 落叶铃
+x Firewing (insect,x 火翼（昆虫
+x Glowman,x 光舞者
+x Graveroot,x 阴根
+x Gullyfern,x 山沟蕨
+x Hound Ear,x 狮耳
+x Laughtercap,x 笑菇
+x Legionnaire’s Rest,x 先锋之息
+x Lizard's Eye,x 爪龙之眼
+x Mercury,x 汞
+x Protoplasma,x 原生质
+x Rat Tail,x 老鼠尾
+x Rotcrawler (insect,x 腐食虫
+x Rotmold,x 腐泥
+x Scale,x 鳞片
+x Sorrow-Eater,x 悲伤吞噬者
+x Spider Silk,x 蜘蛛丝
+x Starspawn,x 星生者
+x Sulfur,x 硫磺
+x Sunmouth,x 日口
+x Tusk,x 犄角
+x Venom Gland,x 毒液腺
+x Withered Hand,x 枯手
+#Adventuring - Misc,#冒险 - 杂项
+Misc,杂项
+Vomit Cups,呕吐杯
+"A bag of highly toxic fungi for Esteban, the alchemist in the Underhalls",一袋名为埃斯特班的炼金术士在地下厅使用的剧毒真菌
+Bee Smoker,蜜蜂驱赶器
+A small apparatus that creates smoke,一个小型装置，可以产生烟雾
+Used to calm bees before harvesting honey,用于在采集蜂蜜前安抚蜜蜂
+Cassilda's Song,卡斯ilda的歌
+A folded up piece of paper that has ‘To Camilla - From Cassilda' written on it,一张折叠的纸，上面写着“给卡米拉 - 来自卡斯ilda”
+Supposedly it contains the words of a song intended for Camilla’s eyes only,据说里面包含了一首只给卡米拉看的歌的歌词
+A Foul-Smelling Potion,一种恶臭的药剂
+A bottle of medicine made by Mother Katak to help cure the infection that is spreading through the Idran refugee camp,一瓶由卡塔卡母亲为治愈伊德兰难民营中传播的感染而制作的药水
+Firgol Honey,菲戈尔蜂蜜
+A honeycomb retrieved from one of the beehives in Firgol,从菲戈尔蜂巢中取回的蜂蜡
+It has a spectacular shade of yellow,它有着令人惊叹的黄色
+Vessel,容器
+A strange vessel that could hold liquid,一个奇怪的容器，可以容纳液体
+Full Vessel,完整的容器
+A strange vessel containing liquid,一个奇怪的容器，里面装着液体
+Stuffed Animal,毛绒玩具
+"A small, ragged stuffed animal",一个小巧破旧的毛绒玩具
+No doubt it should be returned to its owner with all due haste,毫无疑问，应该尽快归还给它的主人
+Giant Lizard Egg,巨型蜥蜴蛋
+Large eggs,大型蛋
+Something appears to be moving inside,看起来里面似乎有什么在移动
+Mallet,榔头
+A rounded mallet that seems to have some kind of ceremonial purpose,一个圆头的榔头，似乎有一定的仪式用途
+Children's Bones,儿童的骨骼
+"The tragic, mold covered, bones of two children",两具被霉菌覆盖的儿童骨骼，令人悲伤
+Lighthouse Oil,灯塔油
+A pitcher full of oil,一壶油
+The kind that might be used for a lighthouse beacon,可能用于灯塔灯源的那种油
+Nautical Guild Seal,海盗公会徽章
+"A strange octagonal amulet, richly filegreed and with the navigational roset of the Nautical Guild carved on it",一个奇怪的八角形护身符，表面打磨得非常光滑，并雕刻着海盗公会的航海玫瑰图案
+This is apparently an item that the guild will pay handsomely to have returned to them,这显然是一件公会愿意出高价赎回的物品
+Ledger,账本
+A ledger containing incriminating information,一本包含罪证信息的账本
+The Whispering Tablets,耳语石板
+A pair of weathered stone tablets covered in indecipherable writing and grotesque symbols,一对风化了的石板，上面刻满了无法辨认的文字和怪异的符号
+The tablet’s condition seems to indicate that it has rested under the sea for a long time,这些石板的状况表明它们可能在海底沉睡了很长时间
+Did you just hear a whisper?,你刚才听到耳语了吗？
+Rotted Horse Flesh,腐烂的马肉
+A large quantity of rotted horse flesh,大量腐烂的马肉
+Utterly inedible to humans but perhaps a treat for some other beastie?,对人类来说完全无法食用，但或许对某些其他生物来说是一道美味？
+A Strange Idol,一个奇怪的偶像
+A grotesque looking black Idol found in the 'Santa Fury' treasure hoard,发现于“Santa Fury”宝藏堆中的一个长相怪异的黑色偶像
+Sewerjack's Badge,下水道工的徽章
+A small brass badge belonging to a member of the glorious Imperial Sewer-patrol,一枚属于光荣帝国下水道巡逻队成员的小铜质徽章
+It's covered in filth,它上面满是污垢
+Silver Flute,银笛
+A small silver flute that can be used to drain the mercury-pool in the Tower of Ash,一枚可以用来排空灰烬塔中水银池的银笛
+Telescope,望远镜
+A collapsed field-telescope used for stargazing,一台坍塌的望远镜，用于观星
+Lotus Petals,莲花花瓣
+One of the ingredients needed to craft the ‘Salts of Elthanyr’,制作‘艾尔than瑞盐’所需的一种材料
+Salamander's Horn,火精灵之角
+Sylversalt,银盐
+Salts of Elthanyr,艾尔than瑞盐
+A special salt that can apparently be used to unsummon conjured creatures,据说可以用来解除召唤生物的一种特殊盐
+Bring it to Calipero the Magos underneath the Tower of Ash,带给灰塔下的麦格斯·卡拉皮罗
+#Adventuring - Keys,#冒险 - 钥匙
+Crypt Key,坟墓钥匙
+A bloodied bronze key that opens something in the crypt under the temple in Horryn,一串沾有血迹的青铜钥匙，可以打开霍ryn神殿地下的某个密室
+Surgery Door Key,手术室钥匙
+"A small key that unlocks the door to the surgery on the ""Zephyr",一把小型钥匙，可以打开“西风”号上的手术室门
+Armory Key,武器库钥匙
+A key that was discovered inside the keep in Horryn,在霍ryn要塞中发现的一把钥匙
+Black Key,黑色钥匙
+A large black key that unlocks something inside the Black Priory,一把大型黑色钥匙，可以打开黑修道院内的某个锁
+Smugglers Key,走私者钥匙
+A large rusty key that seems like it would open a chest or some other container,一把生锈的大钥匙，看起来可以打开一个箱子或其他容器
+You found it on a drowned corpse beneath the lighthouse,你在灯塔下的溺水尸体上找到的
+#Adventuring - Reagents,#冒险 - 药剂材料
+Reagent,药剂材料
+Chitin,甲壳
+A thick piece of chitin taken from the exo-skeleton of an unnaturally large creature,来自某种异常巨大的生物外骨骼的一块厚实的甲壳
+"As chitin dries it can be ground into powder, providing a potent alchemical ingredient",甲壳干燥后可以磨成粉末，提供一种强大的炼金材料
+Cruel Fang,残酷的獠牙
+"A slimy, curved fang pulled from the mouth of some sort of overgrown monstrosity",从某种巨大的怪兽口中拔出的一根黏滑的弯曲獠牙
+The end is still incredibly sharp,尾端依然非常锋利
+Egg Cluster,蛋巢
+Not to be mistaken for their smaller and more edible counterparts,不要与它们的小巧可食用的同类混淆
+"Whilst these eggs make for a potent alchemical ingredient, ingesting them in any other way can have…unpleasant effects",尽管这些蛋可以作为强大的炼金材料，但以其他方式食用它们可能会产生…不愉快的效果
+Emerald King (insect,绿色之王（昆虫
+Called “the King of insects” due to its shimmering emerald scales,由于其闪烁的翡翠鳞片，被称为“昆虫之王”
+"Its royal title, however, does not keep it safe from the alchemists and artificers who consider it a prized reagent",然而，它的王冠头衔并不能使它免受炼金术士和工匠们的觊觎，他们视其为珍贵的药剂材料
+Firewing (insect,火翼（昆虫
+"Whilst this small insect is a popular alchemical ingredient, its fire-like sting makes it one of the Empire’s most hated pests",尽管这种小昆虫是炼金材料中受欢迎的选择，但它像火焰般的刺痛使它成为帝国最恨的害虫之一
+Graveroot,坟根
+"Often found growing on graves, the roots of this weed are believed to feed on the flesh of the dead",经常生长在坟墓上的这种杂草的根部被认为会吸取死者的肉
+For this reason it is despised by grave-keepers and much sought after by those who dabble in the arcane,因此，它被坟墓看守者憎恶，并受到那些涉足奥秘之术的人的追捧
+Gullyfern,山谷蕨
+This small fern is often found growing near streams or in the deeper parts of the forest,这种小蕨类植物通常生长在溪流附近或森林深处
+"It emits a fresh, pleasant scent",它散发出清新宜人的香气
+Hound Ear,狗耳
+"A large, leathery ear cut from the freshly dead head of some monstrous hound",这是从某些怪兽狗的刚死头部割下的大块皮革耳朵
+A delicate flower that is said to grow on the sites of battles over the graves of dead soldiers,一种据说生长在战场遗址上的花朵，这些战场位于阵亡士兵的墓地附近
+Lizard's Eye,爬虫之眼
+"They say beauty lies in the eye of the beholder, but the slick goo coating this lizard’s eye gives you some doubts",有人说美在眼中有其独到之处，但覆盖在这只爬虫眼睛上的滑腻黏液却让你有些怀疑
+"Still, the rarity of reptilians throughout the Empire’s inner cities means it should fetch a decent price",不过，帝国内部城市中爬虫类生物的稀有性意味着它应该能卖出不错的价钱
+Mercury,汞
+"Believed to be at the core of all metals, this liquid element is a commodity amongst alchemists and is as fast working as it is toxic",人们相信汞是所有金属的核心，这种液态元素是炼金师们交易的商品，其作用之快与毒性一样令人震惊
+Cavechild,山洞之子
+A small pinkish mushroom that is sometimes found in caves,一种粉红色的小蘑菇，有时可以在洞穴中发现
+"Though eating it will cause acute vomiting, it is a valuable alchemical agent when used properly",虽然食用它会导致剧烈呕吐，但正确使用时它是一种有价值的炼金剂
+Glowman,发光人
+The Glowman is so called for its faint bioluminescence,由于其微弱的生物发光，人们称其为发光人
+It grows naturally in damp cave-systems and it a commonly used alchemical ingredient,它自然生长在潮湿的洞穴系统中，是一种常用的炼金成分
+Laughtercap,笑帽菇
+"Easily recognizable with its red cap and white spots, the Laughtercap is not to be ingested as it is said to cause hysterical laughter and odd visions",由于其红色的帽盖和白色斑点，笑帽菇很容易被辨认，但切勿食用，因为它据说会导致歇斯底里的笑声和奇异的幻象
+Many an apprentice alchemist has ignored this warning through the ages,无数学徒炼金师在历史上都无视了这个警告
+Protoplasma,原生质
+"Whilst this jelly-like substance may look harmless, its properties have been known to create potions just as acidic as the creature it comes from",虽然这种胶质物质看起来无害，但它的特性可以制造出与该生物一样酸性的药剂
+"Do not, under any circumstances, ingest",任何情况下都不要食用
+Rat Tail,鼠尾
+Rats are so ubiquitously despised throughout the Empire that certain merchants will pay a bounty for their tails,在帝国中，老鼠被普遍憎恶，以至于某些商人会为它们的尾巴支付悬赏
+As will certain alchemists,同样的，某些炼金师也会支付悬赏
+Rotcrawler (insect,腐蚀虫（昆虫
+"Whilst most citizens of the Empire would be disgusted by its presence, this larva-like insect can be useful to those who know what to do with it",尽管帝国的大多数市民会对它的存在感到厌恶，但这种类似幼虫的昆虫对知道如何利用它的人来说还是很有用的
+Rotmold,腐蚀菌
+"An aggressive mold known to eat almost any organic material it comes into contact with, this mold has cost more than a few citizens their cheese cellars",这种好战的霉菌几乎可以吞噬接触到的任何有机物质，它已经让不少市民失去了他们的奶酪储藏室
+And pets,甚至宠物
+Scale,角质
+"This rare, luminescent scale was likely taken from some sort of giant lizard or sea creature",这种罕见的发光角质很可能来自某种巨型蜥蜴或海洋生物
+"Whilst it is primarily used as an alchemical ingredient, its beauty makes it a popular ingredient amongst artisans on the Outer Isles",尽管它主要用作炼金材料，但它的美丽使其成为外群岛工匠们非常受欢迎的材料
+Typically given as a gift to those in grief,通常作为礼物送给那些处于悲痛中的人
+"It is said that if the plant is placed near your bed it will gorge on your despair, offering some slight respite",据说如果将这种植物放在床边，它会吞噬你的绝望，提供一点小小的慰藉
+Spider Silk,蜘蛛丝
+"Though it may be light in weight, it is not light in use",尽管它重量轻，但用途却很重
+This silky ingredient has been used in a variety of potion recipes for centuries and is popular amongst the Empire’s finest alchemists,这种丝质材料被用于各种炼金配方中已有数百年历史，深受帝国顶级炼金师的喜爱
+"Unfortunately, the same cannot be said for the creature that spins it",不幸的是，同样不能说这种制造它的生物也是如此
+"Named due to an old wives’ tale in which flowers began to grow at the site of a fallen star, this white plant is often given between lovers as a sign of affection",由于一种古老的老婆子的传说，即花朵在陨星坠落之处生长，这种白色植物常被恋人之间作为表达爱意的礼物赠送
+Sulfur,硫磺
+"Sometimes called the Heart of Life by alchemists across the Empire, this element is known to be extremely flammable yet alchemically potent",在帝国的炼金术士中，有时称其为生命之心，这种元素以其极高的易燃性和炼金效力而闻名
+Caution is advised,请谨慎
+"Often found growing in areas of direct sunlight, these bright flowers are often used as decoration during the summer solstice",经常在直射阳光下生长，这些明亮的花朵常在夏至期间作为装饰使用
+Tusk,牙齿
+A huge tusk pried from the jaws of a monstrous hog,从怪物野猪的口中撬出的巨大獠牙
+"For those who are brave or foolish enough to hunt such creatures, this useful alchemical ingredient makes a fine prize",对于那些勇敢或愚蠢到敢于猎杀此类生物的人来说，这种有用的炼金材料会成为极好的战利品
+Venom Gland,毒液腺
+A rather foul smelling sack removed from some kind of venomous animal,从某种有毒动物身上取出的一种散发着难闻气味的袋子
+The liquid inside does not look much better than it smells,腐蚀性的液体气味同样令人作呕
+Do not ingest,请勿食用
+Withered Hand,枯萎的手
+"Judging by the rotten scent emitting from this shriveled hand, it was likely cut from the wrist of a freshly risen ghoul",根据这腐烂的气味判断，这只干瘪的手很可能是从新复活的尸鬼手腕上割下的
+"Though desecration of the dead is taboo in Imperial society, the many uses for a ghoul’s flesh nonetheless causes it to fetch a hefty price on the black markets",尽管在帝国社会中亵渎死者的行径是禁忌，但尸鬼肉的多种用途使其在黑市上仍能卖个好价钱
+Fellbell,跌落铃
+"Fellbells emit a soft, mesmerizing chime that seems to attract mushroom-pickers and animals alike",跌落铃发出柔和、催眠般的铃声，似乎能吸引蘑菇采摘者和动物
+Unfortunately it is also highly poisonous,不幸的是，它也非常有毒
+#Trinkets,#饰品
+Amethyst,紫水晶
+"A common variety of quartz often believed to offer enlightenment, this gemstone is often found in the mountains of Gorremia",常见的石英品种，人们普遍认为它能带来启迪，这种宝石在戈雷米亚山脉中很常见
+Archon's Eye,阿克索之眼
+A common gemstone across the Empire,帝国常见的宝石
+Crones will tell you it protects the user from bad luck,老妪会告诉你它能保护使用者免受厄运
+Diamond,钻石
+The “Empress” of gemstones,宝石中的“皇后”
+Emerald,翡翠
+A highly coveted semi-precious stone often worn by members of the lay-nobility,这种半宝石常被贵族阶层成员佩戴，因其珍贵而备受青睐
+Moonstone,月光石
+"This adularescent gem is believed by some to have fallen from the moon itself, but its low cost suggests otherwise",这种反光宝石被认为是从月亮上掉下来的，但其低廉的价格表明并非如此
+Opal,水晶
+This semi-precious stone is found in far Arassha and is often inset in items of power,这种半宝石在遥远的阿拉莎发现，常被镶嵌在强大的物品中
+Painite,费内石
+"A rare mineral often misidentified as a ruby, this gemstone is often called “The Jewler’s Best Friend",这种稀有矿物常被误认为是红宝石，宝石商们称它为“珠宝商的挚友”
+Pearl,珍珠
+"A spherical stone, typically white or bluish-gray, the pearl is a favorite of rich sea-merchants",这种球形宝石通常呈白色或蓝灰色，是富有的海商的最爱
+Red Beryl,红碧玺
+An extremely rare and coveted gemstone that can sometimes be found inset in the regalia of the Empire’s most powerful,这种极其稀有且备受追捧的宝石有时会被镶嵌在帝国最强大的人物的权杖上
+Ruby,红宝石
+"A coveted, durable gemstone often worn by Magi of high rank",这种珍贵耐用的宝石常被高阶法师佩戴
+Topaz,黄水晶
+Topaz is commonly traded by Ombarian merchants,拳石在奥姆巴里安商人中常见交易
+"Usually light blue in color, the gem can be traded at a low cost",通常呈浅蓝色，宝石可以以较低的价格交易
+Bone Comb,骨梳
+"Finely carved from whale-bone, these combs provide a small modicum of luxury to the women and long-haired men of the Outer Isles",这些鲸骨精心雕刻而成的梳子为外岛的女性和长发男性提供了一丝奢华感
+Buttons,按扣
+A small collection of mismatched buttons,一小堆不匹配的按扣
+Conch Shell,贝壳
+You can hear the sea in them,你可以听到海浪的声音
+Cracked Wine Jug,开裂的酒壶
+A clay vessel commonly used to hold wine,一种常用的陶制容器，用来盛酒
+It does its job poorly,它的工作效果很差
+Drinking Horn,饮酒角杯
+A vessel used by locals from which wine or ale is drunk,一种当地人用来饮用葡萄酒或麦芽酒的容器
+Embalming Tool,入殓工具
+A tool used by followers of the Imperial faith to prepare the dead for burial,一种由帝国信仰信徒使用，用于准备死者入殓的工具
+Fishing Hook,钓鱼钩
+A small metal hook used by locals to catch a variety of fish,一种小型金属钩，当地人用来捕捉各种鱼类
+Flute,笛子
+A small bone or wood instrument,一种小型骨制或木制乐器
+Fork,叉子
+A two pronged fork,叉子，两齿
+"Though a good knife and fingers will suffice for most of the Empire's citizens, it simply will not do for a small select elite",尽管帝国大多数市民可以用好的刀和手指来完成大部分工作，但对于一小部分精挑细选的精英来说，这远远不够
+Glass Bead,玻璃珠
+A spherical piece of glass sometimes used by islanders/locals to create jewelry or fool children,一种有时被岛民或当地人用来制作首饰或愚弄孩子的玻璃球
+Goblet,杯子
+"A beaten up and ugly, albeit well crafted, tin goblet",一个虽然做工精细但又破又丑的锡制杯子
+Ink Pot,墨水瓶
+A glass vessel half full of rich Ombarian ink,一个半满的玻璃容器，里面装着浓郁的奥姆贝里安墨水
+Mug,罐子
+A roughly made mug,一个粗糙制作的罐子
+Likely used for the Empire's drink of choice,很可能用来盛帝国最受欢迎的饮品
+Ale,麦酒
+Old Shears,老剪刀
+A cutting tool commonly used by local farmers to shear their meager flocks,一种常见的剪切工具，当地农民常用它来剪他们微不足道的羊群
+Ornate Gamepiece,精美的棋子
+A piece from a set of pieces belonging to the game “Lancers,来自“骑兵”棋盘游戏的一枚棋子
+Ornate Hand Mirror,精美的手镜
+"Commonly used by members of nobility to check their appearance, these handheld items are believed by some to be ‘mirrors to the soul’",由贵族成员常用以检查仪容，有些人认为这些手持物品是“灵魂的镜子”
+Parchment,羊皮纸
+A stack of writing paper,一叠书写用纸
+Pitcher,酒壶
+A pitcher used for serving drinks,用于斟酒的酒壶
+Plate,盘子
+A tin plate used for serving meals,用于盛菜的锡盘
+Ream of Fine Cloth,精致的丝绸卷
+Finely spun cloth is difficult to produce and highly coveted among the tailors of the Heartlands,精致的丝绸难以生产，是心腹之地裁缝们极力追求的物品
+Ream of Routhspun Cloth,罗斯纺丝绸卷
+"Not as expensive as it's finer counterpart, but still a local commodity",比其更精细的版本便宜一些，但仍然是当地的商品
+Rusty Bread Knife,锈迹斑斑的面包刀
+A common household item often found in dining areas,一种常见的家用物品，常出现在餐桌上
+Rusty Stick Pin,锈迹斑斑的胸针
+A brass pin sometimes used by commonfolk to hold various garments in place,一种黄铜别针，常被普通人用来固定各种衣物
+Scrimshaw,刻痕品
+A small carving made from walrus teeth,用齿鲸牙制成的小雕刻品
+Silk Ribbon,缎带
+Commonly used for braiding hair,常用于编发
+Stained Glass Bottle,带有污渍的玻璃瓶
+An empty glass bottle that has taken on a green tint,一个空玻璃瓶，带有绿色的色调
+Decorative Shell,装饰贝壳
+"The exoskeleton of various sea creatures, these shells are sometimes used by locals to create jewelry",各种海洋生物的外骨骼，这些贝壳有时被当地人用来制作首饰
+Wooden Doll,木偶
+"A toy made from smooth yew, these doll’s are popular gifts given to local children",这些木偶由光滑的山毛榉制成，是送给当地儿童的流行礼物
+Weaving Comb,织布梳
+A tool commonly used in the weaving of tapestries,一种常用于挂毯编织的工具
+This one appears to be made from the wood of the Yew Trees often found in the Outer Isles,这个似乎是由外群岛常见的山毛榉木制成的
+Worn Dice,磨损的骰子
+The bane of fools everywhere,天下愚者的噩梦
+You wonder how many fortunes have fallen prey to its faded numbers,你不禁好奇它那褪色的数字曾让多少命运蒙羞
+Writing Quill,钢笔
+A popular writing tool made from the feather of a large bird,一种流行的书写工具，由大型鸟类的羽毛制成
+This one appears to need sharpening,看起来需要磨尖了
+Yarn,毛线
+A yarn of wool spun from the shag of the sturdy breed of goats that roam the hills in the Outer Isles,这种羊毛线由外群岛山坡上那些结实品种的山羊身上长出的毛纺制而成
+Gold,金币
+A pile of gold,一堆金币
+#Idle Items,#闲置物品
+Banner,旗帜
+Helbard,长柄武器
+Pitchfork,锄头
+Rake,锄具
+Scythe,镰刀
+Spear,长矛
+Enchanted,魔法
+Ranged,远程

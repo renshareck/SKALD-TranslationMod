@@ -1,0 +1,154 @@
+original,translate
+#Combat Tutorials,#战斗教程
+Charging,冲刺
+Moving at least 2 tiles in a straight line before performing an attack allows characters with a Melee weapon to perform a Charge Attack,在进行攻击前至少移动2格直线路程，使用近战武器的角色可以进行冲刺攻击
+Charge attacks significantly increase your likelihood to hit,冲刺攻击显著提高命中几率
+Charge attacks add a bonus to your hit chance depending on how far you manage to move before attacking,冲刺攻击根据攻击前移动的距离增加命中加成
+The teal pips over the character indicate how much momentum is built up by the charge,角色头顶的青色圆点显示冲刺积攒的动能
+"The more momentum, the bigger the charge bonus",动能越大，冲刺加成越大
+A successful charge will give the following text printing the bonus that was added to the character’s To-Hit roll,成功冲刺后，屏幕上会显示添加到角色命中骰上的加成
+Tactical View,战术视图
+Pressing SHIFT in combat brings up the tactical overlay and makes it easier to see the exact positioning of characters and the underlying grid,在战斗中按下Shift键可以显示战术叠加层，使角色的精确位置和底层网格更容易看清
+"In the settings menu, you can toggle the tactical overlay to be always on during the player’s turn",在设置菜单中，可以切换战术叠加层在玩家回合时始终保持开启
+Holding LEFT TRIGGER in combat brings up the tactical overlay and makes it easier to see the exact positioning of characters and the underlying grid,在战斗中按住左摇杆可以显示战术叠加层，使角色的精确位置和底层网格更容易看清
+Conditions,状态
+You have contracted a disease from your fight with the rats,你与地精的战斗中染上了疾病
+You may see what conditions are affecting you by opening the Character Sheet,你可以通过打开角色表查看影响你的所有状态
+Click your portraits or press ‘C’ to do so,点击你的肖像或按C键
+Not all conditions are negative!,并非所有状态都是负面的
+Press the Y BUTTON to do so,按Y键
+Negative conditions can often be cured by magic or rest,负面状态通常可以通过魔法或休息治愈
+This disease can be cured by a potion,这种疾病可以通过药水治愈
+Pick up and equip the lantern to search the area!,拿起并装备灯笼以搜索区域！
+Hint,提示
+Some containers are hidden until your character “spots” them,有些容器在你的角色“发现”它们之前是隐藏的
+Difficulty,困难度
+Warda is a dangerous place where you can quickly end up facing very dangerous beings,费达是一个危险的地方，你可能会很快面对非常危险的生物
+Sometimes the best tactic is to leave a fight for later as you level up and gather more equipment and allies,有时最好的策略是将战斗推迟到以后，随着等级提升和装备更多装备及盟友
+Remember that you can change the difficulty of the game at any time,请记住，你可以随时更改游戏的难度
+You can even create your own custom difficulty!,甚至可以创建你自己的自定义难度！
+Play the game the way YOU want it!,按照你想要的方式玩游戏！
+Flanking,侧翼攻击
+A character can be Flanked if opponents occupy the tile above and below it or to the left and right of it,如果敌人的单位占据了一个角色上方、下方或左侧、右侧的格子，该角色可以被侧翼攻击
+It is much easier to hit a Flanked character,侧翼攻击的角色更容易击中目标
+A Rogue will automatically Backstab Flanked targets to deal massive amounts of damage,盗贼会自动对侧翼攻击的目标进行背刺，造成大量伤害
+Here the main character has moved to the right of the mercenary,这里主角已经移动到了佣兵的右侧
+And then Roland moves to the left of the mercenary who is now Flanked,然后罗兰移动到佣兵的左侧，现在佣兵被侧翼攻击
+Note the red double-arrow icon that indicates when a character is Flanked,注意表示角色被侧翼攻击的红色双箭头图标
+Initiative,初始行动
+"In combat, characters act in order of initiative",在战斗中，角色按照初始行动的顺序行动
+You can view the initiative order by using the Initiative Widget on the left side of the screen,你可以通过屏幕左侧的初始行动小部件查看初始行动顺序
+Moving the cursor over the widget makes it pop out,将光标悬停在小部件上使其弹出
+Note that moving the cursor over a name will make that character's outline flash on the battlefield,注意将光标移到一个角色名字上时，该角色在战场上的轮廓会闪烁
+Injuries,伤势
+Your character is critically injured!,你的角色严重受伤了！
+This means you have taken enough damage to reduce BOTH your Vitality and Wounds,这意味着你受到了足够的伤害，导致你的生命力和伤痕都减少了
+The green bar under your Character’s portrait represents your Vitality score,角色肖像下方的绿色条代表你的生命力值
+Vitality is a buffer to your wounds and as long as you have Vitality left you won’t take (serious,生命力是伤痕的缓冲，只要还有生命力，你就不会受到（严重的
+Wound damage,伤痕伤害
+Vitality is easily lost and easily regained!,生命力很容易失去，也很容易恢复！
+Potions and healing magic restores Vitality - even during combat,恢复药剂和治疗魔法可以恢复生命力，即使在战斗中也可以
+"The second, purple bar represents your Wounds",第二个紫色条代表你的伤痕
+Losing Wounds is much more serious than losing Vitality,丧失伤痕比丧失生命力更为严重
+Reaching 0 wounds means your character falls unconscious,伤痕归零意味着你的角色会昏迷
+Wounds can also only be recovered by resting (or leveling up,伤痕只能通过休息（或升级）来恢复
+Try to avoid taking Wound damage at all costs!,尽量避免受到任何伤痕伤害！
+"Whenever you take Wound damage, you gain an Injury Condition as indicated by the icon on the portrait",每当你受到伤痕伤害时，肖像上的图标会显示你获得了一个伤势状态
+Injuries confer serious penalties to your character and can only be removed by resting,伤势会给你的角色带来严重的惩罚，只能通过休息来移除
+A party full of injured party members has its combat effectiveness severely reduced!,一个满是受伤成员的队伍其战斗效率会严重下降！
+Making camp and resting is the surest way to restore an injured character!,休整营地并休息是恢复受伤角色的最佳方法！
+Note that resting is not possible in every location so plan accordingly,请注意，并非所有地点都允许休息，因此请做好相应计划
+You can also rest at inns when you find them,你也可以在找到旅店时休息
+Interactables,互动对象
+Moving the cursor over an interactable object will make a yellow outline appear,将光标移动到可互动对象上会出现黄色轮廓
+Left mouse-click to interact with the object,左键点击以与对象互动
+Right mouse-click to examine it,右键点击以检查它
+Use RIGHT TRIGGER to interact with and object and press LEFT TRIGGER to examine it,使用右扳机与对象互动，按左扳机检查它
+Holding down SHIFT will highlight all interactable objects in view,按住Shift键会在视野中高亮所有可互动对象
+Some objects are hidden and won't be highlighted until they are spotted,有些对象隐藏起来，直到被发现才会被高亮
+Holding down LEFT TRIGGER will highlight all interactable objects in view,按住左扳机会在视野中高亮所有可互动对象
+Inventory,背包
+"If you've not already done so, you must equip a weapon",如果你还没有装备武器，请装备一把
+Press 'E' to manage your equipment,按'E'键管理你的装备
+Clicking an item selects and examines it,点击物品选择并检查它
+Select items using the cursor to examine and use it,使用光标选择并检查物品
+Press the X BUTTON on the controller to manage your equipment,按控制器上的X按钮管理你的装备
+Double click on items to use them,双击物品使用它
+For weapons and armor this means the item becomes equipped,对于武器和护甲，这意味着物品被装备上了
+Equipped items are moved to the relevant equipment slot,装备的物品会被移动到相应的装备槽位
+"Select an item and press the A BUTTON to ""use"" it",选择一个物品并按A按钮“使用”它
+Note that you can also press RIGHT TRIGGER with the cursor over a selected item to use it,注意你也可以在光标选中物品时按右扳机使用它
+Movement Points,移动点
+The widget on the lower right side represents the character’s action points,右下角的按钮代表角色的动作点
+The yellow pips represent Movement points,黄色的点代表移动点
+The violet pips represent Attacks,紫色的点代表攻击
+You can move a number of tiles each combat equal to your Movement Points AND Attacks,每回合你可以移动的格子数等于你的移动点数和攻击次数
+But spending Attacks to move means you won't be able to attack that turn,但是使用攻击来移动意味着你这一回合将无法进行攻击
+This is a good way of moving extra far,这是一个额外移动的不错方法
+Performing an attack will clear out all remaining movement points,进行攻击会清空剩余的所有移动点
+"In other words, attacking will end the character’s turn in most cases",换句话说，攻击通常会结束角色的回合
+New Character,新角色
+You’ve added a new character to your party!,你已经为队伍添加了一个新角色！
+"Press ""Q"" or the character portraits to swap the party leader",按“Q”键或角色肖像来切换队伍领袖
+Press RIGHT BUMPER or the character portraits to swap the party leader,按右 bumper 或角色肖像来切换队伍领袖
+The current leader’s Attributes are used for tests outside combat (such as for Awareness or Stealth,当前领袖的属性用于战斗外的检定（例如警觉或潜行）
+Familiarize yourself with the Attributes and Abilities of your party members and have the right character take the lead depending on the circumstances,了解队伍成员的属性和能力，并根据情况让合适的角色担任领袖
+"When a new member joins your party, they Level Up to your current level",当新成员加入队伍时，他们会提升到你当前的等级
+The “Level Up” icon on your party-member’s portrait shows that a character is ready to level up!,队员肖像上的“提升等级”图标显示角色已经准备好提升等级了！
+Double-click the character portrait and select FEATS to begin leveling up,双击角色肖像并选择“特技”开始提升等级
+Press the X BUTTON and go to the FEATS tab to begin leveling up,按下 X 键并切换到“特技”标签页开始提升等级
+Stealth,潜行
+Press the Hide button to go into Stealth mode,按下潜行按钮进入潜行模式
+The action buttons also map to the numerical buttons,动作按钮也映射到数字键
+You may also press LEFT JOYSTICK to enter stealth mode,你也可以按下左摇杆进入潜行模式
+While in stealth mode the Stealth indicator becomes visible,进入潜行模式后，潜行指示器会变得可见
+A yellow indicator means you're in danger of being spotted,黄色指示器意味着你有可能被发现
+"While your indicator is yellow, it will count down to 0%",当指示器为黄色时，它会倒计时到0%
+When it reaches 0% you are spotted and will become visible,当它达到0%时，你将被发现并变得可见
+Moving in lit areas and being close to other characters will make the counter go down very fast,在照明区域移动或靠近其他角色会使计数器迅速下降
+Stick to shadows and avoid other characters,跟随阴影并避免其他角色
+Your ability to stay hidden is dictated by your stealth skill,你保持隐蔽的能力取决于你的潜行技能
+Increase this skill to stay hidden for longer,提高这项技能可以在更长时间内保持隐蔽
+Wearing armor makes it harder to stay hidden,穿戴盔甲会使你更难保持隐蔽
+"If the indicator turns green, it means you are no longer in danger of being spotted",如果指示器变为绿色，这意味着你不再有可能被发现
+"Spending time in ""green"" areas will refill your stealth meter",在“绿色”区域花费时间会恢复你的潜行计数器
+#Misc,#杂项
+Crafting,制作
+This is the Crafting screen,这是制作界面
+"To create new items, double-click ingredients in your inventory to place them in the “Workstation” and then press “Craft",要创建新物品，请双击库存中的材料，在“工作站”中放置它们，然后按“制作”
+"If the recipe is valid, new items will be created",如果配方有效，新物品将被创建
+"To create new items, place ingredients in the “Workstation” grid and then press “Craft",要创建新物品，请将材料放置在“工作站”网格中，然后按“制作”
+The recipe list in the left column represents known recipes,左侧列表中的配方列表代表已知的配方
+You learn new recipes by experimenting or by finding recipe books out in the world,你通过实验或在世界中找到食谱书籍来学习新的食谱
+Recipes that can currently be crafted are shown in green,当前可以制作的食谱会显示为绿色
+Selecting a green recipe will automatically add all the necessary ingredients to the “Workstation,选择绿色的食谱会自动将所有必要的材料添加到“工作站”
+Crafting is dependent on the Crafting skill,制作依赖于制作技能
+"Crafting a valid recipe will always succeed but depending on your skill and the recipe’s difficulty, there is a chance you may produce more than one item",制作有效的食谱总是会成功，但根据你的技能和食谱的难度，你可能会制作出多于一个物品
+Resting,休息
+This is the Camp screen,这是营地屏幕
+Use it to feed the party and select camp activities for the party members before resting,使用它来喂养队伍，并在休息前为队伍成员选择营地活动
+"By default, the game always auto-saves when you make camp",默认情况下，当你扎营时，游戏会自动保存
+"To fully recover from injuries, your party members must be well fed",为了完全恢复伤势，你的队伍成员必须吃饱
+Normally 10 points of food is required per party member to recover 100%,通常，每个队伍成员需要10点食物来恢复100%
+If less than the required amount is added your party will only recover partially,如果添加的食物少于所需数量，你的队伍只会部分恢复
+Add food from your inventory by double clicking it,从你的库存中双击食物来添加食物
+Note that prepared meals add a lot more food per item than raw ingredients,注意，准备好的餐食每项提供的食物量远多于生材料
+Seek out crafting stations to craft meals from raw ingredients,寻找制作站来从生材料制作餐食
+Select food from your inventory for your party to eat,从你的库存中选择食物让队伍成员食用
+You also need to select Camp Activities for your party members,你还需要为你的队伍成员选择营地活动
+These provide bonuses based on your character's skills,这些活动根据你角色的技能提供加成
+Beds and Inns,床铺和旅店
+Keep an eye out for beds or inns to rest in while adventuring,在冒险时留意寻找可以休息的床铺或旅店
+Doing so is superior to sleeping in the wild,这样做比在野外睡觉要好
+"While resting at an inn or in a bed, you have the option to manage your party!",在旅店或床上休息时，你可以管理你的队伍！
+"This means you can choose what characters get to be part of your main party, and who should wait in camp",这意味着你可以选择哪些角色成为你主要队伍的一部分，哪些角色应该留在营地
+Camp followers do not earn XP and never participate in combat,营地随从不会获得经验点数，也从不参与战斗
+Camp followers will for the most part not engage in the narrative,营地随从大多数情况下不会参与故事情节
+"There are a few exceptions to this however, and there are some cases where even characters outside your main party may chime in during conversations",然而，有一些例外情况，甚至队伍外的角色也可能在对话中插话
+Sailing,航行
+"While sailing on the overland map, the “Make Camp” button changes appearance",在大陆地图上航行时，“扎营”按钮会改变外观
+Click it to explore the ship you’re currently on,点击它来探索你目前所在的船只
+Press it to explore the ship you’re currently on,点击它来探索你目前所在的船只
+"While on the ship, it’s possible to rest and reorganize, cook, craft items and even do some limited bartering",在船上，你可以休息、重新组织队伍、烹饪、制作物品，甚至进行一些有限的交易
+There may also be characters to talk to,你还可以与船上的角色交谈
+"When you’re done interacting with the ship and crew, interact with the ship’s helm to go back to the overland map",完成与船只和船员的互动后，与船舵互动以返回大陆地图
