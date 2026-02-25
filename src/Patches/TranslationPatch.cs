@@ -235,11 +235,14 @@ namespace TranslationMod.Patches
                     return;
                 }
                 
+                // 首字符装饰初始化
                 if (instance.illuminatedFont != null)
-                {
+                {   
+                    // 获取首字符在字图集里的子图编号
                     int subimageForChar = StringPrinter.getSubimageForChar(translated[0]);
                     
                     // Расширенная проверка для кириллицы (ваш комментарий: переделать на проверку взятых кодов из кодировки)
+                    // 0-25、 90-122 字符需要进行装饰
                     if (subimageForChar <= 25 || (subimageForChar >= 90 && subimageForChar <= 122))
                     {                        
                         if (IlluminatedImageField == null)
@@ -249,12 +252,14 @@ namespace TranslationMod.Patches
                         }
                         
                         var illuminatedImage = new UICanvasVertical();
-                        translated = translated.Substring(1);
-                        illuminatedImage.backgroundTexture = TextureTools.getLetterSubImageTextureData(
-                            subimageForChar, instance.illuminatedFont.getModelPath());
+                        // 将首字母从待翻译内容中去掉
+                        translated = translated.Substring(1);       
+                        //设置贴图
+                        illuminatedImage.backgroundTexture = TextureTools.getLetterSubImageTextureData(subimageForChar, instance.illuminatedFont.getModelPath());
+                        //设置右间距
                         illuminatedImage.padding.right = font.wordSpacing;
-                        IlluminatedImageField.SetValue(instance, illuminatedImage);
-                        instance.add(illuminatedImage);
+                        IlluminatedImageField.SetValue(instance, illuminatedImage);     // 设置 instance.illuminatedImage为illuminatedImage
+                        instance.add(illuminatedImage);                                 // 将此装饰首字符对象添加至控件元素树
                     }
                     else
                     {
@@ -273,9 +278,11 @@ namespace TranslationMod.Patches
 #endif
                     
                     // Извлекаем tooltip ключи и добавляем их в буфер
+                    //提取 tooltip 的key，并将它们添加到缓冲区
                     var keys = ExtractAndBufferTooltipKeys(taggedInput);
                     
                     // Оборачиваем переведенные ключи в теги <tag></tag>
+                    //将已翻译的key用 <tag></tag> 标签包裹起来
                     translated = TagKeys(translated, keys);
                     
 #if DEBUG
@@ -288,6 +295,7 @@ namespace TranslationMod.Patches
                     TranslationMod.Logger?.LogError("SplitIntoParagraphMethod is null");
                     return;
                 }
+                // 按照待翻译文本中的换行\r\n、\r、\n将文本分割为多行文本list
                 var paragraphs = (List<string>)SplitIntoParagraphMethod.Invoke(instance, new object[] { translated });
                 if (paragraphs != null)
                 {
@@ -298,7 +306,7 @@ namespace TranslationMod.Patches
                     }
                     
                     foreach (string paragraph in paragraphs)
-                    {
+                    {   
                         ParseParagraphMethod.Invoke(instance, new object[] { paragraph });
                     }
                 }
