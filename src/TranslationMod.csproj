@@ -25,6 +25,11 @@
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" PrivateAssets="none" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="OriginSrc\**\*.cs" />
+    <None Include="OriginSrc\**\*.cs" />
+  </ItemGroup>
+
 
   <ItemGroup>
     <Reference Include="0Harmony">

@@ -6,6 +6,7 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Text.RegularExpressions;
+using UnityEngine;
 
 using TranslationMod.Configuration;
 
@@ -299,15 +300,9 @@ namespace TranslationMod.Patches
                 var paragraphs = (List<string>)SplitIntoParagraphMethod.Invoke(instance, new object[] { translated });
                 if (paragraphs != null)
                 {
-                    if (ParseParagraphMethod == null)
-                    {
-                        TranslationMod.Logger?.LogError("ParseParagraphMethod is null");
-                        return;
-                    }
-                    
                     foreach (string paragraph in paragraphs)
                     {   
-                        ParseParagraphMethod.Invoke(instance, new object[] { paragraph });
+                        ParseParagraphComplete(instance, paragraph);
                     }
                 }
                 
@@ -605,6 +600,277 @@ namespace TranslationMod.Patches
         }
 
         /* ── PRIVATE ──────────────────────────────────────────── */
+
+        private static void ParseParagraphComplete(UITextBlock instance, string input)
+        {
+            if (string.IsNullOrEmpty(input))
+            {
+                return;
+            }
+
+            var textBlockType = typeof(UITextBlock);
+            var createLineMethod = textBlockType.GetMethod("createLine", BindingFlags.NonPublic | BindingFlags.Instance);
+            var shouldCreateNewLineMethod = textBlockType.GetMethod("shouldWeCreateNewLine", BindingFlags.NonPublic | BindingFlags.Instance);
+            var getPixelsToNextTabMethod = textBlockType.GetMethod("getPixelsToNextTab", BindingFlags.NonPublic | BindingFlags.Instance);
+            var trimBraceMethod = textBlockType.GetMethod("trimBrace", BindingFlags.NonPublic | BindingFlags.Instance);
+            var getDrawColorMethod = textBlockType.GetMethod("getDrawColor", BindingFlags.NonPublic | BindingFlags.Instance);
+            var pushColorMethod = textBlockType.GetMethod("pushColor", BindingFlags.NonPublic | BindingFlags.Instance);
+            var popColorMethod = textBlockType.GetMethod("popColor", BindingFlags.NonPublic | BindingFlags.Instance);
+
+            var currentTooltipWordField = textBlockType.GetField("currentTooltipWord", BindingFlags.NonPublic | BindingFlags.Instance);
+            var drawingQuoteField = textBlockType.GetField("drawingQuote", BindingFlags.NonPublic | BindingFlags.Instance);
+            var uppercaseTooltipWordsField = textBlockType.GetField("uppercaseTooltipWords", BindingFlags.NonPublic | BindingFlags.Instance);
+            var highlightQuotesField = textBlockType.GetField("highlightQuotes", BindingFlags.NonPublic | BindingFlags.Instance);
+            var toolTipHighlightColorField = textBlockType.GetField("toolTipHighlightColor", BindingFlags.NonPublic | BindingFlags.Instance);
+            var toolTipWordsField = textBlockType.GetField("toolTipWords", BindingFlags.NonPublic | BindingFlags.Instance);
+            var multiLineField = textBlockType.GetField("multiLine", BindingFlags.NonPublic | BindingFlags.Instance);
+
+            var wordType = textBlockType.GetNestedType("Word", BindingFlags.NonPublic);
+            var letterType = textBlockType.GetNestedType("Letter", BindingFlags.NonPublic);
+            var wordCtor = wordType?.GetConstructor(
+                BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic,
+                null,
+                new[] { typeof(Font) },
+                null);
+            var letterCtor = letterType?.GetConstructor(
+                BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic,
+                null,
+                new[] { typeof(char), typeof(Color32), typeof(Color32), typeof(Font) },
+                null);
+            var wordGetWidthInLineMethod = wordType?.GetMethod("getWidthInLine", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
+            var wordHighlightWordField = wordType?.GetField("highlightWord", BindingFlags.Public | BindingFlags.Instance);
+
+            if (createLineMethod == null ||
+                shouldCreateNewLineMethod == null ||
+                getPixelsToNextTabMethod == null ||
+                trimBraceMethod == null ||
+                getDrawColorMethod == null ||
+                pushColorMethod == null ||
+                popColorMethod == null ||
+                currentTooltipWordField == null ||
+                drawingQuoteField == null ||
+                uppercaseTooltipWordsField == null ||
+                highlightQuotesField == null ||
+                toolTipHighlightColorField == null ||
+                toolTipWordsField == null ||
+                multiLineField == null ||
+                wordCtor == null ||
+                letterCtor == null ||
+                wordGetWidthInLineMethod == null ||
+                wordHighlightWordField == null)
+            {
+                ParseParagraphMethod?.Invoke(instance, new object[] { input });
+                return;
+            }
+
+            var font = FontField.GetValue(instance) as Font;
+            if (font == null)
+            {
+                return;
+            }
+
+            object CreateWord() => wordCtor.Invoke(new object[] { font });
+            UIElement CreateLetter(char c, Color32 main, Color32 shadow) => (UIElement)letterCtor.Invoke(new object[] { c, main, shadow, font });
+            UICanvasHorizontal CreateLine() => (UICanvasHorizontal)createLineMethod.Invoke(instance, null);
+            bool ShouldCreateNewLine(UICanvasHorizontal line, object word) => (bool)shouldCreateNewLineMethod.Invoke(instance, new[] { line, word });
+            int GetPixelsToNextTab(UICanvasHorizontal line) => (int)getPixelsToNextTabMethod.Invoke(instance, new object[] { line });
+            int GetWordWidthInLine(object word) => (int)wordGetWidthInLineMethod.Invoke(word, null);
+            string TrimBrace(string s) => (string)trimBraceMethod.Invoke(instance, new object[] { s });
+            Color32 GetDrawColor() => (Color32)getDrawColorMethod.Invoke(instance, null);
+            void PushColor(Color32 color) => pushColorMethod.Invoke(instance, new object[] { color });
+            void PopColor() => popColorMethod.Invoke(instance, null);
+            string CurrentTooltipWord() => (string)currentTooltipWordField.GetValue(instance);
+            void SetCurrentTooltipWord(string s) => currentTooltipWordField.SetValue(instance, s);
+            bool DrawingQuote() => (bool)drawingQuoteField.GetValue(instance);
+            void SetDrawingQuote(bool value) => drawingQuoteField.SetValue(instance, value);
+            bool UppercaseTooltipWords() => (bool)uppercaseTooltipWordsField.GetValue(instance);
+            bool HighlightQuotes() => (bool)highlightQuotesField.GetValue(instance);
+            Color32 ToolTipHighlightColor() => (Color32)toolTipHighlightColorField.GetValue(instance);
+            bool MultiLine() => (bool)multiLineField.GetValue(instance);
+            void SetWordHighlightWord(object word, string s) => wordHighlightWordField.SetValue(word, s);
+
+            UICanvasHorizontal lineCanvas = CreateLine();
+            object wordObj = CreateWord();
+            bool headerFlag = false;
+
+            int i = 0;
+            while (i < input.Length)
+            {
+                if (input[i] == '<')
+                {
+                    string text = input.Substring(i);
+                    int num = text.IndexOf(">") + 1;
+                    if (num > 0)
+                    {
+                        if (text.IndexOf(C64Color.HEADER_TAG_CONTENT) == 1)
+                        {
+                            PushColor(C64Color.HeaderColor);
+                            headerFlag = true;
+                        }
+                        else if (text.IndexOf("/" + C64Color.HEADER_TAG_CONTENT) == 1)
+                        {
+                            PopColor();
+                            headerFlag = false;
+                        }
+                        else if (text.IndexOf("tag") == 1 && !headerFlag)
+                        {
+                            SetCurrentTooltipWord(text.Substring(num).Split(new[] { '<' }, StringSplitOptions.None)[0]);
+                            PushColor(ToolTipHighlightColor());
+                        }
+                        else if (text.IndexOf("/tag") == 1 && !headerFlag && CurrentTooltipWord() != "")
+                        {
+                            SetCurrentTooltipWord("");
+                            PopColor();
+                        }
+                        else
+                        {
+                            string text2 = TrimBrace(text.Substring(0, num));
+                            if (text2.IndexOf("color=".ToUpper()) == 1)
+                            {
+                                int startIndex = text2.IndexOf("#".ToUpper());
+                                Color color;
+                                if (startIndex >= 0 &&
+                                    startIndex + 7 <= text2.Length &&
+                                    ColorUtility.TryParseHtmlString(text2.Substring(startIndex, 7), out color))
+                                {
+                                    PushColor(color);
+                                }
+                            }
+                            else if (text2.IndexOf("/color".ToUpper()) == 1)
+                            {
+                                PopColor();
+                            }
+                        }
+
+                        if (num > 1)
+                        {
+                            i += num - 1;
+                        }
+
+                        if (i >= input.Length - 1)
+                        {
+                            if (ShouldCreateNewLine(lineCanvas, wordObj))
+                            {
+                                lineCanvas = CreateLine();
+                            }
+                            lineCanvas.add((UIElement)wordObj);
+                            break;
+                        }
+
+                        i++;
+                        continue;
+                    }
+                }
+                else if (input[i] == '\t')
+                {
+                    lineCanvas.add((UIElement)wordObj);
+                    object tabWord = CreateWord();
+                    ((UICanvasHorizontal)tabWord).setWidth(GetPixelsToNextTab(lineCanvas));
+                    lineCanvas.add((UIElement)tabWord);
+                    wordObj = CreateWord();
+                    i++;
+                    continue;
+                }
+
+                if (input[i] != ' ')
+                {
+                    bool closingQuote = false;
+                    if (input[i] == '"' && HighlightQuotes())
+                    {
+                        if (DrawingQuote())
+                        {
+                            closingQuote = true;
+                        }
+                        SetDrawingQuote(!DrawingQuote());
+                    }
+
+                    UIElement letter;
+                    if (CurrentTooltipWord() != "")
+                    {
+                        char ch = UppercaseTooltipWords() ? char.ToUpper(input[i]) : input[i];
+                        letter = CreateLetter(ch, GetDrawColor(), instance.foregroundColors.shadowMainColor);
+                    }
+                    else if (DrawingQuote() || closingQuote)
+                    {
+                        letter = CreateLetter(input[i], C64Color.SmallTextQuoteColor, instance.foregroundColors.shadowMainColor);
+                    }
+                    else
+                    {
+                        letter = CreateLetter(input[i], GetDrawColor(), instance.foregroundColors.shadowMainColor);
+                    }
+
+                    letter.foregroundColors.hoverColor = instance.foregroundColors.hoverColor;
+                    letter.foregroundColors.leftClickedColor = instance.foregroundColors.leftClickedColor;
+                    letter.foregroundColors.outlineMainColor = instance.foregroundColors.outlineMainColor;
+
+                    if (MultiLine() || (!MultiLine() && lineCanvas.getWidth() + GetWordWidthInLine(wordObj) <= instance.getBaseWidth()))
+                    {
+                        ((UICanvasHorizontal)wordObj).add(letter);
+                    }
+
+                    if (CurrentTooltipWord() != "")
+                    {
+                        SetWordHighlightWord(wordObj, CurrentTooltipWord());
+                        var toolTipWords = toolTipWordsField.GetValue(instance) as System.Collections.IList;
+                        if (toolTipWords != null && !toolTipWords.Contains(wordObj))
+                        {
+                            toolTipWords.Add(wordObj);
+                        }
+                    }
+                }
+
+                if (input[i] == ' ' ||
+                    i >= input.Length - 1 ||
+                    (GetWordWidthInLine(wordObj) >= instance.getBaseWidth() && !instance.stretchHorizontal) ||
+                    IsNonAlphanumericSymbol(input[i]))
+                {
+                    bool needNewLine = ShouldCreateNewLine(lineCanvas, wordObj);
+                    if (input[i] == ' ')
+                    {
+                        ((UICanvasHorizontal)wordObj).add(CreateLetter(input[i], GetDrawColor(), instance.foregroundColors.shadowMainColor));
+                    }
+
+                    if (needNewLine)
+                    {
+                        lineCanvas = CreateLine();
+                        lineCanvas.add((UIElement)wordObj);
+                    }
+                    else if (i == input.Length - 1)
+                    {
+                        lineCanvas.add((UIElement)wordObj);
+                        lineCanvas = CreateLine();
+                    }
+                    else
+                    {
+                        lineCanvas.add((UIElement)wordObj);
+                    }
+
+                    wordObj = CreateWord();
+                }
+
+                i++;
+            }
+
+            if (lineCanvas != null && lineCanvas.getElements().Count == 0)
+            {
+                instance.getElements().Remove(lineCanvas);
+            }
+        }
+
+        private static bool IsNonAlphanumericSymbol(char c)
+        {
+            if (char.IsWhiteSpace(c))
+            {
+                return false;
+            }
+
+            if (c > sbyte.MaxValue)
+            {
+                return true;
+            }
+
+            return !char.IsLetterOrDigit(c);
+        }
 
         /// строит приближённый паттерн по ключу
         private static string BuildPattern(string key)
