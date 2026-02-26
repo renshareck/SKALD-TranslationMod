@@ -600,6 +600,23 @@ namespace TranslationMod.Patches
         }
 
         /* ── PRIVATE ──────────────────────────────────────────── */
+        // 重新实现 parseParagraph 以替代原本的setContent的逻辑
+        // foreach (string paragraph in paragraphs)
+        // {   
+        //     parseParagraph(instance, paragraph);
+        // }
+        //
+        /* TODO
+        对于相比原字体更大的字体载入时，会出现如下问题
+        1、依然按照大字体的尺寸显示，但字体Textture读取会偏下一些：这些需要找到切分字体Textture的函数，将其修改按照Textture大小切分，而不是代码中固定值
+            1.1、需要检查Font类型的getModelPath()以及其wordHeight属性
+            1.2、发现是生成字母数字贴图时最下面夹带了一行像素，导致读取偏下，修改Font生成脚本即可
+        2、太大的字体超过控件大小或文本合并会超出控件可容纳范围，会影响观感：
+            2.1、需要选取一个合适的尺寸，目前游戏内文本显示 预估10pixel可能既能保证中文阅读又能不太超出
+            2.2、需要将词排版的词间距或左右padding调小，以便能容纳更多文本
+                2.2.1、当前词实际显示间距为3pixel，应该是导致word.padding.right=font.wordSpacing=3;导致（词间距会覆盖字符间距使用），故在行添加中文词时将word.padding.right置为1即可
+        3、部分字体排版会向上对齐（符号和字母）：与Font生成脚本有关，需要检查Font生成脚本
+        */
 
         private static void ParseParagraphComplete(UITextBlock instance, string input)
         {
@@ -696,13 +713,15 @@ namespace TranslationMod.Patches
             int i = 0;
             while (i < input.Length)
             {
+                // 处理 < 标签符号
+                // 标签内文本还是按照正常字符处理，只不过此时color已为push状态或是tag:flag
                 if (input[i] == '<')
                 {
                     string text = input.Substring(i);
                     int num = text.IndexOf(">") + 1;
                     if (num > 0)
                     {
-                        if (text.IndexOf(C64Color.HEADER_TAG_CONTENT) == 1)
+                        if (text.IndexOf(C64Color.HEADER_TAG_CONTENT) == 1)                 // <Header></Header>标签
                         {
                             PushColor(C64Color.HeaderColor);
                             headerFlag = true;
@@ -712,7 +731,7 @@ namespace TranslationMod.Patches
                             PopColor();
                             headerFlag = false;
                         }
-                        else if (text.IndexOf("tag") == 1 && !headerFlag)
+                        else if (text.IndexOf("tag") == 1 && !headerFlag)                   // <tag></tag>标签
                         {
                             SetCurrentTooltipWord(text.Substring(num).Split(new[] { '<' }, StringSplitOptions.None)[0]);
                             PushColor(ToolTipHighlightColor());
@@ -725,7 +744,7 @@ namespace TranslationMod.Patches
                         else
                         {
                             string text2 = TrimBrace(text.Substring(0, num));
-                            if (text2.IndexOf("color=".ToUpper()) == 1)
+                            if (text2.IndexOf("color=".ToUpper()) == 1)                     // <color=#xxxxxx></color>标签
                             {
                                 int startIndex = text2.IndexOf("#".ToUpper());
                                 Color color;
@@ -772,9 +791,11 @@ namespace TranslationMod.Patches
                     continue;
                 }
 
+                // 一般字符处理流程
                 if (input[i] != ' ')
                 {
                     bool closingQuote = false;
+                    // 若发现引号时则高亮表示引用直至发现下一个引号
                     if (input[i] == '"' && HighlightQuotes())
                     {
                         if (DrawingQuote())
@@ -785,11 +806,13 @@ namespace TranslationMod.Patches
                     }
 
                     UIElement letter;
+                    // 若为currentTooltipWord，则将当前字符转为大写 
                     if (CurrentTooltipWord() != "")
                     {
                         char ch = UppercaseTooltipWords() ? char.ToUpper(input[i]) : input[i];
                         letter = CreateLetter(ch, GetDrawColor(), instance.foregroundColors.shadowMainColor);
                     }
+                    // 若为引号，则对字符进行引用着色
                     else if (DrawingQuote() || closingQuote)
                     {
                         letter = CreateLetter(input[i], C64Color.SmallTextQuoteColor, instance.foregroundColors.shadowMainColor);
@@ -802,50 +825,55 @@ namespace TranslationMod.Patches
                     letter.foregroundColors.hoverColor = instance.foregroundColors.hoverColor;
                     letter.foregroundColors.leftClickedColor = instance.foregroundColors.leftClickedColor;
                     letter.foregroundColors.outlineMainColor = instance.foregroundColors.outlineMainColor;
-
+				    
+                    // 若 不允许多行 或 允许多行但词宽+行宽小于控件总宽，则当前词添加此字符
+                    // getWidthInLine()为当前词宽减去一个字母间距再减去一个词间距
                     if (MultiLine() || (!MultiLine() && lineCanvas.getWidth() + GetWordWidthInLine(wordObj) <= instance.getBaseWidth()))
                     {
                         ((UICanvasHorizontal)wordObj).add(letter);
                     }
 
+                    //若当前字符还在<tag>...</tag>内部
                     if (CurrentTooltipWord() != "")
                     {
-                        SetWordHighlightWord(wordObj, CurrentTooltipWord());
+                        SetWordHighlightWord(wordObj, CurrentTooltipWord());                                    // 当前词可能不完整，后续会依照highlightWord进行判定
                         var toolTipWords = toolTipWordsField.GetValue(instance) as System.Collections.IList;
-                        if (toolTipWords != null && !toolTipWords.Contains(wordObj))
+                        if (toolTipWords != null && !toolTipWords.Contains(wordObj))                             // 在toolTipWords集合中添加当前toolTip词（关键是其中highlightWord属性）（不重复添加）
                         {
                             toolTipWords.Add(wordObj);
                         }
                     }
                 }
 
+                // 若当前字符为空 或 当前字符为最后一个 或 当前词宽已大于控件宽，则需要判断是否结算换行（可认为这为词排版对象结束条件）
+                // 现添加一个IsNonAlphanumericSymbol用于判断当前字符是否为不为字母数字符号，若不为字母数字符号，则当前字符可视为词，布局时具有词间距和词换行（最好还是要加个当前判断）
                 if (input[i] == ' ' ||
                     i >= input.Length - 1 ||
                     (GetWordWidthInLine(wordObj) >= instance.getBaseWidth() && !instance.stretchHorizontal) ||
                     IsNonAlphanumericSymbol(input[i]))
                 {
-                    bool needNewLine = ShouldCreateNewLine(lineCanvas, wordObj);
-                    if (input[i] == ' ')
+                    bool needNewLine = ShouldCreateNewLine(lineCanvas, wordObj);    // 加上此词后是否超过控件宽flag
+                    if (input[i] == ' ')    // 若当前字符为空，则正常将字符添加词排版对象后
                     {
                         ((UICanvasHorizontal)wordObj).add(CreateLetter(input[i], GetDrawColor(), instance.foregroundColors.shadowMainColor));
                     }
 
-                    if (needNewLine)
+                    if (needNewLine)        // 若超宽，则添加新行后添加此词
                     {
                         lineCanvas = CreateLine();
                         lineCanvas.add((UIElement)wordObj);
                     }
-                    else if (i == input.Length - 1)
+                    else if (i == input.Length - 1)     //若为最后一个词，则添加此词后创建新行
                     {
                         lineCanvas.add((UIElement)wordObj);
                         lineCanvas = CreateLine();
                     }
-                    else
+                    else                                // 对于IsNonAlphanumericSymbol(input[i])字符将会走到这，可视为将此字符作为词排版
                     {
                         lineCanvas.add((UIElement)wordObj);
                     }
 
-                    wordObj = CreateWord();
+                    wordObj = CreateWord(); //清空词排版对象
                 }
 
                 i++;
