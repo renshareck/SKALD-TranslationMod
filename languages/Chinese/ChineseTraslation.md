@@ -19,11 +19,25 @@
 
 常用参数如下
 
-|fonts类型|单元格宽高度|图集宽度|x偏移|y偏移|字体大小|
-|:-------|:---------|:------|:---|:---|:-----|
-|tiny|8|72|0|1|8|
-|big|17|153|2|2|12|
-|large|21|189|4|2|12|
-|huge|21|189|4|2|12|
 
-当前huge、large、big使用字体为 [Fusion Pixel Font 12像素](https://github.com/TakWolf/fusion-pixel-font) ， tiny使用字体为 [MisekiBitmap](https://github.com/ItMarki/MisekiBitmap) 。
+|font                           |celll H/W  |font size  |X offset   |Y offset   |color              |ttf    |
+|:------------------------------|:----------|:----------|:----------|:----------|:------------------|:------|
+|BigFont.png                    |16         |16         |0          |0          |rgb(0, 0, 0)       |WenQuanYi.Bitmap.Song.16px.ttf       |    
+|IlluminatedFont.png            |16         |16         |0          |0          |rgb(237, 241, 113) |WenQuanYi.Bitmap.Song.16px.ttf       |
+|IlluminatedFontLarge.png       |20         |20         |0          |0          |rgb(0, 0, 0)       |WenQuanYi.Bitmap.Song.16px.ttf       |   
+|InsularHuge.png                |20         |20         |0          |0          |rgb(0, 0, 0)       |WenQuanYi.Bitmap.Song.16px.ttf       |
+|InsularMedium.png              |16         |16         |0          |0          |rgb(0, 0, 0)       |WenQuanYi.Bitmap.Song.16px.ttf       |  
+|InsularTiny.png                |10         |10         |0          |0          |rgb(0, 0, 0)       |fusion-pixel-10px-proportional-zh_hans.ttf       |
+|Logo.png                       |           |           |           |           |                   |fusion-pixel-10px-proportional-zh_hans.ttf       |
+|MedievalHuge.png               |28         |24         |0          |-4         |rgb(237, 241, 113) |WenQuanYi.Bitmap.Song.16px.ttf       |
+|MedievalHugeThin.png           |28         |24         |0          |-4         |rgb(0, 0, 0)       |WenQuanYi.Bitmap.Song.16px.ttf       |
+|MedievalMedium.png             |20         |20         |0          |0          |rgb(0, 0, 0)       |WenQuanYi.Bitmap.Song.16px.ttf       | 
+|MediumFont.png                 |16         |16         |0          |0          |rgb(0, 0, 0)       |WenQuanYi.Bitmap.Song.16px.ttf       | 
+|MediumFontBlue.png             |16         |16         |0          |0          |rgb(117, 206, 200) |WenQuanYi.Bitmap.Song.16px.ttf       | 
+|TinyFont.png                   |10         |10         |0          |0          |rgb(178, 178, 178) |fusion-pixel-10px-proportional-zh_hans.ttf       |
+|TinyFontCapitalized.png        |10         |10         |0          |0          |rgb(178, 178, 178) |fusion-pixel-10px-proportional-zh_hans.ttf       |
+|TinyFontCapitalizedYellow.png  |10         |10         |0          |0          |rgb(237, 241, 113) |fusion-pixel-10px-proportional-zh_hans.ttf       |
+|TinyFontFat.png                |10         |10         |0          |0          |rgb(0, 0, 0)       |fusion-pixel-10px-proportional-zh_hans.ttf       |
+|TinyFontTall.png               |10         |10         |0          |0          |rgb(237, 241, 113) |fusion-pixel-10px-proportional-zh_hans.ttf       |
+|TinyFontTallCapitalized.png    |10         |10         |0          |0          |rgb(237, 241, 113) |fusion-pixel-10px-proportional-zh_hans.ttf       |
+|TinyFontYellow.png             |10         |10         |0          |0          |rgb(237, 241, 113) |fusion-pixel-10px-proportional-zh_hans.ttf       |
