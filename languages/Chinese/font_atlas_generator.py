@@ -77,6 +77,7 @@ def generate_atlas_image(
     offset_x: int,
     offset_y: int,
     text_color_rgba: Tuple[int, int, int, int],
+    draw_inner_grid: bool,
     grid_top: bool,
     grid_bottom: bool,
     grid_left: bool,
@@ -95,10 +96,20 @@ def generate_atlas_image(
         raise ValueError("单元格宽度大于图集宽度（Cell Width > Atlas Width）")
 
     total_rows = math.ceil(len(chars) / columns)
-    atlas_height = total_rows * cell_h
+    inner_v_gap = 1 if draw_inner_grid else 0
+    inner_h_gap = 1 if draw_inner_grid else 0
+    outer_left = 1 if grid_left else 0
+    outer_right = 1 if grid_right else 0
+    outer_top = 1 if grid_top else 0
+    outer_bottom = 1 if grid_bottom else 0
+
+    content_width = columns * cell_w + max(columns - 1, 0) * inner_v_gap
+    content_height = total_rows * cell_h + max(total_rows - 1, 0) * inner_h_gap
+    atlas_width_px = content_width + outer_left + outer_right
+    atlas_height = content_height + outer_top + outer_bottom
 
     # 透明背景
-    atlas = Image.new("RGBA", (atlas_width, atlas_height), (0, 0, 0, 0))
+    atlas = Image.new("RGBA", (atlas_width_px, atlas_height), (0, 0, 0, 0))
     draw = ImageDraw.Draw(atlas)
 
     font = safe_load_font(font_path, font_size)
@@ -113,24 +124,29 @@ def generate_atlas_image(
 
     grid_color = (255, 0, 255, 255)  # Magenta
 
-    # Always draw inner grid lines first.
-    grid_width = columns * cell_w
-    for c in range(1, columns):
-        x = c * cell_w
-        draw.line([(x, 0), (x, atlas_height - 1)], fill=grid_color, width=1)
-    for r in range(1, total_rows):
-        y = r * cell_h
-        draw.line([(0, y), (grid_width - 1, y)], fill=grid_color, width=1)
+    grid_x0 = outer_left
+    grid_y0 = outer_top
+    grid_x1 = grid_x0 + content_width - 1
+    grid_y1 = grid_y0 + content_height - 1
 
-    # Then optionally draw outer borders by direction.
+    # Optional inner grid lines, drawn in expanded gap pixels.
+    if draw_inner_grid:
+        for c in range(1, columns):
+            x = grid_x0 + c * cell_w + (c - 1) * inner_v_gap
+            draw.line([(x, grid_y0), (x, grid_y1)], fill=grid_color, width=1)
+        for r in range(1, total_rows):
+            y = grid_y0 + r * cell_h + (r - 1) * inner_h_gap
+            draw.line([(grid_x0, y), (grid_x1, y)], fill=grid_color, width=1)
+
+    # Optional outer borders, each consumes expanded canvas area.
     if grid_top:
-        draw.line([(0, 0), (grid_width - 1, 0)], fill=grid_color, width=1)
+        draw.line([(0, 0), (atlas_width_px - 1, 0)], fill=grid_color, width=1)
     if grid_bottom:
-        draw.line([(0, atlas_height - 1), (grid_width - 1, atlas_height - 1)], fill=grid_color, width=1)
+        draw.line([(0, atlas_height - 1), (atlas_width_px - 1, atlas_height - 1)], fill=grid_color, width=1)
     if grid_left:
         draw.line([(0, 0), (0, atlas_height - 1)], fill=grid_color, width=1)
     if grid_right:
-        draw.line([(grid_width - 1, 0), (grid_width - 1, atlas_height - 1)], fill=grid_color, width=1)
+        draw.line([(atlas_width_px - 1, 0), (atlas_width_px - 1, atlas_height - 1)], fill=grid_color, width=1)
 
 
     for i, ch in enumerate(chars):
@@ -138,8 +154,8 @@ def generate_atlas_image(
         row_from_bottom = i // columns
         visual_row = (total_rows - 1) - row_from_bottom
 
-        x_pos = col * cell_w
-        y_pos = visual_row * cell_h
+        x_pos = grid_x0 + col * (cell_w + inner_v_gap)
+        y_pos = grid_y0 + visual_row * (cell_h + inner_h_gap)
 
         # 文字绘制位置（对应 C# drawX/drawY 公式）
         draw_x = x_pos + offset_x
@@ -191,12 +207,13 @@ class AtlasApp(tk.Tk):
         self._build_right_panel()
 
         # 默认值（对齐你 C# 的默认）
-        self.var_atlas_width.set(152)
+        self.var_atlas_width.set(153)
         self.var_cell_w.set(17)
         self.var_cell_h.set(17)
         self.var_font_size.set(10)
         self.var_offset_x.set(0)
         self.var_offset_y.set(0)
+        self.var_draw_inner_grid.set(True)
         self.var_grid_top.set(True)
         self.var_grid_left.set(False)
         self.var_grid_right.set(True)
@@ -230,6 +247,7 @@ class AtlasApp(tk.Tk):
         self.var_font_size = tk.IntVar()
         self.var_offset_x = tk.IntVar()
         self.var_offset_y = tk.IntVar()
+        self.var_draw_inner_grid = tk.BooleanVar()
         self.var_grid_top = tk.BooleanVar()
         self.var_grid_bottom = tk.BooleanVar()
         self.var_grid_left = tk.BooleanVar()
@@ -291,6 +309,11 @@ class AtlasApp(tk.Tk):
         spin(self.var_offset_y, -50, 50)
 
         header("[ 4. 网格线（紫色）方向 ]")
+        ttk.Checkbutton(self.settings_frame, text="生成内部网格", variable=self.var_draw_inner_grid).grid(
+            row=row, column=0, columnspan=3, sticky="w", padx=10
+        )
+        row += 1
+
         frm1 = ttk.Frame(self.settings_frame)
         frm1.grid(row=row, column=0, columnspan=3, sticky="w", padx=10)
         ttk.Checkbutton(frm1, text="上边（Top）", variable=self.var_grid_top).pack(side=tk.LEFT)
@@ -375,13 +398,14 @@ class AtlasApp(tk.Tk):
             offset_x=offset_x,
             offset_y=offset_y,
             text_color_rgba=self.text_color,
+            draw_inner_grid=self.var_draw_inner_grid.get(),
             grid_top=self.var_grid_top.get(),
             grid_bottom=self.var_grid_bottom.get(),
             grid_left=self.var_grid_left.get(),
             grid_right=self.var_grid_right.get(),
         )
 
-        self.lbl_info.config(text=f"字符数：{len(chars)} | 尺寸：{atlas_width}x{atlas_h} | 行数：{rows}")
+        self.lbl_info.config(text=f"字符数：{len(chars)} | 尺寸：{img.width}x{atlas_h} | 行数：{rows}")
 
         # 打印 language_pack.json（可按你需要关闭）
         json_printer(chars)
