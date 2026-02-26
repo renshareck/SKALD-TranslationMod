@@ -69,7 +69,7 @@ def safe_load_font(font_path: Optional[str], size: int):
 
 def generate_atlas_image(
     chars: str,
-    atlas_width: int,
+    atlas_columns: int,
     cell_w: int,
     cell_h: int,
     font_path: Optional[str],
@@ -91,9 +91,9 @@ def generate_atlas_image(
     if cell_w <= 0 or cell_h <= 0:
         raise ValueError("单元格宽高必须 > 0")
 
-    columns = atlas_width // cell_w
+    columns = atlas_columns
     if columns < 1:
-        raise ValueError("单元格宽度大于图集宽度（Cell Width > Atlas Width）")
+        raise ValueError("图集列数必须 > 0")
 
     total_rows = math.ceil(len(chars) / columns)
     inner_v_gap = 1 if draw_inner_grid else 0
@@ -207,7 +207,7 @@ class AtlasApp(tk.Tk):
         self._build_right_panel()
 
         # 默认值（对齐你 C# 的默认）
-        self.var_atlas_width.set(153)
+        self.var_atlas_columns.set(9)
         self.var_cell_w.set(17)
         self.var_cell_h.set(17)
         self.var_font_size.set(10)
@@ -241,7 +241,7 @@ class AtlasApp(tk.Tk):
         canvas.bind("<Configure>", _on_canvas_config)
 
         # 变量
-        self.var_atlas_width = tk.IntVar()
+        self.var_atlas_columns = tk.IntVar()
         self.var_cell_w = tk.IntVar()
         self.var_cell_h = tk.IntVar()
         self.var_font_size = tk.IntVar()
@@ -274,8 +274,8 @@ class AtlasApp(tk.Tk):
             return sp
 
         header("[ 1. 尺寸设置 ]")
-        label("图集宽度（固定）：")
-        spin(self.var_atlas_width, 72, 8192)
+        label("图集列数（Columns）：")
+        spin(self.var_atlas_columns, 1, 512)
         label("单元格宽度（Cell Width）：")
         spin(self.var_cell_w, 8, 256)
         label("单元格高度（Cell Height）：")
@@ -381,7 +381,7 @@ class AtlasApp(tk.Tk):
     def _do_generate(self, save_mode: bool):
         chars = get_chinese_texture()
 
-        atlas_width = int(self.var_atlas_width.get())
+        atlas_columns = int(self.var_atlas_columns.get())
         cell_w = int(self.var_cell_w.get())
         cell_h = int(self.var_cell_h.get())
         font_size = int(self.var_font_size.get())
@@ -390,7 +390,7 @@ class AtlasApp(tk.Tk):
 
         img, rows, atlas_h = generate_atlas_image(
             chars=chars,
-            atlas_width=atlas_width,
+            atlas_columns=atlas_columns,
             cell_w=cell_w,
             cell_h=cell_h,
             font_path=self.font_path,
