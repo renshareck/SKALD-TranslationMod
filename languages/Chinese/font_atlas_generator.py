@@ -208,16 +208,16 @@ class AtlasApp(tk.Tk):
 
         # 默认值（对齐你 C# 的默认）
         self.var_atlas_columns.set(9)
-        self.var_cell_w.set(17)
-        self.var_cell_h.set(17)
+        self.var_cell_w.set(16)
+        self.var_cell_h.set(16)
         self.var_font_size.set(10)
         self.var_offset_x.set(0)
         self.var_offset_y.set(0)
         self.var_draw_inner_grid.set(True)
-        self.var_grid_top.set(True)
+        self.var_grid_top.set(False)
         self.var_grid_left.set(False)
-        self.var_grid_right.set(True)
-        self.var_grid_bottom.set(False)
+        self.var_grid_right.set(False)
+        self.var_grid_bottom.set(True)
 
     def _build_left_panel(self):
         # 左侧滚动设置区（Canvas + Frame）
@@ -261,81 +261,76 @@ class AtlasApp(tk.Tk):
             lab.grid(row=row, column=0, columnspan=3, sticky="w", padx=10, pady=(12, 6))
             row += 1
 
-        def label(text):
-            nonlocal row
-            ttk.Label(self.settings_frame, text=text).grid(row=row, column=0, columnspan=3, sticky="w", padx=10)
-            row += 1
-
-        def spin(var, from_, to_):
-            nonlocal row
-            sp = ttk.Spinbox(self.settings_frame, from_=from_, to=to_, textvariable=var, width=12)
-            sp.grid(row=row, column=0, sticky="w", padx=10, pady=(2, 8))
-            row += 1
-            return sp
-
         header("[ 1. 尺寸设置 ]")
-        label("图集列数（Columns）：")
-        spin(self.var_atlas_columns, 1, 512)
-        label("单元格宽度（Cell Width）：")
-        spin(self.var_cell_w, 8, 256)
-        label("单元格高度（Cell Height）：")
-        spin(self.var_cell_h, 8, 256)
+        frm_size1 = ttk.Frame(self.settings_frame)
+        frm_size1.grid(row=row, column=0, columnspan=3, sticky="w", padx=10, pady=(0, 2))
+        ttk.Label(frm_size1, text="列数").pack(side=tk.LEFT)
+        ttk.Spinbox(frm_size1, from_=1, to=512, textvariable=self.var_atlas_columns, width=6).pack(side=tk.LEFT, padx=(4, 0))
+        row += 1
+
+        frm_size2 = ttk.Frame(self.settings_frame)
+        frm_size2.grid(row=row, column=0, columnspan=3, sticky="w", padx=10, pady=(0, 4))
+        ttk.Label(frm_size2, text="单元格W").pack(side=tk.LEFT)
+        ttk.Spinbox(frm_size2, from_=8, to=256, textvariable=self.var_cell_w, width=6).pack(side=tk.LEFT, padx=(4, 8))
+        ttk.Label(frm_size2, text="单元格H").pack(side=tk.LEFT)
+        ttk.Spinbox(frm_size2, from_=8, to=256, textvariable=self.var_cell_h, width=6).pack(side=tk.LEFT, padx=(4, 0))
+        row += 1
 
         header("[ 2. 字体与颜色 ]")
         self.lbl_font = ttk.Label(self.settings_frame, text="字体：未选择")
         self.lbl_font.grid(row=row, column=0, columnspan=3, sticky="w", padx=10)
         row += 1
 
-        btn_font = ttk.Button(self.settings_frame, text="选择字体（TTF/OTF）", command=self.on_pick_font)
-        btn_font.grid(row=row, column=0, sticky="w", padx=10, pady=(4, 8))
+        frm_font = ttk.Frame(self.settings_frame)
+        frm_font.grid(row=row, column=0, columnspan=3, sticky="w", padx=10, pady=(2, 4))
+        ttk.Button(frm_font, text="选择字体", command=self.on_pick_font).pack(side=tk.LEFT)
+        ttk.Label(frm_font, text="大小").pack(side=tk.LEFT, padx=(8, 4))
+        ttk.Spinbox(frm_font, from_=4, to=200, textvariable=self.var_font_size, width=6).pack(side=tk.LEFT)
+        self.color_preview = tk.Canvas(frm_font, width=44, height=18, highlightthickness=1)
+        self.color_preview.pack(side=tk.LEFT, padx=(8, 0))
         row += 1
 
-        label("字体大小：")
-        spin(self.var_font_size, 4, 200)
-
-        label("文字颜色：")
-        btn_color = ttk.Button(self.settings_frame, text="选择颜色", command=self.on_pick_color)
-        btn_color.grid(row=row, column=0, sticky="w", padx=10, pady=(2, 8))
-
-        self.color_preview = tk.Canvas(self.settings_frame, width=70, height=20, highlightthickness=1)
-        self.color_preview.grid(row=row, column=1, sticky="w", padx=10, pady=(2, 8))
+        frm_color = ttk.Frame(self.settings_frame)
+        frm_color.grid(row=row, column=0, columnspan=3, sticky="w", padx=10, pady=(0, 2))
+        ttk.Button(frm_color, text="手动", command=self.on_pick_color).pack(side=tk.LEFT)
+        ttk.Button(frm_color, text="黑", width=3, command=lambda: self.on_pick_preset_color((0, 0, 0))).pack(side=tk.LEFT, padx=(0, 2))
+        ttk.Button(frm_color, text="蓝", width=3, command=lambda: self.on_pick_preset_color((52, 102, 164))).pack(side=tk.LEFT, padx=(0, 2))
+        ttk.Button(frm_color, text="灰", width=3, command=lambda: self.on_pick_preset_color((178, 178, 178))).pack(side=tk.LEFT, padx=(0, 2))
+        ttk.Button(frm_color, text="黄", width=3, command=lambda: self.on_pick_preset_color((237, 241, 113))).pack(side=tk.LEFT)
         self._refresh_color_preview()
         row += 1
 
         header("[ 3. 位置微调 ]")
-        label("X 偏移（左右）：")
-        spin(self.var_offset_x, -50, 50)
-        label("Y 偏移（上下）：")
-        spin(self.var_offset_y, -50, 50)
+        frm_offset = ttk.Frame(self.settings_frame)
+        frm_offset.grid(row=row, column=0, columnspan=3, sticky="w", padx=10, pady=(0, 4))
+        ttk.Label(frm_offset, text="X").pack(side=tk.LEFT)
+        ttk.Spinbox(frm_offset, from_=-50, to=50, textvariable=self.var_offset_x, width=6).pack(side=tk.LEFT, padx=(4, 8))
+        ttk.Label(frm_offset, text="Y").pack(side=tk.LEFT)
+        ttk.Spinbox(frm_offset, from_=-50, to=50, textvariable=self.var_offset_y, width=6).pack(side=tk.LEFT, padx=(4, 0))
+        row += 1
 
         header("[ 4. 网格线（紫色）方向 ]")
         ttk.Checkbutton(self.settings_frame, text="生成内部网格", variable=self.var_draw_inner_grid).grid(
-            row=row, column=0, columnspan=3, sticky="w", padx=10
+            row=row, column=0, columnspan=3, sticky="w", padx=10, pady=(0, 2)
         )
         row += 1
 
-        frm1 = ttk.Frame(self.settings_frame)
-        frm1.grid(row=row, column=0, columnspan=3, sticky="w", padx=10)
-        ttk.Checkbutton(frm1, text="上边（Top）", variable=self.var_grid_top).pack(side=tk.LEFT)
-        ttk.Checkbutton(frm1, text="下边（Bottom）", variable=self.var_grid_bottom).pack(side=tk.LEFT, padx=(10, 0))
-        row += 1
-
         frm2 = ttk.Frame(self.settings_frame)
-        frm2.grid(row=row, column=0, columnspan=3, sticky="w", padx=10, pady=(4, 8))
-        ttk.Checkbutton(frm2, text="左边（Left）", variable=self.var_grid_left).pack(side=tk.LEFT)
-        ttk.Checkbutton(frm2, text="右边（Right）", variable=self.var_grid_right).pack(side=tk.LEFT, padx=(10, 0))
+        frm2.grid(row=row, column=0, columnspan=3, sticky="w", padx=10, pady=(0, 4))
+        ttk.Checkbutton(frm2, text="上", variable=self.var_grid_top).pack(side=tk.LEFT)
+        ttk.Checkbutton(frm2, text="下", variable=self.var_grid_bottom).pack(side=tk.LEFT, padx=(8, 0))
+        ttk.Checkbutton(frm2, text="左", variable=self.var_grid_left).pack(side=tk.LEFT, padx=(8, 0))
+        ttk.Checkbutton(frm2, text="右", variable=self.var_grid_right).pack(side=tk.LEFT, padx=(8, 0))
         row += 1
 
-        btn_preview = ttk.Button(self.settings_frame, text="生成预览（刷新）", command=self.on_preview)
-        btn_preview.grid(row=row, column=0, sticky="we", padx=10, pady=(10, 6))
-        row += 1
-
-        btn_save = ttk.Button(self.settings_frame, text="保存 PNG 图集", command=self.on_save_png)
-        btn_save.grid(row=row, column=0, sticky="we", padx=10, pady=(0, 10))
+        frm_actions = ttk.Frame(self.settings_frame)
+        frm_actions.grid(row=row, column=0, columnspan=3, sticky="w", padx=10, pady=(6, 8))
+        ttk.Button(frm_actions, text="生成预览", command=self.on_preview).pack(side=tk.LEFT)
+        ttk.Button(frm_actions, text="保存 PNG", command=self.on_save_png).pack(side=tk.LEFT, padx=(8, 0))
         row += 1
 
         self.lbl_info = ttk.Label(self.settings_frame, text="就绪。", foreground="blue")
-        self.lbl_info.grid(row=row, column=0, columnspan=3, sticky="w", padx=10, pady=(0, 10))
+        self.lbl_info.grid(row=row, column=0, columnspan=3, sticky="w", padx=10, pady=(0, 6))
 
     def _build_right_panel(self):
         # 右侧预览：可滚动 Canvas
@@ -365,6 +360,11 @@ class AtlasApp(tk.Tk):
         r = int(hex_[1:3], 16)
         g = int(hex_[3:5], 16)
         b = int(hex_[5:7], 16)
+        self.text_color = (r, g, b, 255)
+        self._refresh_color_preview()
+
+    def on_pick_preset_color(self, rgb):
+        r, g, b = rgb
         self.text_color = (r, g, b, 255)
         self._refresh_color_preview()
 
