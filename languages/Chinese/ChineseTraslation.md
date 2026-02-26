@@ -41,3 +41,12 @@
 |TinyFontTall.png               |10         |10         |0          |0          |rgb(237, 241, 113) |fusion-pixel-10px-proportional-zh_hans.ttf       |
 |TinyFontTallCapitalized.png    |10         |10         |0          |0          |rgb(237, 241, 113) |fusion-pixel-10px-proportional-zh_hans.ttf       |
 |TinyFontYellow.png             |10         |10         |0          |0          |rgb(237, 241, 113) |fusion-pixel-10px-proportional-zh_hans.ttf       |
+
+
+# 编译
+```shell
+dotnet restore .\TranslationMod.csproj
+dotnet build .\TranslationMod.csproj -c Release --no-restore
+dotnet publish .\TranslationMod.csproj -c Release --no-build -o ..\build
+
+```
