@@ -112,6 +112,25 @@ def generate_atlas_image(
 
     grid_color = (255, 0, 255, 255)  # Magenta
 
+    # Always draw inner grid lines first.
+    grid_width = columns * cell_w
+    for c in range(1, columns):
+        x = c * cell_w
+        draw.line([(x, 0), (x, atlas_height - 1)], fill=grid_color, width=1)
+    for r in range(1, total_rows):
+        y = r * cell_h
+        draw.line([(0, y), (grid_width - 1, y)], fill=grid_color, width=1)
+
+    # Then optionally draw outer borders by direction.
+    if grid_top:
+        draw.line([(0, 0), (grid_width - 1, 0)], fill=grid_color, width=1)
+    if grid_bottom:
+        draw.line([(0, atlas_height - 1), (grid_width - 1, atlas_height - 1)], fill=grid_color, width=1)
+    if grid_left:
+        draw.line([(0, 0), (0, atlas_height - 1)], fill=grid_color, width=1)
+    if grid_right:
+        draw.line([(grid_width - 1, 0), (grid_width - 1, atlas_height - 1)], fill=grid_color, width=1)
+
     for i, ch in enumerate(chars):
         col = i % columns
         row_from_bottom = i // columns
@@ -119,26 +138,6 @@ def generate_atlas_image(
 
         x_pos = col * cell_w
         y_pos = visual_row * cell_h
-
-        # 画网格线（紫色）
-        if grid_top:
-            draw.line([(x_pos, y_pos), (x_pos + cell_w, y_pos)], fill=grid_color, width=1)
-        if grid_bottom:
-            draw.line(
-                [(x_pos, y_pos + cell_h - 1), (x_pos + cell_w, y_pos + cell_h - 1)],
-                fill=grid_color,
-                width=1,
-            )
-        if grid_left:
-            draw.line([(x_pos, y_pos), (x_pos, y_pos + cell_h)], fill=grid_color, width=1)
-        if grid_right:
-            draw.line(
-                [(x_pos + cell_w - 1, y_pos), (x_pos + cell_w - 1, y_pos + cell_h)],
-                fill=grid_color,
-                width=1,
-            )
-
-        # 文字绘制位置（对应 C# drawX/drawY 公式）
         draw_x = x_pos + offset_x
         draw_y = y_pos + (cell_h - font_height) + offset_y
 
@@ -445,3 +444,4 @@ if __name__ == "__main__":
     big     9*17 = 153
     tiny    9*8  = 72
     """
+
