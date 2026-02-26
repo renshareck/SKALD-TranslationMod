@@ -707,6 +707,9 @@ namespace TranslationMod.Patches
             void SetWordHighlightWord(object word, string s) => wordHighlightWordField.SetValue(word, s);
 
             UICanvasHorizontal lineCanvas = CreateLine();
+            ((UIElement)lineCanvas).setPaddingTop(((UIElement)lineCanvas).padding.top + 1);   // 行高增加一个1pixel
+            //TranslationMod.Logger?.LogError($"Line Height {((UIElement)lineCanvas).padding.top}");
+            
             object wordObj = CreateWord();
             bool headerFlag = false;
 
@@ -830,6 +833,7 @@ namespace TranslationMod.Patches
                     // getWidthInLine()为当前词宽减去一个字母间距再减去一个词间距
                     if (MultiLine() || (!MultiLine() && lineCanvas.getWidth() + GetWordWidthInLine(wordObj) <= instance.getBaseWidth()))
                     {
+                        ((UIElement)wordObj).padding.right = 1; 
                         ((UICanvasHorizontal)wordObj).add(letter);
                     }
 
@@ -861,12 +865,14 @@ namespace TranslationMod.Patches
                     if (needNewLine)        // 若超宽，则添加新行后添加此词
                     {
                         lineCanvas = CreateLine();
+                        ((UIElement)lineCanvas).setPaddingTop(((UIElement)lineCanvas).padding.top + 1);   // 行高增加一个1pixel
                         lineCanvas.add((UIElement)wordObj);
                     }
                     else if (i == input.Length - 1)     //若为最后一个词，则添加此词后创建新行
                     {
                         lineCanvas.add((UIElement)wordObj);
                         lineCanvas = CreateLine();
+                        ((UIElement)lineCanvas).setPaddingTop(((UIElement)lineCanvas).padding.top + 1);   // 行高增加一个1pixel
                     }
                     else                                // 对于IsNonAlphanumericSymbol(input[i])字符将会走到这，可视为将此字符作为词排版
                     {
