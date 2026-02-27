@@ -608,14 +608,25 @@ namespace TranslationMod.Patches
         //
         /* TODO
         对于相比原字体更大的字体载入时，会出现如下问题
-        1、依然按照大字体的尺寸显示，但字体Textture读取会偏下一些：这些需要找到切分字体Textture的函数，将其修改按照Textture大小切分，而不是代码中固定值
-            1.1、需要检查Font类型的getModelPath()以及其wordHeight属性
-            1.2、发现是生成字母数字贴图时最下面夹带了一行像素，导致读取偏下，修改Font生成脚本即可
+        1、[完成] 依然按照大字体的尺寸显示，但字体Textture读取会偏下一些：这些需要找到切分字体Textture的函数，将其修改按照Textture大小切分，而不是代码中固定值
+            1.1、[完成] 需要检查Font类型的getModelPath()以及其wordHeight属性
+            1.2、[完成] 发现是生成字母数字贴图时最下面夹带了一行像素，导致读取偏下，修改Font生成脚本即可
         2、太大的字体超过控件大小或文本合并会超出控件可容纳范围，会影响观感：
-            2.1、需要选取一个合适的尺寸，目前游戏内文本显示 预估10pixel可能既能保证中文阅读又能不太超出
-            2.2、需要将词排版的词间距或左右padding调小，以便能容纳更多文本
-                2.2.1、当前词实际显示间距为3pixel，应该是导致word.padding.right=font.wordSpacing=3;导致（词间距会覆盖字符间距使用），故在行添加中文词时将word.padding.right置为1即可
-        3、部分字体排版会向上对齐（符号和字母）：与Font生成脚本有关，需要检查Font生成脚本
+            2.1、[完成] 需要选取一个合适的尺寸，目前游戏内文本显示 预估10pixel可能既能保证中文阅读又能不太超出
+            2.2、[完成] 需要将词排版的词间距或左右padding调小，以便能容纳更多文本
+                2.2.1、[完成] 当前词实际显示间距为3pixel，应该是导致word.padding.right=font.wordSpacing=3;导致（词间距会覆盖字符间距使用），故在行添加中文词时将word.padding.right置为1即可
+            2.3、[待完成] 行间距需要从添加padding.top修改为添加padding.bottom，并使最后一行不需要添加padding.bottom，可以有效避免单行文本换行导致向下范围过大
+            2.4、[待完成] bark中文文本渲染其高度依然为7或8，需要修改其内部文本高度
+                2.4.1、[完成] 需要检查下BarkControl.Bark中 StringPrinter.bakeFancyString逻辑，获取其中文本的高度
+                2.4.2、[完成] 发现原因：是bakeString中生成textureData时，使用的font.wordHeight为默认值7
+                2.4.3、[进行中] 复写 FontContainer.getTinyFont()，将Font.wordHeight改为10
+            2.5、[待完成] 需要查看滚动文本滑块控件，修改滑块产生条件，使得其能在中文情况下也能正常产生滑块并拖动
+                2.5.1、对于UIScrollbarStandard创建滑块时设置的高度和绑定控件进行监控（预估控件为UICanvasVertical）
+                    2.5.1.1、[完成] UIScrollbar.degree-GUIControl.updateRightScrollbar()-UITextBlock.setScrollIndex(int index)
+                    2.5.1.2、[完成] 发现是UITextBlock.pruneLength()控制scroll的内容裁剪，其中背景信息超出显示可能是因为UITextBlock.isTooLong()为False(可能原因：UITextBlock.enforceHeight为False，或添加行后getHeight()中没有正常增加)
+                    2.5.1.3、[完成] UIElement.add()中发现UIElement.alignElements()负责控件重新分配位置
+                    2.5.1.4、[进行中] 检查UICanvasVertical.getHeight()中的stretchVertical是否为True，若stretchVertical==True, 控件会被固定长度，导致文本向下超出以及scroll不对应，修改stretchVertical为False
+        3、[完成] 部分字体排版会向上对齐（符号和字母）：与Font生成脚本有关，需要检查Font生成脚本
         */
 
         private static void ParseParagraphComplete(UITextBlock instance, string input)
