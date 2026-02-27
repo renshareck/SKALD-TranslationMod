@@ -174,6 +174,7 @@ namespace TranslationMod.Patches
                 }
                 string processedText = StripHashTags(__0);
                 string translatedText = _translator.Value.Process(processedText);
+                LogSetContentTrace(__0, translatedText);
                 // Затем полная реимплементация setContent с переведенным текстом
                 SetContentComplete(__instance, __0, translatedText);
                 
@@ -187,6 +188,21 @@ namespace TranslationMod.Patches
 #endif
                 // В случае ошибки позволяем выполниться оригинальному методу
                 return true;
+            }
+        }
+
+        // 打印翻译信息
+        private static void LogSetContentTrace(string input, string translated)
+        {
+            try
+            {
+                TranslationMod.Logger?.LogInfo($"[SetContentTrace] input: {input ?? "<null>"}");
+                TranslationMod.Logger?.LogInfo($"[SetContentTrace] translated: {translated ?? "<null>"}");
+                TranslationMod.Logger?.LogInfo($"[SetContentTrace] stack:\n{Environment.StackTrace}");
+            }
+            catch (Exception ex)
+            {
+                TranslationMod.Logger?.LogError($"[SetContentTrace] Failed to log trace: {ex.Message}");
             }
         }
         
