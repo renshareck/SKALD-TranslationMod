@@ -113,6 +113,18 @@ namespace TranslationMod
             return _currentLanguageName;
         }
 
+        // 无字母语言（例如中文、韩语、日语等）
+        public static bool NoLetterLanguage()
+        {   
+            if (_currentLanguageName.Equals("Chinese", StringComparison.OrdinalIgnoreCase) ||
+               _currentLanguageName.Equals("Japanese", StringComparison.OrdinalIgnoreCase) ||
+               _currentLanguageName.Equals("Korean", StringComparison.OrdinalIgnoreCase))
+            {
+                return true;
+            }
+            return false;
+        }
+
         /// <summary>
         /// Gets currently loaded language pack.
         /// </summary>

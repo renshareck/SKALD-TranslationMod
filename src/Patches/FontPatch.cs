@@ -36,21 +36,23 @@ namespace TranslationMod.Patches
                 {
                     return;
                 }
+                
+                if (LanguageManager.NoLetterLanguage()){
+                    var resultType = __result.GetType();
 
-                var resultType = __result.GetType();
+                    var wordHeightField = AccessTools.Field(resultType, "wordHeight");
+                    if (wordHeightField != null && wordHeightField.FieldType == typeof(int))
+                    {
+                        wordHeightField.SetValue(__result, 10);
+                        return;
+                    }
 
-                var wordHeightField = AccessTools.Field(resultType, "wordHeight");
-                if (wordHeightField != null && wordHeightField.FieldType == typeof(int))
-                {
-                    wordHeightField.SetValue(__result, 10);
-                    return;
-                }
-
-                // 备用设置方案
-                var wordHeightProperty = AccessTools.Property(resultType, "wordHeight");
-                if (wordHeightProperty != null && wordHeightProperty.CanWrite && wordHeightProperty.PropertyType == typeof(int))
-                {
-                    wordHeightProperty.SetValue(__result, 10, null);
+                    // 备用设置方案
+                    var wordHeightProperty = AccessTools.Property(resultType, "wordHeight");
+                    if (wordHeightProperty != null && wordHeightProperty.CanWrite && wordHeightProperty.PropertyType == typeof(int))
+                    {
+                        wordHeightProperty.SetValue(__result, 10, null);
+                    }
                 }
             }
             catch (Exception ex)
