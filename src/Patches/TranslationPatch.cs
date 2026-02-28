@@ -639,10 +639,14 @@ namespace TranslationMod.Patches
             2.5、[待完成] 需要查看滚动文本滑块控件，修改滑块产生条件，使得其能在中文情况下也能正常产生滑块并拖动
                 2.5.1、对于UIScrollbarStandard创建滑块时设置的高度和绑定控件进行监控（预估控件为UICanvasVertical）
                     2.5.1.1、[完成] UIScrollbar.degree-GUIControl.updateRightScrollbar()-UITextBlock.setScrollIndex(int index)
-                    2.5.1.2、[完成] 发现是UITextBlock.pruneLength()控制scroll的内容裁剪，其中背景信息超出显示可能是因为UITextBlock.isTooLong()为False(可能原因：UITextBlock.enforceHeight为False，或添加行后getHeight()中没有正常增加)
-                    2.5.1.3、[完成] UIElement.add()中发现UIElement.alignElements()负责控件重新分配位置
+                    2.5.1.2、[进行中] 发现是UITextBlock.pruneLength()控制scroll的内容裁剪，其中背景信息超出显示可能是因为UITextBlock.isTooLong()为False(可能原因：UITextBlock.enforceHeight为False，或添加行后getHeight()中没有正常增加)
+                        2.5.1.2.1 [进行中] 检查 UITextBlock.enforceHeight 为False的更改为True
+                               CharacterCreationBackgroundState.guiControl.sheetComplex.mainDescription           
+                    2.5.1.3、[删除，没啥乱用] UIElement.add()中发现UIElement.alignElements()负责控件重新分配位置
                     2.5.1.4、[进行中] 检查UICanvasVertical.getHeight()中的stretchVertical是否为True，若stretchVertical==True, 控件会被固定长度，导致文本向下超出以及scroll不对应，修改stretchVertical为False
                     2.5.1.5、[进行中] 发现 CharacterCreationBackgroundState 为设置角色背景
+                        2.5.[进行中] 检查
+                    2.5.1.6、[进行中] 发现CharacterCreationBackgroundState.setGUIData中this.list.getScrolledStringList中的this.getIndexAtEndOfPage()中的this.getMaxPageSize()返回为固定20，导致显示button必定为20个，致使换行失效
         3、[完成] 部分字体排版会向上对齐（符号和字母）：与Font生成脚本有关，需要检查Font生成脚本
         */
 
