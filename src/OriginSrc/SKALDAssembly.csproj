@@ -1,0 +1,473 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{169052DD-477C-4CF3-B515-FAA22F9926AD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SKALDAssembly</RootNamespace>
+    <AssemblyName>SKALDAssembly</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="com.rlabrecque.steamworks.net" />
+    <Reference Include="GalaxyCSharp" />
+    <Reference Include="netstandard" />
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>..\..\..\..\apk_utils\apk\Triglav\dumpdll\DummyDll\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\apk_utils\apk\Triglav\dumpdll\DummyDll\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule" />
+    <Reference Include="UnityEngine.IMGUIModule" />
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>..\..\..\..\apk_utils\apk\Triglav\dumpdll\DummyDll\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule" />
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\..\..\apk_utils\apk\Triglav\dumpdll\DummyDll\UnityEngine.UI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AbilitiesState.cs" />
+    <Compile Include="Ability.cs" />
+    <Compile Include="AbilityActive.cs" />
+    <Compile Include="AbilityCombatManeuver.cs" />
+    <Compile Include="AbilityContainer.cs" />
+    <Compile Include="AbilityContainerManeuver.cs" />
+    <Compile Include="AbilityContainerPassive.cs" />
+    <Compile Include="AbilityContainerTriggered.cs" />
+    <Compile Include="AbilityPassive.cs" />
+    <Compile Include="AbilitySpell.cs" />
+    <Compile Include="AbilityTriggered.cs" />
+    <Compile Include="AbilityUseable.cs" />
+    <Compile Include="AchievementControl.cs" />
+    <Compile Include="AnimationStrip.cs" />
+    <Compile Include="AttackPromptState.cs" />
+    <Compile Include="AttributesControl.cs" />
+    <Compile Include="AttributeState.cs" />
+    <Compile Include="AudioControl.cs" />
+    <Compile Include="BarkControl.cs" />
+    <Compile Include="BaseAnimationContainer.cs" />
+    <Compile Include="BaseBehaviourControl.cs" />
+    <Compile Include="BaseCharacterBehaviour.cs" />
+    <Compile Include="BaseCharacterComponent.cs" />
+    <Compile Include="BaseCRTEffect.cs" />
+    <Compile Include="BaseDataObject.cs" />
+    <Compile Include="BaseEventControl.cs" />
+    <Compile Include="BaseGrid.cs" />
+    <Compile Include="BaseMenuState.cs" />
+    <Compile Include="BaseSaveData.cs" />
+    <Compile Include="BaseTemporaryMapObjects.cs" />
+    <Compile Include="BenchMarkTools.cs" />
+    <Compile Include="ButtonRowClass.cs" />
+    <Compile Include="C64Color.cs" />
+    <Compile Include="Calendar.cs" />
+    <Compile Include="CampActivityContainer.cs" />
+    <Compile Include="CampActivityState.cs" />
+    <Compile Include="Character.cs" />
+    <Compile Include="CharacterAnimationContainer.cs" />
+    <Compile Include="CharacterAttributes.cs" />
+    <Compile Include="CharacterBackground.cs" />
+    <Compile Include="CharacterBuilderBaseState.cs" />
+    <Compile Include="CharacterClass.cs" />
+    <Compile Include="CharacterClassArchetype.cs" />
+    <Compile Include="CharacterComponentContainer.cs" />
+    <Compile Include="CharacterComponentControl.cs" />
+    <Compile Include="CharacterCreationApperanceState.cs" />
+    <Compile Include="CharacterCreationBackgroundState.cs" />
+    <Compile Include="CharacterCreationClassState.cs" />
+    <Compile Include="CharacterCreationFeatsState.cs" />
+    <Compile Include="CharacterCreationStatsState.cs" />
+    <Compile Include="CharacterFeature.cs" />
+    <Compile Include="CharacterFeatureControl.cs" />
+    <Compile Include="CharacterInfoStates.cs" />
+    <Compile Include="CharacterListBaseState.cs" />
+    <Compile Include="CharacterLooksControl.cs" />
+    <Compile Include="CharacterRace.cs" />
+    <Compile Include="CharacterState.cs" />
+    <Compile Include="CircleMaker.cs" />
+    <Compile Include="CombatAbilityTargeting.cs" />
+    <Compile Include="CombatBaseState.cs" />
+    <Compile Include="CombatContinue.cs" />
+    <Compile Include="CombatEncounter.cs" />
+    <Compile Include="CombatLog.cs" />
+    <Compile Include="CombatLogState.cs" />
+    <Compile Include="CombatOverState.cs" />
+    <Compile Include="CombatPlacementState.cs" />
+    <Compile Include="CombatPlanningState.cs" />
+    <Compile Include="CombatResolveState.cs" />
+    <Compile Include="CombatSpellTargeting.cs" />
+    <Compile Include="CombatStartState.cs" />
+    <Compile Include="CombatTargetingBase.cs" />
+    <Compile Include="ComplexCharacterAnimationContainer.cs" />
+    <Compile Include="Condition.cs" />
+    <Compile Include="ConditionContainer.cs" />
+    <Compile Include="ConsoleControl.cs" />
+    <Compile Include="ConsoleGUIControl.cs" />
+    <Compile Include="ContainerState.cs" />
+    <Compile Include="CountDownClock.cs" />
+    <Compile Include="CraftingControl.cs" />
+    <Compile Include="CraftingState.cs" />
+    <Compile Include="CreditsButtons.cs" />
+    <Compile Include="CreditsState.cs" />
+    <Compile Include="CRTEffect.cs" />
+    <Compile Include="CutSceneControl.cs" />
+    <Compile Include="Damage.cs" />
+    <Compile Include="DataControl.cs" />
+    <Compile Include="DemoOverSplashState.cs" />
+    <Compile Include="DicePoolBase.cs" />
+    <Compile Include="DicePoolPercentile.cs" />
+    <Compile Include="DicePoolStandard.cs" />
+    <Compile Include="DicePoolVariable.cs" />
+    <Compile Include="DifficultySelectorState.cs" />
+    <Compile Include="DiscordPoster.cs" />
+    <Compile Include="DynamicEventControl.cs" />
+    <Compile Include="Effect.cs" />
+    <Compile Include="EncounterControl.cs" />
+    <Compile Include="FactionControl.cs" />
+    <Compile Include="FactionsState.cs" />
+    <Compile Include="FeatBuyState.cs" />
+    <Compile Include="FeatContainer.cs" />
+    <Compile Include="FeedbackTool.cs" />
+    <Compile Include="Font.cs" />
+    <Compile Include="FontContainer.cs" />
+    <Compile Include="FrameOffsetControl.cs" />
+    <Compile Include="FunctionTools.cs" />
+    <Compile Include="GameData.cs" />
+    <Compile Include="GameOverState.cs" />
+    <Compile Include="GameStartSplashState.cs" />
+    <Compile Include="GameVariableContainer.cs" />
+    <Compile Include="GameWinState.cs" />
+    <Compile Include="GenericEffectsControl.cs" />
+    <Compile Include="GlobalSettings.cs" />
+    <Compile Include="GogManager.cs" />
+    <Compile Include="Gog\Listener.cs" />
+    <Compile Include="Gog\StatsAndAchievements.cs" />
+    <Compile Include="GUIControl.cs" />
+    <Compile Include="GUIControlAbilitySheet.cs" />
+    <Compile Include="GUIControlApperanceEditorSheet.cs" />
+    <Compile Include="GUIControlCamping.cs" />
+    <Compile Include="GUIControlCharacterSheet.cs" />
+    <Compile Include="GUIControlCombat.cs" />
+    <Compile Include="GUIControlCombatEffectTargeting.cs" />
+    <Compile Include="GUIControlContainer.cs" />
+    <Compile Include="GUIControlCrafting.cs" />
+    <Compile Include="GUIControlCredits.cs" />
+    <Compile Include="GUIControlExtraRowList.cs" />
+    <Compile Include="GUIControlFeatBuy.cs" />
+    <Compile Include="GUIControlInventory.cs" />
+    <Compile Include="GUIControlInventoryBase.cs" />
+    <Compile Include="GUIControlLog.cs" />
+    <Compile Include="GUIControlMenu.cs" />
+    <Compile Include="GUIControlOverland.cs" />
+    <Compile Include="GUIControlOverlandEffectTargeting.cs" />
+    <Compile Include="GUIControlPartyManagement.cs" />
+    <Compile Include="GUIControlScene.cs" />
+    <Compile Include="GUIControlSettings.cs" />
+    <Compile Include="GUIControlSheet.cs" />
+    <Compile Include="GUIControlSpellBookSheet.cs" />
+    <Compile Include="GUIMatrix.cs" />
+    <Compile Include="HoverElementControl.cs" />
+    <Compile Include="ImageButtonControl.cs" />
+    <Compile Include="ImageOutlineDrawer.cs" />
+    <Compile Include="ImageSwitcher.cs" />
+    <Compile Include="InfoBaseState.cs" />
+    <Compile Include="InitiativeList.cs" />
+    <Compile Include="InteractState.cs" />
+    <Compile Include="IntroBackgroundMaker.cs" />
+    <Compile Include="IntroBackgroundParallaxControl.cs" />
+    <Compile Include="IntroMenuState.cs" />
+    <Compile Include="Inventory.cs" />
+    <Compile Include="InventoryBaseState.cs" />
+    <Compile Include="InventoryGridState.cs" />
+    <Compile Include="Item.cs" />
+    <Compile Include="ItemAccessory.cs" />
+    <Compile Include="ItemAdventuring.cs" />
+    <Compile Include="ItemAmmo.cs" />
+    <Compile Include="ItemArmor.cs" />
+    <Compile Include="ItemArmorBase.cs" />
+    <Compile Include="ItemBook.cs" />
+    <Compile Include="ItemClothing.cs" />
+    <Compile Include="ItemConsumable.cs" />
+    <Compile Include="ItemDamaging.cs" />
+    <Compile Include="ItemEquipable.cs" />
+    <Compile Include="ItemFood.cs" />
+    <Compile Include="ItemFootwear.cs" />
+    <Compile Include="ItemGlove.cs" />
+    <Compile Include="ItemHeadWear.cs" />
+    <Compile Include="ItemIdle.cs" />
+    <Compile Include="ItemJewelry.cs" />
+    <Compile Include="ItemKey.cs" />
+    <Compile Include="ItemLight.cs" />
+    <Compile Include="ItemMeleeWeapon.cs" />
+    <Compile Include="ItemMisc.cs" />
+    <Compile Include="ItemMoney.cs" />
+    <Compile Include="ItemNecklace.cs" />
+    <Compile Include="ItemRangedWeapon.cs" />
+    <Compile Include="ItemReagent.cs" />
+    <Compile Include="ItemRecipeBook.cs" />
+    <Compile Include="ItemRing.cs" />
+    <Compile Include="ItemShield.cs" />
+    <Compile Include="ItemSpellTome.cs" />
+    <Compile Include="ItemTrinket.cs" />
+    <Compile Include="ItemUseable.cs" />
+    <Compile Include="ItemWeapon.cs" />
+    <Compile Include="Journal.cs" />
+    <Compile Include="JournalInfoState.cs" />
+    <Compile Include="JournalState.cs" />
+    <Compile Include="LightLevelControl.cs" />
+    <Compile Include="ListButtonControl.cs" />
+    <Compile Include="ListSheetBaseState.cs" />
+    <Compile Include="LoadMenuState.cs" />
+    <Compile Include="LoadModuleState.cs" />
+    <Compile Include="LoadoutBuilder.cs" />
+    <Compile Include="LoadSaveBaseMenuState.cs" />
+    <Compile Include="LogicParser.cs" />
+    <Compile Include="MagicItemMaker.cs" />
+    <Compile Include="MainControl.cs" />
+    <Compile Include="Map.cs" />
+    <Compile Include="MapCutoutAura.cs" />
+    <Compile Include="MapCutoutCone.cs" />
+    <Compile Include="MapCutoutLine.cs" />
+    <Compile Include="MapCutoutNPCs.cs" />
+    <Compile Include="MapCutoutNPCsAll.cs" />
+    <Compile Include="MapCutoutNPCsAllies.cs" />
+    <Compile Include="MapCutoutNPCsEnemies.cs" />
+    <Compile Include="MapCutoutPoint.cs" />
+    <Compile Include="MapCutoutSphere.cs" />
+    <Compile Include="MapCutoutSquare.cs" />
+    <Compile Include="MapCutoutTemplate.cs" />
+    <Compile Include="MapCutoutTouch.cs" />
+    <Compile Include="MapGenerator.cs" />
+    <Compile Include="MapIllustrator.cs" />
+    <Compile Include="MapObjectFire.cs" />
+    <Compile Include="MapSaveDataContainer.cs" />
+    <Compile Include="MapTile.cs" />
+    <Compile Include="MapTileGrid.cs" />
+    <Compile Include="MasterEventManager.cs" />
+    <Compile Include="MenuButtonControl.cs" />
+    <Compile Include="MenuState.cs" />
+    <Compile Include="MiniMap.cs" />
+    <Compile Include="MouseControl.cs" />
+    <Compile Include="NavigationCourse.cs" />
+    <Compile Include="NavigationTools.cs" />
+    <Compile Include="NestedMenuState.cs" />
+    <Compile Include="NewSpellsToLearnControl.cs" />
+    <Compile Include="NumericButtonControl.cs" />
+    <Compile Include="NumericListClass.cs" />
+    <Compile Include="ObjectSaveData.cs" />
+    <Compile Include="OverlandBaseState.cs" />
+    <Compile Include="OverlandSpellTargeting.cs" />
+    <Compile Include="OverlandState.cs" />
+    <Compile Include="ParallaxControl.cs" />
+    <Compile Include="ParticleSystem.cs" />
+    <Compile Include="Party.cs" />
+    <Compile Include="PartyManagementState.cs" />
+    <Compile Include="PhysicsSystem.cs" />
+    <Compile Include="PopUpBase.cs" />
+    <Compile Include="PopUpBook.cs" />
+    <Compile Include="PopUpControl.cs" />
+    <Compile Include="PopUpCreateSave.cs" />
+    <Compile Include="PopUpEncumberance.cs" />
+    <Compile Include="PopUpHeal.cs" />
+    <Compile Include="PopUpHireMerc.cs" />
+    <Compile Include="PopUpLevelUp.cs" />
+    <Compile Include="PopUpLock.cs" />
+    <Compile Include="PopUpLoot.cs" />
+    <Compile Include="PopUpName.cs" />
+    <Compile Include="PopUpOK.cs" />
+    <Compile Include="PopUpQuitGame.cs" />
+    <Compile Include="PopUpRandomEncounterTest.cs" />
+    <Compile Include="PopUpRentRoom.cs" />
+    <Compile Include="PopUpRest.cs" />
+    <Compile Include="PopUpSaveBase.cs" />
+    <Compile Include="PopUpSaveDelete.cs" />
+    <Compile Include="PopUpSaveOverwrite.cs" />
+    <Compile Include="PopUpSaveRename.cs" />
+    <Compile Include="PopUpSceneTestBase.cs" />
+    <Compile Include="PopUpSceneTestRandom.cs" />
+    <Compile Include="PopUpSceneTestStatic.cs" />
+    <Compile Include="PopUpSingleAttributeTestBase.cs" />
+    <Compile Include="PopUpSpellSelector.cs" />
+    <Compile Include="PopUpStealing.cs" />
+    <Compile Include="PopUpStealLocked.cs" />
+    <Compile Include="PopUpSystemMenu.cs" />
+    <Compile Include="PopUpTestBase.cs" />
+    <Compile Include="PopUpTestPropRandom.cs" />
+    <Compile Include="PopUpTutorial.cs" />
+    <Compile Include="PopUpVisualStyle.cs" />
+    <Compile Include="PopUpYesNo.cs" />
+    <Compile Include="PortraitTools.cs" />
+    <Compile Include="PreIntroMenuState.cs" />
+    <Compile Include="Prop.cs" />
+    <Compile Include="PropActivatable.cs" />
+    <Compile Include="PropBeacon.cs" />
+    <Compile Include="PropBed.cs" />
+    <Compile Include="PropCont.cs" />
+    <Compile Include="PropDecorative.cs" />
+    <Compile Include="PropDoor.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PropInspectable.cs" />
+    <Compile Include="PropInteractable.cs" />
+    <Compile Include="PropLightSource.cs" />
+    <Compile Include="PropLockable.cs" />
+    <Compile Include="PropPickup.cs" />
+    <Compile Include="PropSpawner.cs" />
+    <Compile Include="PropTest.cs" />
+    <Compile Include="PropTrap.cs" />
+    <Compile Include="PropTrigger.cs" />
+    <Compile Include="PropWarp.cs" />
+    <Compile Include="PropWorkBench.cs" />
+    <Compile Include="QuestControl.cs" />
+    <Compile Include="QuestState.cs" />
+    <Compile Include="RandomEncounterState.cs" />
+    <Compile Include="SaveMenuState.cs" />
+    <Compile Include="Scene.cs" />
+    <Compile Include="SceneBaseState.cs" />
+    <Compile Include="SceneNode.cs" />
+    <Compile Include="SceneState.cs" />
+    <Compile Include="ScreenControl.cs" />
+    <Compile Include="ScreenshotTool.cs" />
+    <Compile Include="SerializableDictionaryStringInt.cs" />
+    <Compile Include="SettingsAudioState.cs" />
+    <Compile Include="SettingsBaseListState.cs" />
+    <Compile Include="SettingsBaseState.cs" />
+    <Compile Include="SettingsDifficulty.cs" />
+    <Compile Include="SettingsFontSelectionState.cs" />
+    <Compile Include="SettingsGameplayState.cs" />
+    <Compile Include="SettingsKeyBindingState.cs" />
+    <Compile Include="SettingsVideo.cs" />
+    <Compile Include="SheetButtonControl.cs" />
+    <Compile Include="SheetClass.cs" />
+    <Compile Include="Ship.cs" />
+    <Compile Include="SideBench.cs" />
+    <Compile Include="SingleButtonControl.cs" />
+    <Compile Include="SkaldActionResult.cs" />
+    <Compile Include="SkaldBaseList.cs" />
+    <Compile Include="SkaldBaseObject.cs" />
+    <Compile Include="SkaldControllerGlyphPrinter.cs" />
+    <Compile Include="SkaldDataList.cs" />
+    <Compile Include="SkaldEnums\SkaldStates.cs" />
+    <Compile Include="SkaldFileIO.cs" />
+    <Compile Include="SkaldFlagContainer.cs" />
+    <Compile Include="SkaldInstanceObject.cs" />
+    <Compile Include="SkaldIO.cs" />
+    <Compile Include="SKALDKeyBindings.cs" />
+    <Compile Include="SkaldModControl.cs" />
+    <Compile Include="SkaldNumericContainer.cs" />
+    <Compile Include="SkaldObjectList.cs" />
+    <Compile Include="SkaldOptionGlyphPrinter.cs" />
+    <Compile Include="SkaldPhysicalObject.cs" />
+    <Compile Include="SkaldPhysicalObjectList.cs" />
+    <Compile Include="SkaldPoint2D.cs" />
+    <Compile Include="SKALDProjectData.cs" />
+    <Compile Include="SkaldRandom.cs" />
+    <Compile Include="SkaldSaveControl.cs" />
+    <Compile Include="SkaldTechnicalDataRecord.cs" />
+    <Compile Include="SkaldTestAutoFail.cs" />
+    <Compile Include="SkaldTestAutoSucceed.cs" />
+    <Compile Include="SkaldTestBase.cs" />
+    <Compile Include="SkaldTestGreaterThan.cs" />
+    <Compile Include="SkaldTestPercentile.cs" />
+    <Compile Include="SkaldTestRandomBase.cs" />
+    <Compile Include="SkaldTestRandomVsRandom.cs" />
+    <Compile Include="SkaldTestRandomVsStatic.cs" />
+    <Compile Include="SkaldWorldObject.cs" />
+    <Compile Include="SkaldWorldObjectList.cs" />
+    <Compile Include="SpellContainer.cs" />
+    <Compile Include="SpellsState.cs" />
+    <Compile Include="SplashState.cs" />
+    <Compile Include="StandaloneCRTEffect.cs" />
+    <Compile Include="StateBase.cs" />
+    <Compile Include="SteamManager.cs" />
+    <Compile Include="Store.cs" />
+    <Compile Include="StringPrinter.cs" />
+    <Compile Include="TextParser.cs" />
+    <Compile Include="TextTools.cs" />
+    <Compile Include="TextureTools.cs" />
+    <Compile Include="ToolTipControl.cs" />
+    <Compile Include="ToolTipPrinter.cs" />
+    <Compile Include="TradeState.cs" />
+    <Compile Include="UIAbilitySelectorGrid.cs" />
+    <Compile Include="UIAbilitySheet.cs" />
+    <Compile Include="UIAbilitySheetGrid.cs" />
+    <Compile Include="UIActionCounter.cs" />
+    <Compile Include="UIAttributeEditorSheet.cs" />
+    <Compile Include="UIAttributeSheet.cs" />
+    <Compile Include="UIBaseCharacterSheet.cs" />
+    <Compile Include="UIButtonControlBase.cs" />
+    <Compile Include="UIButtonControlHorizontal.cs" />
+    <Compile Include="UIButtonControlVerticalText.cs" />
+    <Compile Include="UICallToAction.cs" />
+    <Compile Include="UICanvas.cs" />
+    <Compile Include="UICanvasHorizontal.cs" />
+    <Compile Include="UICanvasVertical.cs" />
+    <Compile Include="UICharacterSheet.cs" />
+    <Compile Include="UICombatAbilitySelectorGrid.cs" />
+    <Compile Include="UIElement.cs" />
+    <Compile Include="UIFeatTree.cs" />
+    <Compile Include="UIGridBase.cs" />
+    <Compile Include="UIGridInventory.cs" />
+    <Compile Include="UIGridLists.cs" />
+    <Compile Include="UIHorizontalMenuButtons.cs" />
+    <Compile Include="UIImage.cs" />
+    <Compile Include="UIImageButton.cs" />
+    <Compile Include="UIImageCombatButtonControl.cs" />
+    <Compile Include="UIInitiativeList.cs" />
+    <Compile Include="UIInventorySheetBase.cs" />
+    <Compile Include="UIInventorySheetCampingFood.cs" />
+    <Compile Include="UIInventorySheetCharacter.cs" />
+    <Compile Include="UIInventorySheetContainer.cs" />
+    <Compile Include="UIInventorySheetCrafting.cs" />
+    <Compile Include="UIInventorySheetMerchant.cs" />
+    <Compile Include="UIMap.cs" />
+    <Compile Include="UINewSpellSelectorGrid.cs" />
+    <Compile Include="UIPartyEffectSelector.cs" />
+    <Compile Include="UIPartyManagement.cs" />
+    <Compile Include="UIPopUpButtonControl.cs" />
+    <Compile Include="UIScrollbar.cs" />
+    <Compile Include="UIScrollbarCredits.cs" />
+    <Compile Include="UIScrollbarStandard.cs" />
+    <Compile Include="UIScrollbarThatDoesNOTUpdateTargetCanvas.cs" />
+    <Compile Include="UISheetTabButtonControl.cs" />
+    <Compile Include="UISpellbookSelectorGrid.cs" />
+    <Compile Include="UISpellBookSheet.cs" />
+    <Compile Include="UITechnicalButtonsHorizontal.cs" />
+    <Compile Include="UIText.cs" />
+    <Compile Include="UITextBlock.cs" />
+    <Compile Include="UITextButtonControlHorizontalBase.cs" />
+    <Compile Include="UITextSliderControl.cs" />
+    <Compile Include="UIWeaponSwapControl.cs" />
+    <Compile Include="Vehicle.cs" />
+    <Compile Include="VisualEffectsControl.cs" />
+    <Compile Include="WeatherEffectsControl.cs" />
+    <Compile Include="XpContainer.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
