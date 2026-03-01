@@ -5,12 +5,14 @@ using UnityEngine;
 // Token: 0x02000138 RID: 312
 public abstract class UIBaseCharacterSheet : UICanvasHorizontal
 {
+	// 角色面板基础布局：左右两列 + 可复用的 entry 模块。
 	// Token: 0x06001230 RID: 4656 RVA: 0x0005098D File Offset: 0x0004EB8D
 	protected UIBaseCharacterSheet()
 	{
 		this.initialize();
 	}
 
+	// 手柄导航会聚合各 entry 的可滚动元素。
 	// Token: 0x06001231 RID: 4657 RVA: 0x0005099C File Offset: 0x0004EB9C
 	public override List<UIElement> getScrollableElements()
 	{
@@ -53,6 +55,7 @@ public abstract class UIBaseCharacterSheet : UICanvasHorizontal
 		return list;
 	}
 
+	// 默认双列框架；子类可覆写列宽和内容。
 	// Token: 0x06001232 RID: 4658 RVA: 0x00050B48 File Offset: 0x0004ED48
 	protected virtual void addColumns()
 	{
@@ -64,6 +67,7 @@ public abstract class UIBaseCharacterSheet : UICanvasHorizontal
 		this.add(this.rightColumn);
 	}
 
+	// 默认内容分布：左侧 2 个 entry，右侧 3 个 entry。
 	// Token: 0x06001233 RID: 4659 RVA: 0x00050BA4 File Offset: 0x0004EDA4
 	protected virtual void addEntries()
 	{
@@ -79,6 +83,7 @@ public abstract class UIBaseCharacterSheet : UICanvasHorizontal
 		this.rightColumn.add(this.entry5);
 	}
 
+	// 初始化顺序很关键：entry 会挂到列容器上。
 	// Token: 0x06001234 RID: 4660 RVA: 0x00050C3D File Offset: 0x0004EE3D
 	public void initialize()
 	{
@@ -86,12 +91,14 @@ public abstract class UIBaseCharacterSheet : UICanvasHorizontal
 		this.addEntries();
 	}
 
+	// 状态切换角色/上下文前，用于清空描述来源。
 	// Token: 0x06001235 RID: 4661 RVA: 0x00050C4B File Offset: 0x0004EE4B
 	public void clearCurrentObject()
 	{
 		this.currentObject = null;
 	}
 
+	// 右侧描述区的数据来源（供 GUIControlCharacterSheet 使用）。
 	// Token: 0x06001236 RID: 4662 RVA: 0x00050C54 File Offset: 0x0004EE54
 	public string getCurrentObjectFullDescriptionAndHeader()
 	{
@@ -102,6 +109,7 @@ public abstract class UIBaseCharacterSheet : UICanvasHorizontal
 		return "\n\n\nSelect an entry!";
 	}
 
+	// updateEntryX：把最新数据送入 entry，并将点击/悬停对象提升为 currentObject。
 	// Token: 0x06001237 RID: 4663 RVA: 0x00050C6F File Offset: 0x0004EE6F
 	public virtual void updateEntry1(SkaldDataList data)
 	{
@@ -179,6 +187,7 @@ public abstract class UIBaseCharacterSheet : UICanvasHorizontal
 	// Token: 0x02000282 RID: 642
 	protected class SheetEntry : UICanvasVertical
 	{
+		// 通用纵向列表 entry，底层由 ListButtonControl 承载。
 		// Token: 0x06001A83 RID: 6787 RVA: 0x00072E64 File Offset: 0x00071064
 		public SheetEntry(int width)
 		{
@@ -202,6 +211,7 @@ public abstract class UIBaseCharacterSheet : UICanvasHorizontal
 			return this.buttons.getScrollableElements();
 		}
 
+		// 当前块的手柄滚动代理给内部列表按钮。
 		// Token: 0x06001A86 RID: 6790 RVA: 0x00072EE1 File Offset: 0x000710E1
 		public void setButtonTextShadowColor(Color32 color)
 		{
@@ -235,6 +245,7 @@ public abstract class UIBaseCharacterSheet : UICanvasHorizontal
 		// Token: 0x06001A8A RID: 6794 RVA: 0x00072F24 File Offset: 0x00071124
 		public virtual void update(SkaldDataList data)
 		{
+			// 顺序很关键：先处理按钮输入，再绑定最新可见数据。
 			this.currentObject = null;
 			this.buttons.update();
 			this.buttons.setButtons(data);
@@ -255,40 +266,55 @@ public abstract class UIBaseCharacterSheet : UICanvasHorizontal
 	// Token: 0x02000283 RID: 643
 	protected class EditorSheetEntry : UIBaseCharacterSheet.SheetEntry
 	{
+		// 属性/技能编辑专用 entry：包含 +/- 控件与点数显示。
 		// Token: 0x06001A8B RID: 6795 RVA: 0x00072F80 File Offset: 0x00071180
 		public EditorSheetEntry()
 		{
 			this.stretchVertical = true;
 			this.padding.bottom = 10;
 			this.padding.right = 5;
+			// 列元素（横向）：文本按钮按钮列 + 减号按钮列 + 加号按钮。
 			this.columns = new UICanvasHorizontal();
 			this.columns.stretchVertical = true;
 			this.add(this.columns);
+
+			// 文本按钮(高宽自适应)
 			this.buttonColumn = new UICanvasVertical();
 			this.buttonColumn.stretchVertical = true;
 			this.buttonColumn.stretchHorizontal = true;
 			this.buttonColumn.padding.right = 4;
 			this.columns.add(this.buttonColumn);
+			
+			// 减号按钮（高宽自适应）
 			this.minusColumn = new UICanvasVertical();
 			this.minusColumn.stretchVertical = true;
 			this.minusColumn.stretchHorizontal = true;
 			this.minusColumn.padding.top = 0;
 			this.minusColumn.padding.right = 3;
 			this.columns.add(this.minusColumn);
+			
+			// 点数文本
+			// TODO UITextBlock的高度需要设置为 TinyFont 高度
 			this.pointBlock = new UITextBlock(0, 7);
 			this.pointBlock.padding.left = 9;
 			this.pointBlock.padding.bottom = 3;
+			
 			this.minusColumn.add(this.pointBlock);
+			
+			// 加号按钮
 			this.plusColumn = new UICanvasVertical();
 			this.plusColumn.stretchVertical = true;
 			this.plusColumn.stretchHorizontal = true;
 			this.plusColumn.padding.top = 10;
 			this.columns.add(this.plusColumn);
+			
 			this.buttons = new ListButtonControl(0, 0, 80, 0);
 			this.buttons.setStretchVertical(true);
 			this.buttonColumn.add(this.buttons);
+
 			this.minusButtons = new ImageButtonControl(0, 0, 9, 6, "StatArrowLeft");
 			this.minusColumn.add(this.minusButtons);
+
 			this.plusButtons = new ImageButtonControl(0, 0, 9, 6, "StatArrowRight");
 			this.plusColumn.add(this.plusButtons);
 		}
@@ -296,6 +322,7 @@ public abstract class UIBaseCharacterSheet : UICanvasHorizontal
 		// Token: 0x06001A8C RID: 6796 RVA: 0x00073178 File Offset: 0x00071378
 		public override void update(SkaldDataList data)
 		{
+			// 先执行基类列表选择更新，再处理 +/- 交互。
 			base.update(data);
 			this.plusObject = null;
 			this.minusObject = null;
@@ -360,6 +387,7 @@ public abstract class UIBaseCharacterSheet : UICanvasHorizontal
 		// Token: 0x06001A92 RID: 6802 RVA: 0x000732E6 File Offset: 0x000714E6
 		public override List<UIElement> getScrollableElements()
 		{
+			// 手柄横向输入用于切换当前参与纵向导航的按钮列。
 			if (this.controllerScrollToPlusButton)
 			{
 				return this.plusButtons.getScrollableElements();
