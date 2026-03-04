@@ -9,14 +9,14 @@ namespace TranslationMod.Patches
         [HarmonyPostfix]
         private static void Postfix(object __result)
         {
+            if (!LanguageManager.NoLetterLanguage())
+            {
+                return;
+            }
+
             if (__result is UIElement button)
             {
-                if (LanguageManager.NoLetterLanguage())
-                {
-                    var padding = button.padding;
-                    padding.bottom = 1;
-                    button.padding = padding;
-                }
+                button.padding.bottom = 0;
             }
         }
     }

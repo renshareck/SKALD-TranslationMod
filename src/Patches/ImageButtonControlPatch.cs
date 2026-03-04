@@ -32,7 +32,7 @@ namespace TranslationMod.Patches
             int height = 9;
             if (LanguageManager.NoLetterLanguage())
             {
-                height = 13;
+                height = 11;
             }
 
             var button = UITextButtonCtor.Invoke(new object[] { 0, 0, 9, height, C64Color.GrayLight }) as UIElement;

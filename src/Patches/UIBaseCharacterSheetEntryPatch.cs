@@ -44,7 +44,7 @@ namespace TranslationMod.Patches
                 }
 
                 int pointBlockHeight = tiny.wordHeight;
-                int plusTopPadding = 3 + tiny.wordHeight;
+                int plusTopPadding = 11 - 7 + tiny.wordHeight;
 
                 var instanceType = __instance.GetType();
 
