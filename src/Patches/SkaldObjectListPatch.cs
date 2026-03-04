@@ -27,7 +27,14 @@ namespace TranslationMod.Patches
         [HarmonyPrefix]
         private static void SetMaxPageSizePrefix(ref int newSize)
         {
-            newSize = newSize * 9 / 12;
+            
+            var tiny = FontContainer.getTinyFont();
+            if (tiny == null)
+            {
+                return;
+            }
+
+            newSize = newSize * 9 / (tiny.wordHeight + 2);
         }
 
         private static void SetDefaultMaxPageSize(SkaldObjectList instance)
