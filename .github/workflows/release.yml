@@ -85,8 +85,7 @@ jobs:
         
     - name: Create archive
       run: |
-        cd release
-        zip -r TranslationMod-${{ github.ref_name || github.event.inputs.version }}.zip TranslationMod/
+        zip -r release/TranslationMod-${{ steps.get_version.outputs.version }}.zip release/TranslationMod/
         
     - name: Get version tag
       id: get_version
