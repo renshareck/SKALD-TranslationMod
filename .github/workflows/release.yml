@@ -53,14 +53,16 @@ jobs:
     - name: Copy language packs (excluding template)
       run: |
         # Copy all language packs except template
-        for lang_dir in languages/*/; do
-          lang_name=$(basename "$lang_dir")
-          if [ "$lang_name" != "template" ]; then
-            # Remove trailing slash to copy the folder itself, not its contents
-            lang_dir_clean="${lang_dir%/}"
-            cp -r "$lang_dir_clean" "release/TranslationMod/LanguagePacks/"
-          fi
-        done
+        # for lang_dir in languages/*/; do
+        #   lang_name=$(basename "$lang_dir")
+        #   if [ "$lang_name" != "template" ]; then
+        #     # Remove trailing slash to copy the folder itself, not its contents
+        #     lang_dir_clean="${lang_dir%/}"
+        #     cp -r "$lang_dir_clean" "release/TranslationMod/LanguagePacks/"
+        #   fi
+        # done
+
+        cp -r "languages/Chinese/" "release/TranslationMod/LanguagePacks/"
         
     - name: Create README for release
       run: |
