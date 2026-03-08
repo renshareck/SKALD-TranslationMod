@@ -83,10 +83,6 @@ jobs:
         
         EOF
         
-    - name: Create archive
-      run: |
-        zip -r release/TranslationMod-${{ steps.get_version.outputs.version }}.zip release/TranslationMod/
-        
     - name: Get version tag
       id: get_version
       run: |
@@ -95,6 +91,10 @@ jobs:
         else
           echo "version=${{ github.ref_name }}" >> $GITHUB_OUTPUT
         fi
+        
+    - name: Create archive
+      run: |
+        zip -r release/TranslationMod-${{ steps.get_version.outputs.version }}.zip release/TranslationMod/
         
     - name: Create Release
       uses: softprops/action-gh-release@v1
